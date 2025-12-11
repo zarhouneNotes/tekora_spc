@@ -43,10 +43,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="w-10 h-10 bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-poppins font-bold text-lg">T</span>
+            <div className={`w-10 h-10 flex items-center justify-center ${isScrolled ? 'bg-primary' : 'bg-primary-foreground'}`}>
+              <span className={`font-poppins font-bold text-lg ${isScrolled ? 'text-primary-foreground' : 'text-primary'}`}>T</span>
             </div>
-            <span className="ml-3 text-foreground font-poppins font-semibold text-xl tracking-tight">
+            <span className={`ml-3 font-poppins font-semibold text-xl tracking-tight ${isScrolled ? 'text-foreground' : 'text-primary-foreground'}`}>
               TEKORA
             </span>
           </Link>
@@ -60,7 +60,9 @@ const Navbar = () => {
                 className={`font-poppins font-light text-sm tracking-wide transition-colors duration-200 ${
                   isActive(link.href)
                     ? 'text-secondary'
-                    : 'text-foreground hover:text-secondary'
+                    : isScrolled 
+                      ? 'text-foreground hover:text-secondary'
+                      : 'text-primary-foreground hover:text-secondary'
                 }`}
               >
                 {link.label}
@@ -73,7 +75,9 @@ const Navbar = () => {
             {/* Language Selector */}
             <button
               onClick={() => setLanguage(language === 'fr' ? 'en' : 'fr')}
-              className="flex items-center space-x-1 text-foreground hover:text-secondary transition-colors duration-200"
+              className={`flex items-center space-x-1 transition-colors duration-200 ${
+                isScrolled ? 'text-foreground hover:text-secondary' : 'text-primary-foreground hover:text-secondary'
+              }`}
             >
               <Globe className="w-4 h-4" />
               <span className="font-poppins font-light text-sm uppercase">{language}</span>
@@ -90,7 +94,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden text-foreground p-2"
+            className={`lg:hidden p-2 ${isScrolled ? 'text-foreground' : 'text-primary-foreground'}`}
           >
             {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>

@@ -10,6 +10,13 @@ import { Check, ArrowRight, Star } from 'lucide-react';
 const Produits = () => {
   const { t } = useI18n();
 
+  const productImages = {
+    marble: 'https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=2127&auto=format&fit=crop',
+    granite: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070&auto=format&fit=crop',
+    limestone: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop',
+    onyx: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2070&auto=format&fit=crop'
+  };
+
   const categories = ['marble', 'granite', 'limestone', 'onyx'] as const;
 
   return (
@@ -26,38 +33,51 @@ const Produits = () => {
             {t.products.hero.subtitle}
           </p>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent" />
       </section>
 
-      {/* Categories Section */}
-      <section className="py-24 lg:py-32 bg-background">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="fade-up text-3xl md:text-4xl font-poppins font-semibold text-foreground">
-              {t.products.categories.title}
-            </h2>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {categories.map((category, index) => (
-              <div
-                key={category}
-                className={`fade-up-delay-${index + 1} group cursor-pointer`}
-              >
-                <div className="aspect-square bg-muted relative overflow-hidden mb-6">
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
-                  <div className="absolute inset-0 bg-secondary/20 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+      {/* Individual Product Sections */}
+      {categories.map((category, index) => (
+        <section 
+          key={category}
+          className={`py-24 lg:py-32 ${index % 2 === 0 ? 'bg-background' : 'bg-neutralBg'}`}
+        >
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className={`grid lg:grid-cols-2 gap-16 items-center ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
+              <div className={`fade-up ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
+                <div className="aspect-[4/3] relative overflow-hidden group">
+                  <img 
+                    src={productImages[category]}
+                    alt={t.products.categories[category].title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute top-6 left-6 bg-secondary px-4 py-2">
+                    <span className="font-poppins font-medium text-secondary-foreground text-sm uppercase tracking-wider">
+                      {t.products.categories[category].title}
+                    </span>
+                  </div>
                 </div>
-                <h3 className="text-xl font-poppins font-semibold text-foreground group-hover:text-secondary transition-colors duration-200">
+              </div>
+              <div className={`fade-up-delay-1 ${index % 2 === 1 ? 'lg:order-1' : ''}`}>
+                <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-foreground mb-6">
                   {t.products.categories[category].title}
-                </h3>
-                <p className="mt-2 font-poppins font-light text-muted-foreground text-sm">
+                </h2>
+                <p className="font-poppins font-light text-muted-foreground text-lg leading-relaxed mb-4">
                   {t.products.categories[category].description}
                 </p>
+                <p className="font-poppins font-light text-muted-foreground text-lg leading-relaxed mb-8">
+                  {t.products.categories[category].longDescription}
+                </p>
+                <Link to="/contact">
+                  <Button variant="outline" size="md" className="group">
+                    {t.products.cta.button}
+                    <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+                  </Button>
+                </Link>
               </div>
-            ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      ))}
 
       {/* PietraNox Premium Section */}
       <section className="py-24 lg:py-32 bg-primary">
@@ -90,7 +110,12 @@ const Produits = () => {
               </ul>
             </div>
             <div className="fade-up-delay-1 order-1 lg:order-2">
-              <div className="aspect-[4/5] bg-primary-foreground/10 relative">
+              <div className="aspect-[4/5] relative overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop"
+                  alt="PietraNox Premium"
+                  className="w-full h-full object-cover"
+                />
                 <div className="absolute top-6 left-6 bg-secondary px-4 py-2">
                   <span className="font-poppins font-semibold text-secondary-foreground text-sm">
                     PIETRANOX

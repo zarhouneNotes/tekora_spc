@@ -58,7 +58,11 @@
     },
     "story": {
       "title": "The TEKORA Story",
-      "content": "Founded with the vision of revolutionizing the natural stone industry, TEKORA quickly established itself as an undisputed leader. Our journey is marked by a constant quest for excellence and innovation.",
+      "content": "Founded in 2003 with the vision of revolutionizing the natural stone industry, TEKORA quickly established itself as an undisputed leader. Our journey is marked by a constant quest for excellence and innovation, guided by values of integrity and environmental respect.",
+      "content2": "Over the years, we have developed strategic partnerships with the best quarries in the world, allowing us to offer an unparalleled selection of marbles and natural stones. Our team of experts, trained in traditional techniques as well as the most modern technologies, guarantees impeccable quality at every stage.",
+      "content3": "Today, TEKORA and our premium brand PietraNox equip the most prestigious projects around the world, from luxury private residences to iconic commercial buildings. Our commitment to excellence remains unwavering, and we continue to innovate to shape the future of our industry.",
+      "ctaProducts": "Discover our products",
+      "ctaContact": "Contact us",
       "milestone1": "Company founding",
       "milestone2": "PietraNox launch",
       "milestone3": "International expansion",
@@ -72,9 +76,10 @@
       "title": "Our Vision",
       "content": "To become the global reference partner for exceptional natural stone projects, recognized for our expertise, innovation, and sustainable commitment."
     },
-    "team": {
-      "title": "Our Team",
-      "description": "A team of passionate and experienced professionals dedicated to your satisfaction."
+    "cta": {
+      "title": "Ready to start your project?",
+      "description": "Our team of experts is at your disposal to support you in achieving your ambitions.",
+      "button": "Contact us"
     }
   },
   "products": {
@@ -86,19 +91,23 @@
       "title": "Categories",
       "marble": {
         "title": "Marbles",
-        "description": "A collection of noble marbles selected for their exceptional beauty and quality."
+        "description": "A collection of noble marbles selected for their exceptional beauty and quality.",
+        "longDescription": "Our marbles come from the best quarries in Italy, Greece, and Portugal. Each block is meticulously selected by our experts to guarantee unique veins and impeccable quality. Ideal for countertops, wall coverings, and prestigious floors."
       },
       "granite": {
         "title": "Granites",
-        "description": "Resistant and elegant granites for your most demanding projects."
+        "description": "Resistant and elegant granites for your most demanding projects.",
+        "longDescription": "Our range of granites combines exceptional durability and refined aesthetics. Resistant to scratches, heat, and daily wear, granite is the ideal choice for professional kitchens, high-traffic commercial spaces, and outdoor applications."
       },
       "limestone": {
         "title": "Limestones",
-        "description": "Authentic limestones for a timeless style."
+        "description": "Authentic limestones for a timeless style.",
+        "longDescription": "Our limestones bring warmth and character to any space. With their natural tones and distinctive texture, they create an elegant Mediterranean atmosphere. Perfect for facades, fireplaces, and prestigious landscaping."
       },
       "onyx": {
         "title": "Onyx",
-        "description": "Translucent onyx for luminous and sophisticated creations."
+        "description": "Translucent onyx for luminous and sophisticated creations.",
+        "longDescription": "Onyx represents the pinnacle of luxury in the natural stone world. Its unique translucency allows for spectacular backlit installations. Each piece is a natural work of art, ideal for bars, accent walls, and distinctive architectural elements."
       }
     },
     "pietranox": {
@@ -125,7 +134,7 @@
     },
     "quality": {
       "title": "Certified Quality",
-      "description": "Our certifications demonstrate our commitment to excellence and customer satisfaction."
+      "description": "Our certifications demonstrate our commitment to excellence and customer satisfaction. Every step of our process is rigorously controlled to ensure the highest quality standards."
     },
     "list": [
       {
@@ -152,40 +161,12 @@
   },
   "blog": {
     "hero": {
-      "title": "Our Blog",
-      "subtitle": "News, trends and expert advice on the world of natural stone"
+      "title": "Our Gallery",
+      "subtitle": "Discover our achievements and inspirations in natural stone"
     },
-    "featured": {
-      "title": "Featured"
-    },
-    "articles": [
-      {
-        "title": "Marble trends in 2024",
-        "excerpt": "Discover the new trends shaping the marble industry this year.",
-        "date": "January 15, 2024",
-        "category": "Trends"
-      },
-      {
-        "title": "Natural stone care guide",
-        "excerpt": "Expert tips to preserve the beauty of your natural stone surfaces.",
-        "date": "January 10, 2024",
-        "category": "Tips"
-      },
-      {
-        "title": "PietraNox: Innovation and Excellence",
-        "excerpt": "Dive behind the scenes of our premium brand and discover our selection process.",
-        "date": "January 5, 2024",
-        "category": "Company"
-      },
-      {
-        "title": "Sustainability in the stone industry",
-        "excerpt": "How TEKORA is committed to a more sustainable future in stone extraction and processing.",
-        "date": "December 28, 2023",
-        "category": "Environment"
-      }
-    ],
-    "cta": {
-      "readMore": "Read more"
+    "gallery": {
+      "title": "Our Collection",
+      "subtitle": "Explore our finest selections of natural stone and marble"
     }
   },
   "contact": {

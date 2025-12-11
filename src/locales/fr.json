@@ -58,7 +58,11 @@
     },
     "story": {
       "title": "L'Histoire de TEKORA",
-      "content": "Fondée avec la vision de révolutionner l'industrie de la pierre naturelle, TEKORA s'est rapidement imposée comme un leader incontesté. Notre parcours est marqué par une quête constante d'excellence et d'innovation.",
+      "content": "Fondée en 2003 avec la vision de révolutionner l'industrie de la pierre naturelle, TEKORA s'est rapidement imposée comme un leader incontesté. Notre parcours est marqué par une quête constante d'excellence et d'innovation, guidée par des valeurs d'intégrité et de respect de l'environnement.",
+      "content2": "Au fil des années, nous avons développé des partenariats stratégiques avec les meilleures carrières du monde, nous permettant d'offrir une sélection incomparable de marbres et pierres naturelles. Notre équipe d'experts, formée aux techniques traditionnelles comme aux technologies les plus modernes, garantit une qualité irréprochable à chaque étape.",
+      "content3": "Aujourd'hui, TEKORA et notre marque premium PietraNox équipent les projets les plus prestigieux à travers le monde, des résidences privées de luxe aux édifices commerciaux emblématiques. Notre engagement envers l'excellence reste inébranlable, et nous continuons d'innover pour façonner l'avenir de notre industrie.",
+      "ctaProducts": "Découvrir nos produits",
+      "ctaContact": "Nous contacter",
       "milestone1": "Création de l'entreprise",
       "milestone2": "Lancement de PietraNox",
       "milestone3": "Expansion internationale",
@@ -72,9 +76,10 @@
       "title": "Notre Vision",
       "content": "Devenir le partenaire de référence mondial pour les projets d'exception en pierre naturelle, reconnu pour notre expertise, notre innovation et notre engagement durable."
     },
-    "team": {
-      "title": "Notre Équipe",
-      "description": "Une équipe de professionnels passionnés et expérimentés, dédiés à votre satisfaction."
+    "cta": {
+      "title": "Prêt à démarrer votre projet ?",
+      "description": "Notre équipe d'experts est à votre disposition pour vous accompagner dans la réalisation de vos ambitions.",
+      "button": "Contactez-nous"
     }
   },
   "products": {
@@ -86,19 +91,23 @@
       "title": "Catégories",
       "marble": {
         "title": "Marbres",
-        "description": "Une collection de marbres nobles sélectionnés pour leur beauté et leur qualité exceptionnelles."
+        "description": "Une collection de marbres nobles sélectionnés pour leur beauté et leur qualité exceptionnelles.",
+        "longDescription": "Nos marbres proviennent des meilleures carrières d'Italie, de Grèce et du Portugal. Chaque bloc est minutieusement sélectionné par nos experts pour garantir des veines uniques et une qualité irréprochable. Idéal pour les comptoirs, revêtements muraux et sols de prestige."
       },
       "granite": {
         "title": "Granits",
-        "description": "Des granits résistants et élégants pour vos projets les plus exigeants."
+        "description": "Des granits résistants et élégants pour vos projets les plus exigeants.",
+        "longDescription": "Notre gamme de granits combine durabilité exceptionnelle et esthétique raffinée. Résistant aux rayures, à la chaleur et à l'usure quotidienne, le granit est le choix idéal pour les cuisines professionnelles, les espaces commerciaux à fort trafic et les applications extérieures."
       },
       "limestone": {
         "title": "Pierres Calcaires",
-        "description": "Des pierres calcaires authentiques pour un style intemporel."
+        "description": "Des pierres calcaires authentiques pour un style intemporel.",
+        "longDescription": "Nos pierres calcaires apportent chaleur et caractère à tout espace. Avec leurs tons naturels et leur texture distinctive, elles créent une ambiance méditerranéenne élégante. Parfaites pour les façades, les cheminées et les aménagements paysagers de prestige."
       },
       "onyx": {
         "title": "Onyx",
-        "description": "L'onyx translucide pour des créations lumineuses et sophistiquées."
+        "description": "L'onyx translucide pour des créations lumineuses et sophistiquées.",
+        "longDescription": "L'onyx représente le summum du luxe dans le monde de la pierre naturelle. Sa translucidité unique permet des installations rétroéclairées spectaculaires. Chaque pièce est une œuvre d'art naturelle, idéale pour les bars, murs d'accent et éléments architecturaux distinctifs."
       }
     },
     "pietranox": {
@@ -125,7 +134,7 @@
     },
     "quality": {
       "title": "Qualité Certifiée",
-      "description": "Nos certifications témoignent de notre engagement envers l'excellence et la satisfaction client."
+      "description": "Nos certifications témoignent de notre engagement envers l'excellence et la satisfaction client. Chaque étape de notre processus est rigoureusement contrôlée pour garantir les plus hauts standards de qualité."
     },
     "list": [
       {
@@ -152,40 +161,12 @@
   },
   "blog": {
     "hero": {
-      "title": "Notre Blog",
-      "subtitle": "Actualités, tendances et conseils d'experts sur le monde de la pierre naturelle"
+      "title": "Notre Galerie",
+      "subtitle": "Découvrez nos réalisations et inspirations en pierre naturelle"
     },
-    "featured": {
-      "title": "À la Une"
-    },
-    "articles": [
-      {
-        "title": "Les tendances du marbre en 2024",
-        "excerpt": "Découvrez les nouvelles tendances qui façonnent l'industrie du marbre cette année.",
-        "date": "15 Janvier 2024",
-        "category": "Tendances"
-      },
-      {
-        "title": "Guide d'entretien de la pierre naturelle",
-        "excerpt": "Conseils d'experts pour préserver la beauté de vos surfaces en pierre naturelle.",
-        "date": "10 Janvier 2024",
-        "category": "Conseils"
-      },
-      {
-        "title": "PietraNox : Innovation et Excellence",
-        "excerpt": "Plongez dans les coulisses de notre marque premium et découvrez notre processus de sélection.",
-        "date": "5 Janvier 2024",
-        "category": "Entreprise"
-      },
-      {
-        "title": "Durabilité dans l'industrie de la pierre",
-        "excerpt": "Comment TEKORA s'engage pour un avenir plus durable dans l'extraction et le traitement de la pierre.",
-        "date": "28 Décembre 2023",
-        "category": "Environnement"
-      }
-    ],
-    "cta": {
-      "readMore": "Lire la suite"
+    "gallery": {
+      "title": "Notre Collection",
+      "subtitle": "Explorez nos plus belles sélections de pierre naturelle et de marbre"
     }
   },
   "contact": {
