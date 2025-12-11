@@ -3,21 +3,12 @@ import { useI18n } from '@/context/i18n';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Card } from '@/components/Card';
-import { Award, ShieldCheck, CheckCircle, Leaf, Globe, BadgeCheck } from 'lucide-react';
+import { Award, ShieldCheck, Leaf, Globe, BadgeCheck } from 'lucide-react';
 
 const Certifications = () => {
   const { t } = useI18n();
 
   const certIcons = [ShieldCheck, Leaf, Globe, BadgeCheck];
-
-  const galleryImages = [
-    'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=2127&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2070&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070&auto=format&fit=crop'
-  ];
 
   return (
     <div className="min-h-screen bg-background">
@@ -35,7 +26,7 @@ const Certifications = () => {
         </div>
       </section>
 
-      {/* Quality Section with Image Grid */}
+      {/* Quality Section with Single Image */}
       <section className="py-24 lg:py-32 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -46,34 +37,17 @@ const Certifications = () => {
               <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-foreground mb-4">
                 {t.certifications.quality.title}
               </h2>
-              <p className="font-poppins font-light text-muted-foreground text-lg leading-relaxed mb-6">
+              <p className="font-poppins font-light text-muted-foreground text-lg leading-relaxed">
                 {t.certifications.quality.description}
               </p>
-              <div className="grid grid-cols-2 gap-4">
-                {[1, 2, 3, 4].map((_, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <CheckCircle className="w-5 h-5 text-secondary flex-shrink-0" />
-                    <span className="font-poppins font-light text-muted-foreground text-sm">
-                      {t.certifications.list[index]?.name}
-                    </span>
-                  </div>
-                ))}
-              </div>
             </div>
             <div className="fade-up-delay-1">
-              <div className="grid grid-cols-2 gap-4">
-                {galleryImages.slice(0, 4).map((img, index) => (
-                  <div 
-                    key={index} 
-                    className={`overflow-hidden ${index === 0 ? 'col-span-2 aspect-[2/1]' : 'aspect-square'}`}
-                  >
-                    <img 
-                      src={img}
-                      alt={`Quality ${index + 1}`}
-                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                ))}
+              <div className="aspect-[4/3] overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
+                  alt="Quality"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
               </div>
             </div>
           </div>
@@ -117,37 +91,28 @@ const Certifications = () => {
         </div>
       </section>
 
-      {/* Image Showcase */}
+      {/* Commitment Section with Single Image */}
       <section className="py-24 lg:py-32 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {galleryImages.map((img, index) => (
-              <div 
-                key={index} 
-                className={`fade-up-delay-${index + 1} overflow-hidden ${
-                  index === 0 ? 'md:col-span-2 md:row-span-2 aspect-square' : 'aspect-square'
-                }`}
-              >
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="fade-up order-2 lg:order-1">
+              <div className="aspect-[4/3] overflow-hidden">
                 <img 
-                  src={img}
-                  alt={`Showcase ${index + 1}`}
+                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
+                  alt="Commitment"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
-            ))}
+            </div>
+            <div className="fade-up-delay-1 order-1 lg:order-2">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-poppins font-semibold text-foreground mb-6">
+                {t.certifications.commitment.title}
+              </h2>
+              <p className="font-poppins font-light text-muted-foreground text-lg leading-relaxed">
+                {t.certifications.commitment.description}
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
-
-      {/* Commitment Section */}
-      <section className="py-24 lg:py-32 bg-primary">
-        <div className="container mx-auto px-4 lg:px-8 text-center">
-          <h2 className="fade-up text-3xl md:text-4xl lg:text-5xl font-poppins font-semibold text-primary-foreground mb-6">
-            {t.certifications.commitment.title}
-          </h2>
-          <p className="fade-up-delay-1 font-poppins font-light text-primary-foreground/80 text-lg max-w-3xl mx-auto">
-            {t.certifications.commitment.description}
-          </p>
         </div>
       </section>
 
