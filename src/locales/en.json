@@ -1,0 +1,236 @@
+{
+  "nav": {
+    "home": "Home",
+    "company": "Company",
+    "products": "Products",
+    "certifications": "Certifications",
+    "blog": "Blog",
+    "contact": "Contact",
+    "quote": "Request a quote"
+  },
+  "home": {
+    "hero": {
+      "title": "Excellence & Innovation in Marble and Natural Stone",
+      "subtitle": "TEKORA and PietraNox: two brands, one shared vision of excellence in the natural stone industry.",
+      "cta": "Discover our products"
+    },
+    "about": {
+      "title": "Who We Are",
+      "description": "TEKORA and PietraNox represent the perfect alliance between artisanal tradition and technological innovation. Our expertise in marble and natural stone positions us as a major player in the sector.",
+      "cta": "Learn more"
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Excellence",
+          "description": "We strive for excellence in every project, from the selection of raw materials to final delivery."
+        },
+        {
+          "title": "Innovation",
+          "description": "We continuously invest in cutting-edge technologies to offer avant-garde solutions."
+        },
+        {
+          "title": "Sustainability",
+          "description": "Our environmental commitment guides all our decisions and production processes."
+        },
+        {
+          "title": "Integrity",
+          "description": "Transparency and honesty are at the heart of all our business relationships."
+        }
+      ]
+    },
+    "products": {
+      "title": "Our Products",
+      "subtitle": "A complete range of exceptional natural stones and marbles",
+      "cta": "View all products"
+    },
+    "cta": {
+      "title": "Ready to transform your project?",
+      "description": "Contact our team of experts to discuss your needs and get a personalized quote.",
+      "button": "Contact us"
+    }
+  },
+  "company": {
+    "hero": {
+      "title": "Our History",
+      "subtitle": "Since our creation, we have been working to become the world reference in the natural stone industry."
+    },
+    "story": {
+      "title": "The TEKORA Story",
+      "content": "Founded with the vision of revolutionizing the natural stone industry, TEKORA quickly established itself as an undisputed leader. Our journey is marked by a constant quest for excellence and innovation.",
+      "milestone1": "Company founding",
+      "milestone2": "PietraNox launch",
+      "milestone3": "International expansion",
+      "milestone4": "ISO 9001 certification"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To provide the highest quality natural stone solutions while respecting the environment and creating value for our customers, employees, and partners."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "To become the global reference partner for exceptional natural stone projects, recognized for our expertise, innovation, and sustainable commitment."
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "A team of passionate and experienced professionals dedicated to your satisfaction."
+    }
+  },
+  "products": {
+    "hero": {
+      "title": "Our Products",
+      "subtitle": "Discover our exceptional range of marbles and natural stones"
+    },
+    "categories": {
+      "title": "Categories",
+      "marble": {
+        "title": "Marbles",
+        "description": "A collection of noble marbles selected for their exceptional beauty and quality."
+      },
+      "granite": {
+        "title": "Granites",
+        "description": "Resistant and elegant granites for your most demanding projects."
+      },
+      "limestone": {
+        "title": "Limestones",
+        "description": "Authentic limestones for a timeless style."
+      },
+      "onyx": {
+        "title": "Onyx",
+        "description": "Translucent onyx for luminous and sophisticated creations."
+      }
+    },
+    "pietranox": {
+      "title": "PietraNox",
+      "subtitle": "Our Premium Brand",
+      "description": "PietraNox represents the pinnacle of our expertise. Each piece is selected with the greatest care to guarantee impeccable quality.",
+      "features": [
+        "Rigorous material selection",
+        "Exclusive anti-stain treatment",
+        "Extended 25-year warranty",
+        "Premium custom service"
+      ]
+    },
+    "cta": {
+      "title": "Need personalized advice?",
+      "description": "Our team of experts is at your disposal to guide you in your choice.",
+      "button": "Request a quote"
+    }
+  },
+  "certifications": {
+    "hero": {
+      "title": "Our Certifications",
+      "subtitle": "Excellence validated by the highest international standards"
+    },
+    "quality": {
+      "title": "Certified Quality",
+      "description": "Our certifications demonstrate our commitment to excellence and customer satisfaction."
+    },
+    "list": [
+      {
+        "name": "ISO 9001:2015",
+        "description": "Certified quality management system, ensuring optimized processes and continuous improvement."
+      },
+      {
+        "name": "ISO 14001:2015",
+        "description": "Environmental certification attesting to our commitment to environmental protection."
+      },
+      {
+        "name": "CE Marking",
+        "description": "Compliance with essential European Union requirements for our products."
+      },
+      {
+        "name": "LEED Certification",
+        "description": "Contributing to sustainable buildings through our eco-responsible products."
+      }
+    ],
+    "commitment": {
+      "title": "Our Commitment",
+      "description": "We are committed to maintaining the highest quality standards in all our operations, from extraction to delivery."
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Our Blog",
+      "subtitle": "News, trends and expert advice on the world of natural stone"
+    },
+    "featured": {
+      "title": "Featured"
+    },
+    "articles": [
+      {
+        "title": "Marble trends in 2024",
+        "excerpt": "Discover the new trends shaping the marble industry this year.",
+        "date": "January 15, 2024",
+        "category": "Trends"
+      },
+      {
+        "title": "Natural stone care guide",
+        "excerpt": "Expert tips to preserve the beauty of your natural stone surfaces.",
+        "date": "January 10, 2024",
+        "category": "Tips"
+      },
+      {
+        "title": "PietraNox: Innovation and Excellence",
+        "excerpt": "Dive behind the scenes of our premium brand and discover our selection process.",
+        "date": "January 5, 2024",
+        "category": "Company"
+      },
+      {
+        "title": "Sustainability in the stone industry",
+        "excerpt": "How TEKORA is committed to a more sustainable future in stone extraction and processing.",
+        "date": "December 28, 2023",
+        "category": "Environment"
+      }
+    ],
+    "cta": {
+      "readMore": "Read more"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Our team is at your service to answer all your questions"
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone",
+      "company": "Company",
+      "subject": "Subject",
+      "message": "Your message",
+      "submit": "Send message",
+      "success": "Message sent successfully!"
+    },
+    "info": {
+      "title": "Our Contact Details",
+      "address": {
+        "label": "Address",
+        "value": "123 Excellence Avenue\n75008 Paris, France"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+33 1 23 45 67 89"
+      },
+      "email": {
+        "label": "Email",
+        "value": "contact@tekora.com"
+      },
+      "hours": {
+        "label": "Hours",
+        "value": "Mon - Fri: 9:00 AM - 6:00 PM"
+      }
+    }
+  },
+  "footer": {
+    "description": "TEKORA and PietraNox: excellence in natural stone for over 20 years.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "rights": "All rights reserved."
+  }
+}
