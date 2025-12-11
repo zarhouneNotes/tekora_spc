@@ -68,6 +68,10 @@
       "milestone3": "International expansion",
       "milestone4": "ISO 9001 certification"
     },
+    "timeline": {
+      "title": "Our Journey",
+      "subtitle": "Key milestones that have shaped our success and growth over the years"
+    },
     "mission": {
       "title": "Our Mission",
       "content": "To provide the highest quality natural stone solutions while respecting the environment and creating value for our customers, employees, and partners."
@@ -76,10 +80,11 @@
       "title": "Our Vision",
       "content": "To become the global reference partner for exceptional natural stone projects, recognized for our expertise, innovation, and sustainable commitment."
     },
-    "cta": {
-      "title": "Ready to start your project?",
-      "description": "Our team of experts is at your disposal to support you in achieving your ambitions.",
-      "button": "Contact us"
+    "pietranox": {
+      "title": "Discover PietraNox",
+      "content": "PietraNox is an innovative company based in Casablanca, Morocco, specializing in the production of SPC (Stone Plastic Composite) flooring. Our business model focuses on wholesale distribution to retailers and distributors, as well as export to strategic markets such as the European Union and the United States, representing 85% of our revenue.",
+      "content2": "We primarily target construction and renovation companies, as well as distributors and importers seeking durable, aesthetic, and high-performance flooring solutions. Thanks to our technical expertise and quality commitment, PietraNox has established itself as a trusted partner for all your large-scale projects.",
+      "cta": "View our SPC products"
     }
   },
   "products": {
