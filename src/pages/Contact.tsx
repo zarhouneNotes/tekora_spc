@@ -77,16 +77,15 @@ const Contact = () => {
             {t.contact.hero.subtitle}
           </p>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent" />
       </section>
 
-      {/* Contact Content */}
-      <section className="py-24 lg:py-32 bg-background">
+      {/* Contact Form Section - Full Width with Primary BG */}
+      <section className="py-24 lg:py-32 bg-primary">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16">
-            {/* Contact Form */}
-            <div className="fade-up">
-              <h2 className="text-2xl md:text-3xl font-poppins font-semibold text-foreground mb-8">
+          <div className="max-w-3xl mx-auto">
+            {/* Form Container - White BG */}
+            <div className="fade-up bg-background p-8 md:p-12">
+              <h2 className="text-2xl md:text-3xl font-poppins font-semibold text-foreground mb-8 text-center">
                 {t.contact.form.title}
               </h2>
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -170,11 +169,25 @@ const Contact = () => {
                     className="w-full px-4 py-3 bg-background border border-border font-poppins font-light text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition-all duration-200 resize-none"
                   />
                 </div>
-                <Button type="submit" variant="solid" size="lg" className="w-full md:w-auto">
+                <Button type="submit" variant="solid" size="lg" className="w-full">
                   <Send className="w-4 h-4 mr-2" />
                   {t.contact.form.submit}
                 </Button>
               </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Map + Contact Info Section */}
+      <section className="py-24 lg:py-32 bg-background">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-8">
+            {/* Map */}
+            <div className="fade-up aspect-video lg:aspect-auto lg:h-full bg-muted relative min-h-[300px]">
+              <div className="absolute inset-0 flex items-center justify-center">
+                <MapPin className="w-12 h-12 text-muted-foreground/50" />
+              </div>
             </div>
 
             {/* Contact Info */}
@@ -198,13 +211,6 @@ const Contact = () => {
                     </div>
                   </Card>
                 ))}
-              </div>
-
-              {/* Map Placeholder */}
-              <div className="mt-8 aspect-video bg-muted relative">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <MapPin className="w-12 h-12 text-muted-foreground/50" />
-                </div>
               </div>
             </div>
           </div>
