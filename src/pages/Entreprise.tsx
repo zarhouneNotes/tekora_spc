@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/Button';
 import { Card } from '@/components/Card';
-import { Target, Eye, ArrowRight } from 'lucide-react';
+import { Target, Eye, ArrowRight, Layers } from 'lucide-react';
 
 const Entreprise = () => {
   const { t } = useI18n();
@@ -76,6 +76,14 @@ const Entreprise = () => {
       {/* Timeline Section */}
       <section className="py-24 lg:py-32 bg-neutralBg">
         <div className="container mx-auto px-4 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="fade-up text-3xl md:text-4xl font-poppins font-semibold text-foreground">
+              {t.company.timeline.title}
+            </h2>
+            <p className="fade-up-delay-1 mt-4 text-lg font-poppins font-light text-muted-foreground max-w-2xl mx-auto">
+              {t.company.timeline.subtitle}
+            </p>
+          </div>
           <div className="grid md:grid-cols-4 gap-8">
             {[
               { year: '2003', label: t.company.story.milestone1 },
@@ -130,21 +138,39 @@ const Entreprise = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-24 lg:py-32 bg-primary">
-        <div className="container mx-auto px-4 lg:px-8 text-center">
-          <h2 className="fade-up text-3xl md:text-4xl lg:text-5xl font-poppins font-semibold text-primary-foreground max-w-3xl mx-auto">
-            {t.company.cta.title}
-          </h2>
-          <p className="fade-up-delay-1 mt-6 text-lg font-poppins font-light text-primary-foreground/80 max-w-2xl mx-auto">
-            {t.company.cta.description}
-          </p>
-          <div className="fade-up-delay-2 mt-10">
-            <Link to="/contact">
-              <Button variant="solid" size="lg">
-                {t.company.cta.button}
-              </Button>
-            </Link>
+      {/* PietraNox Section */}
+      <section className="py-24 lg:py-32 bg-neutralBg">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="fade-up">
+              <div className="aspect-[4/3] overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
+                  alt="PietraNox SPC flooring"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+            <div className="fade-up-delay-1">
+              <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
+                <Layers className="w-8 h-8 text-secondary" />
+              </div>
+              <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-foreground mb-6">
+                {t.company.pietranox.title}
+              </h2>
+              <div className="space-y-4 font-poppins font-light text-muted-foreground text-lg leading-relaxed">
+                <p>{t.company.pietranox.content}</p>
+                <p>{t.company.pietranox.content2}</p>
+              </div>
+              <div className="mt-8 flex flex-wrap gap-4">
+                <Link to="/produits">
+                  <Button variant="solid" size="md" className="group">
+                    {t.company.pietranox.cta}
+                    <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+                  </Button>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>

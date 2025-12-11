@@ -68,6 +68,10 @@
       "milestone3": "Expansion internationale",
       "milestone4": "Certification ISO 9001"
     },
+    "timeline": {
+      "title": "Notre Parcours",
+      "subtitle": "Les étapes clés qui ont façonné notre succès et notre croissance au fil des années"
+    },
     "mission": {
       "title": "Notre Mission",
       "content": "Fournir des solutions en pierre naturelle de la plus haute qualité, tout en respectant l'environnement et en créant de la valeur pour nos clients, employés et partenaires."
@@ -76,10 +80,11 @@
       "title": "Notre Vision",
       "content": "Devenir le partenaire de référence mondial pour les projets d'exception en pierre naturelle, reconnu pour notre expertise, notre innovation et notre engagement durable."
     },
-    "cta": {
-      "title": "Prêt à démarrer votre projet ?",
-      "description": "Notre équipe d'experts est à votre disposition pour vous accompagner dans la réalisation de vos ambitions.",
-      "button": "Contactez-nous"
+    "pietranox": {
+      "title": "Découvrez PietraNox",
+      "content": "PietraNox est une entreprise innovante basée à Casablanca, au Maroc, spécialisée dans la production de revêtements de sol en SPC (Stone Plastic Composite). Notre modèle économique repose sur la vente en gros à des revendeurs et distributeurs, ainsi que l'exportation vers des marchés stratégiques tels que l'Union Européenne et les États-Unis, représentant 85% de notre chiffre d'affaires.",
+      "content2": "Nous ciblons principalement les entreprises de construction, de rénovation, ainsi que les distributeurs et importateurs à la recherche de solutions de revêtement de sol durables, esthétiques et performantes. Grâce à notre expertise technique et notre engagement qualité, PietraNox s'impose comme un partenaire de confiance pour tous vos projets d'envergure.",
+      "cta": "Voir nos produits SPC"
     }
   },
   "products": {
