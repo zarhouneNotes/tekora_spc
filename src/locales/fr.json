@@ -1,0 +1,236 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "company": "Entreprise",
+    "products": "Produits",
+    "certifications": "Certifications",
+    "blog": "Blog",
+    "contact": "Contact",
+    "quote": "Demander un devis"
+  },
+  "home": {
+    "hero": {
+      "title": "Excellence & Innovation dans le Marbre et la Pierre Naturelle",
+      "subtitle": "TEKORA et PietraNox : deux marques, une vision commune d'excellence dans l'industrie de la pierre naturelle.",
+      "cta": "Découvrir nos produits"
+    },
+    "about": {
+      "title": "Qui sommes-nous",
+      "description": "TEKORA et PietraNox représentent l'alliance parfaite entre tradition artisanale et innovation technologique. Notre expertise dans le marbre et la pierre naturelle nous positionne comme un acteur majeur du secteur.",
+      "cta": "En savoir plus"
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "items": [
+        {
+          "title": "Excellence",
+          "description": "Nous visons l'excellence dans chaque projet, du choix des matières premières à la livraison finale."
+        },
+        {
+          "title": "Innovation",
+          "description": "Nous investissons continuellement dans les technologies de pointe pour offrir des solutions avant-gardistes."
+        },
+        {
+          "title": "Durabilité",
+          "description": "Notre engagement environnemental guide toutes nos décisions et processus de production."
+        },
+        {
+          "title": "Intégrité",
+          "description": "La transparence et l'honnêteté sont au cœur de toutes nos relations commerciales."
+        }
+      ]
+    },
+    "products": {
+      "title": "Nos Produits",
+      "subtitle": "Une gamme complète de pierres naturelles et de marbres d'exception",
+      "cta": "Voir tous les produits"
+    },
+    "cta": {
+      "title": "Prêt à transformer votre projet ?",
+      "description": "Contactez notre équipe d'experts pour discuter de vos besoins et obtenir un devis personnalisé.",
+      "button": "Nous contacter"
+    }
+  },
+  "company": {
+    "hero": {
+      "title": "Notre Histoire",
+      "subtitle": "Depuis notre création, nous œuvrons pour devenir la référence mondiale dans l'industrie de la pierre naturelle."
+    },
+    "story": {
+      "title": "L'Histoire de TEKORA",
+      "content": "Fondée avec la vision de révolutionner l'industrie de la pierre naturelle, TEKORA s'est rapidement imposée comme un leader incontesté. Notre parcours est marqué par une quête constante d'excellence et d'innovation.",
+      "milestone1": "Création de l'entreprise",
+      "milestone2": "Lancement de PietraNox",
+      "milestone3": "Expansion internationale",
+      "milestone4": "Certification ISO 9001"
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "content": "Fournir des solutions en pierre naturelle de la plus haute qualité, tout en respectant l'environnement et en créant de la valeur pour nos clients, employés et partenaires."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "content": "Devenir le partenaire de référence mondial pour les projets d'exception en pierre naturelle, reconnu pour notre expertise, notre innovation et notre engagement durable."
+    },
+    "team": {
+      "title": "Notre Équipe",
+      "description": "Une équipe de professionnels passionnés et expérimentés, dédiés à votre satisfaction."
+    }
+  },
+  "products": {
+    "hero": {
+      "title": "Nos Produits",
+      "subtitle": "Découvrez notre gamme exceptionnelle de marbres et pierres naturelles"
+    },
+    "categories": {
+      "title": "Catégories",
+      "marble": {
+        "title": "Marbres",
+        "description": "Une collection de marbres nobles sélectionnés pour leur beauté et leur qualité exceptionnelles."
+      },
+      "granite": {
+        "title": "Granits",
+        "description": "Des granits résistants et élégants pour vos projets les plus exigeants."
+      },
+      "limestone": {
+        "title": "Pierres Calcaires",
+        "description": "Des pierres calcaires authentiques pour un style intemporel."
+      },
+      "onyx": {
+        "title": "Onyx",
+        "description": "L'onyx translucide pour des créations lumineuses et sophistiquées."
+      }
+    },
+    "pietranox": {
+      "title": "PietraNox",
+      "subtitle": "Notre Marque Premium",
+      "description": "PietraNox représente le summum de notre expertise. Chaque pièce est sélectionnée avec le plus grand soin pour garantir une qualité irréprochable.",
+      "features": [
+        "Sélection rigoureuse des matériaux",
+        "Traitement exclusif anti-taches",
+        "Garantie étendue de 25 ans",
+        "Service sur mesure premium"
+      ]
+    },
+    "cta": {
+      "title": "Besoin d'un conseil personnalisé ?",
+      "description": "Notre équipe d'experts est à votre disposition pour vous guider dans votre choix.",
+      "button": "Demander un devis"
+    }
+  },
+  "certifications": {
+    "hero": {
+      "title": "Nos Certifications",
+      "subtitle": "L'excellence validée par les plus hauts standards internationaux"
+    },
+    "quality": {
+      "title": "Qualité Certifiée",
+      "description": "Nos certifications témoignent de notre engagement envers l'excellence et la satisfaction client."
+    },
+    "list": [
+      {
+        "name": "ISO 9001:2015",
+        "description": "Système de management de la qualité certifié, garantissant des processus optimisés et une amélioration continue."
+      },
+      {
+        "name": "ISO 14001:2015",
+        "description": "Certification environnementale attestant de notre engagement pour la protection de l'environnement."
+      },
+      {
+        "name": "CE Marking",
+        "description": "Conformité aux exigences essentielles de l'Union Européenne pour nos produits."
+      },
+      {
+        "name": "LEED Certification",
+        "description": "Contribution aux bâtiments durables grâce à nos produits éco-responsables."
+      }
+    ],
+    "commitment": {
+      "title": "Notre Engagement",
+      "description": "Nous nous engageons à maintenir les plus hauts standards de qualité dans toutes nos opérations, de l'extraction à la livraison."
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Notre Blog",
+      "subtitle": "Actualités, tendances et conseils d'experts sur le monde de la pierre naturelle"
+    },
+    "featured": {
+      "title": "À la Une"
+    },
+    "articles": [
+      {
+        "title": "Les tendances du marbre en 2024",
+        "excerpt": "Découvrez les nouvelles tendances qui façonnent l'industrie du marbre cette année.",
+        "date": "15 Janvier 2024",
+        "category": "Tendances"
+      },
+      {
+        "title": "Guide d'entretien de la pierre naturelle",
+        "excerpt": "Conseils d'experts pour préserver la beauté de vos surfaces en pierre naturelle.",
+        "date": "10 Janvier 2024",
+        "category": "Conseils"
+      },
+      {
+        "title": "PietraNox : Innovation et Excellence",
+        "excerpt": "Plongez dans les coulisses de notre marque premium et découvrez notre processus de sélection.",
+        "date": "5 Janvier 2024",
+        "category": "Entreprise"
+      },
+      {
+        "title": "Durabilité dans l'industrie de la pierre",
+        "excerpt": "Comment TEKORA s'engage pour un avenir plus durable dans l'extraction et le traitement de la pierre.",
+        "date": "28 Décembre 2023",
+        "category": "Environnement"
+      }
+    ],
+    "cta": {
+      "readMore": "Lire la suite"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contactez-nous",
+      "subtitle": "Notre équipe est à votre écoute pour répondre à toutes vos questions"
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": "Nom complet",
+      "email": "Adresse email",
+      "phone": "Téléphone",
+      "company": "Entreprise",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "submit": "Envoyer le message",
+      "success": "Message envoyé avec succès !"
+    },
+    "info": {
+      "title": "Nos Coordonnées",
+      "address": {
+        "label": "Adresse",
+        "value": "123 Avenue de l'Excellence\n75008 Paris, France"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "value": "+33 1 23 45 67 89"
+      },
+      "email": {
+        "label": "Email",
+        "value": "contact@tekora.com"
+      },
+      "hours": {
+        "label": "Horaires",
+        "value": "Lun - Ven : 9h00 - 18h00"
+      }
+    }
+  },
+  "footer": {
+    "description": "TEKORA et PietraNox : l'excellence dans la pierre naturelle depuis plus de 20 ans.",
+    "quickLinks": "Liens rapides",
+    "contact": "Contact",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "rights": "Tous droits réservés."
+  }
+}

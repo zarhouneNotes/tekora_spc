@@ -1,0 +1,138 @@
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { useI18n } from '@/context/i18n';
+import { Button } from './Button';
+import { Menu, X, Globe } from 'lucide-react';
+
+const Navbar = () => {
+  const { language, setLanguage, t } = useI18n();
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    setIsMobileMenuOpen(false);
+  }, [location.pathname]);
+
+  const navLinks = [
+    { href: '/', label: t.nav.home },
+    { href: '/entreprise', label: t.nav.company },
+    { href: '/produits', label: t.nav.products },
+    { href: '/certifications', label: t.nav.certifications },
+    { href: '/blog', label: t.nav.blog },
+    { href: '/contact', label: t.nav.contact },
+  ];
+
+  const isActive = (path: string) => location.pathname === path;
+
+  return (
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled ? 'bg-background/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'
+      }`}
+    >
+      <div className="container mx-auto px-4 lg:px-8">
+        <div className="flex items-center justify-between h-20">
+          {/* Logo */}
+          <Link to="/" className="flex items-center">
+            <div className="w-10 h-10 bg-primary flex items-center justify-center">
+              <span className="text-primary-foreground font-poppins font-bold text-lg">T</span>
+            </div>
+            <span className="ml-3 text-foreground font-poppins font-semibold text-xl tracking-tight">
+              TEKORA
+            </span>
+          </Link>
+
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center space-x-8">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                to={link.href}
+                className={`font-poppins font-light text-sm tracking-wide transition-colors duration-200 ${
+                  isActive(link.href)
+                    ? 'text-secondary'
+                    : 'text-foreground hover:text-secondary'
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
+
+          {/* Right Side Actions */}
+          <div className="hidden lg:flex items-center space-x-4">
+            {/* Language Selector */}
+            <button
+              onClick={() => setLanguage(language === 'fr' ? 'en' : 'fr')}
+              className="flex items-center space-x-1 text-foreground hover:text-secondary transition-colors duration-200"
+            >
+              <Globe className="w-4 h-4" />
+              <span className="font-poppins font-light text-sm uppercase">{language}</span>
+            </button>
+
+            {/* CTA Button */}
+            <Link to="/contact">
+              <Button variant="solid" size="sm">
+                {t.nav.quote}
+              </Button>
+            </Link>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="lg:hidden text-foreground p-2"
+          >
+            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
+
+        {/* Mobile Menu */}
+        {isMobileMenuOpen && (
+          <div className="lg:hidden bg-background border-t border-border">
+            <div className="py-4 space-y-2">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  className={`block px-4 py-3 font-poppins font-light text-base transition-colors duration-200 ${
+                    isActive(link.href)
+                      ? 'text-secondary bg-muted'
+                      : 'text-foreground hover:bg-muted'
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ))}
+              <div className="px-4 py-3 flex items-center justify-between border-t border-border mt-2 pt-4">
+                <button
+                  onClick={() => setLanguage(language === 'fr' ? 'en' : 'fr')}
+                  className="flex items-center space-x-2 text-foreground"
+                >
+                  <Globe className="w-4 h-4" />
+                  <span className="font-poppins font-light text-sm uppercase">{language}</span>
+                </button>
+                <Link to="/contact">
+                  <Button variant="solid" size="sm">
+                    {t.nav.quote}
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
