@@ -16,12 +16,15 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
 
-      {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-primary overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary to-primary/90" />
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,hsl(var(--secondary)/0.3),transparent_50%)]" />
-        </div>
+      {/* Hero Section with Background Image */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2070&auto=format&fit=crop')`
+          }}
+        />
+        <div className="absolute inset-0 bg-primary/80" />
         
         <div className="container mx-auto px-4 lg:px-8 relative z-10 text-center py-32">
           <h1 className="fade-up text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-poppins font-semibold text-primary-foreground leading-tight max-w-5xl mx-auto">
@@ -39,9 +42,6 @@ const Index = () => {
             </Link>
           </div>
         </div>
-
-        {/* Decorative element */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
       </section>
 
       {/* About Section */}
@@ -66,7 +66,11 @@ const Index = () => {
             </div>
             <div className="fade-up-delay-1">
               <div className="aspect-[4/3] bg-muted relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-secondary/20 to-transparent" />
+                <img 
+                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
+                  alt="Marble texture"
+                  className="w-full h-full object-cover"
+                />
                 <div className="absolute bottom-6 left-6 right-6 bg-primary/90 p-6">
                   <p className="font-poppins font-semibold text-primary-foreground text-2xl">20+</p>
                   <p className="font-poppins font-light text-primary-foreground/80 text-sm mt-1">
@@ -126,11 +130,21 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {(['marble', 'granite', 'onyx'] as const).map((category, index) => {
               const categoryData = t.products.categories[category];
+              const images = [
+                'https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=2127&auto=format&fit=crop',
+                'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070&auto=format&fit=crop',
+                'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2070&auto=format&fit=crop'
+              ];
               return (
                 <div
                   key={category}
-                  className={`fade-up-delay-${index + 1} aspect-[3/4] bg-muted relative overflow-hidden group cursor-pointer`}
+                  className={`fade-up-delay-${index + 1} aspect-[3/4] relative overflow-hidden group cursor-pointer`}
                 >
+                  <img 
+                    src={images[index]}
+                    alt={categoryData.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-8">
                     <h3 className="text-2xl font-poppins font-semibold text-primary-foreground">
@@ -140,7 +154,6 @@ const Index = () => {
                       {categoryData.description}
                     </p>
                   </div>
-                  <div className="absolute inset-0 bg-secondary/20 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                 </div>
               );
             })}
