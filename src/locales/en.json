@@ -10,13 +10,13 @@
   },
   "home": {
     "hero": {
-      "title": "Excellence & Innovation in Marble and Natural Stone",
-      "subtitle": "TEKORA and PietraNox: two brands, one shared vision of excellence in the natural stone industry.",
+      "title": "Excellence & Innovation in SPC Flooring",
+      "subtitle": "TEKORA and PietraNox: two companies, one shared vision of excellence in the premium flooring industry.",
       "cta": "Discover our products"
     },
     "about": {
       "title": "Who We Are",
-      "description": "TEKORA and PietraNox represent the perfect alliance between artisanal tradition and technological innovation. Our expertise in marble and natural stone positions us as a major player in the sector.",
+      "description": "TEKORA and PietraNox represent the perfect alliance between technological innovation and premium quality. Our expertise in SPC flooring positions us as a major player in the sector, with products certified to the most demanding international standards.",
       "cta": "Learn more"
     },
     "values": {
@@ -24,43 +24,43 @@
       "items": [
         {
           "title": "Excellence",
-          "description": "We strive for excellence in every project, from the selection of raw materials to final delivery."
+          "description": "We strive for excellence in every product, from the selection of virgin raw materials to final delivery."
         },
         {
           "title": "Innovation",
-          "description": "We continuously invest in cutting-edge technologies to offer avant-garde solutions."
+          "description": "We continuously invest in cutting-edge technologies to offer avant-garde SPC solutions."
         },
         {
           "title": "Sustainability",
-          "description": "Our environmental commitment guides all our decisions and production processes."
+          "description": "Our eco-friendly formaldehyde-free products are recyclable and environmentally responsible."
         },
         {
-          "title": "Integrity",
-          "description": "Transparency and honesty are at the heart of all our business relationships."
+          "title": "Reliability",
+          "description": "10-year warranty and compliance with the strictest Italian, European, and American standards."
         }
       ]
     },
     "products": {
       "title": "Our Products",
-      "subtitle": "A complete range of exceptional natural stones and marbles",
+      "subtitle": "A complete range of premium SPC flooring, equivalent to parquet in aesthetics and comfort",
       "cta": "View all products"
     },
     "cta": {
-      "title": "Ready to transform your project?",
+      "title": "Ready to transform your space?",
       "description": "Contact our team of experts to discuss your needs and get a personalized quote.",
       "button": "Contact us"
     }
   },
   "company": {
     "hero": {
-      "title": "Our History",
-      "subtitle": "Since our creation, we have been working to become the world reference in the natural stone industry."
+      "title": "Our Companies",
+      "subtitle": "Discover TEKORA and PietraNox, two companies based in Casablanca, leaders in premium SPC flooring."
     },
     "story": {
-      "title": "The TEKORA Story",
-      "content": "Founded in 2003 with the vision of revolutionizing the natural stone industry, TEKORA quickly established itself as an undisputed leader. Our journey is marked by a constant quest for excellence and innovation, guided by values of integrity and environmental respect.",
-      "content2": "Over the years, we have developed strategic partnerships with the best quarries in the world, allowing us to offer an unparalleled selection of marbles and natural stones. Our team of experts, trained in traditional techniques as well as the most modern technologies, guarantees impeccable quality at every stage.",
-      "content3": "Today, TEKORA and our premium brand PietraNox equip the most prestigious projects around the world, from luxury private residences to iconic commercial buildings. Our commitment to excellence remains unwavering, and we continue to innovate to shape the future of our industry.",
+      "title": "TEKORA",
+      "content": "TEKORA, based in Casablanca, specializes in the import and distribution of premium SPC (Stone Plastic Composite) flooring. Our products offer aesthetics and comfort equivalent to traditional parquet, while being significantly more resistant and durable.",
+      "content2": "Compliant with Italian standards and certified FloorScore, CE, IAF, SGS, ISO9001, ISO14001, our flooring is adapted to 2G and 5G click systems. They guarantee quality, durability, and reliability for all your projects, whether residential or commercial.",
+      "content3": "Our flooring is perfectly suited for homes, bathrooms, kitchens, offices, boutiques, hotels, and high-traffic establishments. With an excellent quality-price ratio and a 10-year warranty, we aim to establish lasting partnerships with real estate developers, architects, installers, and retailers.",
       "ctaProducts": "Discover our products",
       "ctaContact": "Contact us",
       "milestone1": "Company founding",
@@ -74,61 +74,78 @@
     },
     "mission": {
       "title": "Our Mission",
-      "content": "To provide the highest quality natural stone solutions while respecting the environment and creating value for our customers, employees, and partners."
+      "content": "To provide the highest quality SPC flooring solutions, adapted to all spaces and all users – individuals, professionals, and real estate developers – while respecting the environment."
     },
     "vision": {
       "title": "Our Vision",
-      "content": "To become the global reference partner for exceptional natural stone projects, recognized for our expertise, innovation, and sustainable commitment."
+      "content": "To become the reference partner for exceptional flooring projects, recognized for our expertise, innovation, and commitment to quality and sustainability."
     },
     "pietranox": {
-      "title": "Discover PietraNox",
-      "content": "PietraNox is an innovative company based in Casablanca, Morocco, specializing in the production of SPC (Stone Plastic Composite) flooring. Our business model focuses on wholesale distribution to retailers and distributors, as well as export to strategic markets such as the European Union and the United States, representing 85% of our revenue.",
-      "content2": "We primarily target construction and renovation companies, as well as distributors and importers seeking durable, aesthetic, and high-performance flooring solutions. Thanks to our technical expertise and quality commitment, PietraNox has established itself as a trusted partner for all your large-scale projects.",
+      "title": "PietraNox",
+      "content": "PietraNox is an innovative company located in Casablanca, Morocco, specializing in the production of SPC (Stone Plastic Composite) flooring. Our business model is based on wholesale to retailers and distributors, as well as export to strategic markets such as the European Union and the United States, representing 85% of our revenue.",
+      "content2": "We primarily target construction and renovation companies, as well as distributors and importers looking for durable, aesthetic, and high-performance flooring solutions. Thanks to our technical expertise and quality commitment, PietraNox has established itself as a trusted partner for all your large-scale projects.",
       "cta": "View our SPC products"
     }
   },
   "products": {
     "hero": {
-      "title": "Our Products",
-      "subtitle": "Discover our exceptional range of marbles and natural stones"
+      "title": "SPC Flooring",
+      "subtitle": "Discover our exceptional range of premium SPC flooring, equivalent to parquet in aesthetics and comfort"
     },
-    "categories": {
-      "title": "Categories",
-      "marble": {
-        "title": "Marbles",
-        "description": "A collection of noble marbles selected for their exceptional beauty and quality.",
-        "longDescription": "Our marbles come from the best quarries in Italy, Greece, and Portugal. Each block is meticulously selected by our experts to guarantee unique veins and impeccable quality. Ideal for countertops, wall coverings, and prestigious floors."
+    "features": {
+      "title": "Product Features",
+      "subtitle": "Exceptional performance for all your spaces",
+      "water": {
+        "title": "Water Resistance",
+        "description": "100% waterproof, ideal for all rooms",
+        "longDescription": "Our SPC flooring is 100% waterproof, ideal for all rooms including kitchens and bathrooms. Waterproof technology ensures that neither humidity nor splashes compromise the floor's durability, providing unparalleled comfort and peace of mind."
       },
-      "granite": {
-        "title": "Granites",
-        "description": "Resistant and elegant granites for your most demanding projects.",
-        "longDescription": "Our range of granites combines exceptional durability and refined aesthetics. Resistant to scratches, heat, and daily wear, granite is the ideal choice for professional kitchens, high-traffic commercial spaces, and outdoor applications."
+      "fire": {
+        "title": "Fire Resistance",
+        "description": "Compliant with fire safety standards",
+        "longDescription": "Safety is essential. Our SPC floors are fire resistant, reducing flammability risks and providing additional protection in homes and professional spaces. Compliant with EN 13501-1 standard (BFL-S1 Classification)."
       },
-      "limestone": {
-        "title": "Limestones",
-        "description": "Authentic limestones for a timeless style.",
-        "longDescription": "Our limestones bring warmth and character to any space. With their natural tones and distinctive texture, they create an elegant Mediterranean atmosphere. Perfect for facades, fireplaces, and prestigious landscaping."
+      "stain": {
+        "title": "Stain Resistance",
+        "description": "Anti-stain coating, easy cleaning",
+        "longDescription": "Thanks to their anti-stain coating, these floors remain impeccable on a daily basis. Food, beverage, or household product splashes do not penetrate the surface, greatly facilitating cleaning and maintaining a floor that always looks new."
       },
-      "onyx": {
-        "title": "Onyx",
-        "description": "Translucent onyx for luminous and sophisticated creations.",
-        "longDescription": "Onyx represents the pinnacle of luxury in the natural stone world. Its unique translucency allows for spectacular backlit installations. Each piece is a natural work of art, ideal for bars, accent walls, and distinctive architectural elements."
+      "durability": {
+        "title": "Comfort and Durability",
+        "description": "10-year warranty, shock and wear resistant",
+        "longDescription": "Our SPC flooring combines aesthetics and robustness: wood, stone, or concrete imitation, they bring elegance and modernity while resisting shocks, wear, and intensive traffic. Each floor is designed to last, with a 10-year warranty."
       }
+    },
+    "specs": {
+      "title": "Technical Specifications",
+      "subtitle": "Detailed specifications of our SPC flooring",
+      "items": [
+        { "label": "Type", "value": "Rigid SPC flooring (Stone Plastic Composite)" },
+        { "label": "Equivalent", "value": "Parquet" },
+        { "label": "Total thickness", "value": "6.0 mm and 7 mm" },
+        { "label": "Plank thickness", "value": "4.5 mm and 5 mm" },
+        { "label": "Wear layer", "value": "0.3, 0.5 and 0.7 mm" },
+        { "label": "Dimensions", "value": "Herringbone 750 x 150 mm and 1220 x 180 mm" },
+        { "label": "Surface", "value": "Wood / stone / concrete imitation" },
+        { "label": "Installation", "value": "Floating installation – 2G / 5G click system" },
+        { "label": "Warranty", "value": "10 years" }
+      ]
     },
     "pietranox": {
       "title": "PietraNox",
-      "subtitle": "Our Premium Brand",
-      "description": "PietraNox represents the pinnacle of our expertise. Each piece is selected with the greatest care to guarantee impeccable quality.",
+      "subtitle": "Premium SPC Production",
+      "description": "PietraNox specializes in the production of high-quality SPC flooring, with a focus on export to the EU and the United States. Our products meet the strictest standards.",
       "features": [
-        "Rigorous material selection",
-        "Exclusive anti-stain treatment",
-        "Extended 25-year warranty",
-        "Premium custom service"
+        "100% virgin raw materials",
+        "Formaldehyde-free (E1 Standard)",
+        "Phthalate-free",
+        "FDA 21 CFR compliant (Food-Safe)",
+        "Ultra-low emissions (TVOC A+)"
       ]
     },
     "cta": {
       "title": "Need personalized advice?",
-      "description": "Our team of experts is at your disposal to guide you in your choice.",
+      "description": "Our team of experts is at your disposal to guide you in your choice and support you in your project.",
       "button": "Request a quote"
     }
   },
@@ -151,27 +168,55 @@
         "description": "Environmental certification attesting to our commitment to environmental protection."
       },
       {
-        "name": "CE Marking",
-        "description": "Compliance with essential European Union requirements for our products."
+        "name": "FloorScore",
+        "description": "Indoor air quality certification (SCS-EC10.3-2014 v4.0), guaranteeing ultra-low emissions."
       },
       {
-        "name": "LEED Certification",
-        "description": "Contributing to sustainable buildings through our eco-responsible products."
+        "name": "CE Marking",
+        "description": "Compliance with essential European Union requirements for our products."
       }
     ],
+    "american": {
+      "title": "American Standards",
+      "items": [
+        "US EPA Certification (Registered & Approved)",
+        "California CDTSC Registration",
+        "California Proposition 65 Compliant",
+        "TSCA (Toxic Substances Control Act) Compliant"
+      ]
+    },
+    "european": {
+      "title": "European Standards",
+      "items": [
+        "ISO 10582 - Dimensional stability",
+        "EN 16511 - Modular flooring",
+        "EN 13501-1 - Fire Reaction Classification (BFL-S1)",
+        "ISO 16814 - Indoor emissions"
+      ]
+    },
+    "materials": {
+      "title": "Raw Materials Certifications",
+      "items": [
+        "100% Virgin Materials",
+        "FDA 21 CFR Compliant (Food-Safe)",
+        "Formaldehyde-Free (E1 Standard)",
+        "Phthalate-Free",
+        "Heavy Metals < 1 ppm"
+      ]
+    },
     "commitment": {
-      "title": "Our Commitment",
-      "description": "We are committed to maintaining the highest quality standards in all our operations, from extraction to delivery."
+      "title": "Our Quality Commitment",
+      "description": "We are committed to maintaining the highest quality standards in all our operations. Our products are made from 100% virgin raw materials, formaldehyde-free, phthalate-free, with ultra-low emissions (TVOC A+)."
     }
   },
   "blog": {
     "hero": {
       "title": "Our Gallery",
-      "subtitle": "Discover our achievements and inspirations in natural stone"
+      "subtitle": "Discover our achievements and inspirations in flooring"
     },
     "gallery": {
       "title": "Our Collection",
-      "subtitle": "Explore our finest selections of natural stone and marble"
+      "subtitle": "Explore our finest SPC flooring installations"
     }
   },
   "contact": {
@@ -194,15 +239,15 @@
       "title": "Our Contact Details",
       "address": {
         "label": "Address",
-        "value": "123 Excellence Avenue\n75008 Paris, France"
+        "value": "Casablanca, Morocco"
       },
       "phone": {
         "label": "Phone",
-        "value": "+33 1 23 45 67 89"
+        "value": "+212 5 22 XX XX XX"
       },
       "email": {
         "label": "Email",
-        "value": "contact@tekora.com"
+        "value": "contact@tekora.ma"
       },
       "hours": {
         "label": "Hours",
@@ -211,7 +256,7 @@
     }
   },
   "footer": {
-    "description": "TEKORA and PietraNox: excellence in natural stone for over 20 years.",
+    "description": "TEKORA and PietraNox: excellence in premium SPC flooring, based in Casablanca, Morocco.",
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "legal": "Legal Notice",
