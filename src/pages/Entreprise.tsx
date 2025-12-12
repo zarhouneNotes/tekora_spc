@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/Button';
 import { Card } from '@/components/Card';
-import { Target, Eye, ArrowRight, Layers } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const Entreprise = () => {
   const { t } = useI18n();
@@ -73,8 +73,8 @@ const Entreprise = () => {
         </div>
       </section>
 
-      {/* Timeline Section */}
-      <section className="py-24 lg:py-32 bg-neutralBg">
+      {/* Timeline Section - Horizontal Line with Islands */}
+      <section className="py-24 lg:py-32 bg-neutralBg overflow-hidden">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="fade-up text-3xl md:text-4xl font-poppins font-semibold text-foreground">
@@ -84,37 +84,86 @@ const Entreprise = () => {
               {t.company.timeline.subtitle}
             </p>
           </div>
-          <div className="grid md:grid-cols-4 gap-8">
-            {[
-              { year: '2003', label: t.company.story.milestone1 },
-              { year: '2010', label: t.company.story.milestone2 },
-              { year: '2015', label: t.company.story.milestone3 },
-              { year: '2020', label: t.company.story.milestone4 },
-            ].map((milestone, index) => (
-              <Card 
-                key={index} 
-                variant="elevated" 
-                className={`fade-up-delay-${index + 1} text-center group hover:-translate-y-2`}
-              >
-                <p className="text-4xl font-poppins font-semibold text-secondary">
-                  {milestone.year}
-                </p>
-                <p className="mt-3 font-poppins font-light text-muted-foreground text-sm">
-                  {milestone.label}
-                </p>
-              </Card>
-            ))}
+          
+          {/* Horizontal Timeline */}
+          <div className="relative">
+            {/* Timeline Line */}
+            <div className="absolute top-1/2 left-0 right-0 h-1 bg-secondary/30 transform -translate-y-1/2 hidden md:block" />
+            
+            <div className="flex flex-col md:flex-row md:justify-between items-center gap-8 md:gap-4 relative">
+              {[
+                { year: '2003', label: t.company.story.milestone1 },
+                { year: '2010', label: t.company.story.milestone2 },
+                { year: '2015', label: t.company.story.milestone3 },
+                { year: '2020', label: t.company.story.milestone4 },
+              ].map((milestone, index) => (
+                <div 
+                  key={index} 
+                  className={`fade-up-delay-${index + 1} flex flex-col items-center relative z-10`}
+                >
+                  {/* Island Circle */}
+                  <div className="w-20 h-20 rounded-full bg-secondary flex items-center justify-center shadow-lg shadow-secondary/30 mb-4 group hover:scale-110 transition-transform duration-300">
+                    <span className="text-xl font-poppins font-bold text-secondary-foreground">
+                      {milestone.year}
+                    </span>
+                  </div>
+                  {/* Label */}
+                  <div className="bg-background px-4 py-3 rounded-lg shadow-md max-w-[180px] text-center">
+                    <p className="font-poppins font-light text-muted-foreground text-sm">
+                      {milestone.label}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          {/* CTA to break blank space */}
+          <div className="mt-16 text-center fade-up">
+            <Link to="/produits">
+              <Button variant="outline" size="lg" className="group">
+                {t.company.timeline.cta}
+                <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Mission & Vision */}
+      {/* Mission & Vision Section - Redesigned */}
       <section className="py-24 lg:py-32 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12">
-            <Card variant="elevated" className="fade-up">
-              <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
-                <Target className="w-8 h-8 text-secondary" />
+          {/* Section Title */}
+          <div className="text-center mb-16">
+            <h2 className="fade-up text-3xl md:text-4xl font-poppins font-semibold text-foreground">
+              {t.company.missionVision.title}
+            </h2>
+            <p className="fade-up-delay-1 mt-4 text-lg font-poppins font-light text-muted-foreground max-w-2xl mx-auto">
+              {t.company.missionVision.subtitle}
+            </p>
+          </div>
+          
+          {/* Staggered Layout: Image top-left, Mission center, Vision bottom-right */}
+          <div className="grid lg:grid-cols-3 gap-8 items-center">
+            {/* Image - Top aligned */}
+            <div className="fade-up lg:self-start">
+              <div className="aspect-[4/5] overflow-hidden rounded-lg shadow-2xl shadow-primary/10">
+                <img 
+                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
+                  alt="Quality flooring"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+            
+            {/* Mission Card - Center aligned */}
+            <Card variant="elevated" className="fade-up-delay-1 lg:self-center shadow-xl shadow-secondary/10 border-l-4 border-secondary">
+              <div className="w-16 h-16 rounded-lg overflow-hidden mb-6">
+                <img 
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+                  alt="Mission"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-2xl font-poppins font-semibold text-foreground mb-4">
                 {t.company.mission.title}
@@ -123,9 +172,15 @@ const Entreprise = () => {
                 {t.company.mission.content}
               </p>
             </Card>
-            <Card variant="elevated" className="fade-up-delay-1">
-              <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
-                <Eye className="w-8 h-8 text-secondary" />
+            
+            {/* Vision Card - Bottom aligned */}
+            <Card variant="elevated" className="fade-up-delay-2 lg:self-end shadow-xl shadow-secondary/10 border-l-4 border-primary">
+              <div className="w-16 h-16 rounded-lg overflow-hidden mb-6">
+                <img 
+                  src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?q=80&w=200&auto=format&fit=crop"
+                  alt="Vision"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-2xl font-poppins font-semibold text-foreground mb-4">
                 {t.company.vision.title}
@@ -138,12 +193,22 @@ const Entreprise = () => {
         </div>
       </section>
 
-      {/* PietraNox Section */}
+      {/* Partners Section (formerly PietraNox) */}
       <section className="py-24 lg:py-32 bg-neutralBg">
         <div className="container mx-auto px-4 lg:px-8">
+          {/* Section Header */}
+          <div className="text-center mb-16">
+            <h2 className="fade-up text-3xl md:text-4xl font-poppins font-semibold text-foreground">
+              {t.company.partners.title}
+            </h2>
+            <p className="fade-up-delay-1 mt-4 text-lg font-poppins font-light text-muted-foreground max-w-2xl mx-auto">
+              {t.company.partners.subtitle}
+            </p>
+          </div>
+          
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="fade-up">
-              <div className="aspect-[4/3] overflow-hidden">
+              <div className="aspect-[4/3] overflow-hidden rounded-lg shadow-2xl">
                 <img 
                   src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
                   alt="PietraNox SPC flooring"
@@ -152,12 +217,16 @@ const Entreprise = () => {
               </div>
             </div>
             <div className="fade-up-delay-1">
-              <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
-                <Layers className="w-8 h-8 text-secondary" />
+              <div className="w-16 h-16 rounded-lg overflow-hidden mb-6 shadow-lg">
+                <img 
+                  src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=200&auto=format&fit=crop"
+                  alt="PietraNox logo"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-foreground mb-6">
+              <h3 className="text-3xl md:text-4xl font-poppins font-semibold text-foreground mb-6">
                 {t.company.pietranox.title}
-              </h2>
+              </h3>
               <div className="space-y-4 font-poppins font-light text-muted-foreground text-lg leading-relaxed">
                 <p>{t.company.pietranox.content}</p>
                 <p>{t.company.pietranox.content2}</p>
