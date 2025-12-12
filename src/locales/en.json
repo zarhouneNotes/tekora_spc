@@ -53,8 +53,8 @@
   },
   "company": {
     "hero": {
-      "title": "Our Companies",
-      "subtitle": "Discover TEKORA and PietraNox, two companies based in Casablanca, leaders in premium SPC flooring."
+      "title": "About TEKORA",
+      "subtitle": "Leader in the import and distribution of premium SPC flooring in Casablanca, in partnership with PietraNox for excellence quality."
     },
     "story": {
       "title": "TEKORA",
@@ -70,7 +70,12 @@
     },
     "timeline": {
       "title": "Our Journey",
-      "subtitle": "Key milestones that have shaped our success and growth over the years"
+      "subtitle": "Key milestones that have shaped our success and growth over the years",
+      "cta": "Discover our products"
+    },
+    "missionVision": {
+      "title": "Our Commitment",
+      "subtitle": "A clear mission and an ambitious vision for the future of flooring"
     },
     "mission": {
       "title": "Our Mission",
@@ -79,6 +84,10 @@
     "vision": {
       "title": "Our Vision",
       "content": "To become the reference partner for exceptional flooring projects, recognized for our expertise, innovation, and commitment to quality and sustainability."
+    },
+    "partners": {
+      "title": "Our Partners",
+      "subtitle": "Strategic collaborations for shared excellence"
     },
     "pietranox": {
       "title": "PietraNox",

@@ -53,8 +53,8 @@
   },
   "company": {
     "hero": {
-      "title": "Nos Entreprises",
-      "subtitle": "Découvrez TEKORA et PietraNox, deux entreprises basées à Casablanca, leaders dans les revêtements de sol SPC haut de gamme."
+      "title": "À Propos de TEKORA",
+      "subtitle": "Leader dans l'importation et la distribution de revêtements de sol SPC haut de gamme à Casablanca, en partenariat avec PietraNox pour une qualité d'excellence."
     },
     "story": {
       "title": "TEKORA",
@@ -70,7 +70,12 @@
     },
     "timeline": {
       "title": "Notre Parcours",
-      "subtitle": "Les étapes clés qui ont façonné notre succès et notre croissance au fil des années"
+      "subtitle": "Les étapes clés qui ont façonné notre succès et notre croissance au fil des années",
+      "cta": "Découvrir nos produits"
+    },
+    "missionVision": {
+      "title": "Notre Engagement",
+      "subtitle": "Une mission claire et une vision ambitieuse pour l'avenir des revêtements de sol"
     },
     "mission": {
       "title": "Notre Mission",
@@ -79,6 +84,10 @@
     "vision": {
       "title": "Notre Vision",
       "content": "Devenir le partenaire de référence pour les projets d'exception en revêtements de sol, reconnu pour notre expertise, notre innovation et notre engagement envers la qualité et la durabilité."
+    },
+    "partners": {
+      "title": "Nos Partenaires",
+      "subtitle": "Des collaborations stratégiques pour une excellence partagée"
     },
     "pietranox": {
       "title": "PietraNox",
