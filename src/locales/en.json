@@ -92,6 +92,20 @@
       "title": "SPC Flooring",
       "subtitle": "Discover our exceptional range of premium SPC flooring, equivalent to parquet in aesthetics and comfort"
     },
+    "categories": {
+      "marble": {
+        "title": "Wood Effect",
+        "description": "Elegant and warm parquet imitation"
+      },
+      "granite": {
+        "title": "Stone Effect",
+        "description": "Natural and sophisticated finish"
+      },
+      "onyx": {
+        "title": "Concrete Effect",
+        "description": "Modern and contemporary style"
+      }
+    },
     "features": {
       "title": "Product Features",
       "subtitle": "Exceptional performance for all your spaces",
