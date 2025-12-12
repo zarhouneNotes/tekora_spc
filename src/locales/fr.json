@@ -199,7 +199,11 @@
         "description": "Conformité aux exigences essentielles de l'Union Européenne pour nos produits."
       }
     ],
-    "american": {
+  "standards": {
+    "title": "Normes Internationales",
+    "subtitle": "Conformité aux réglementations américaines et européennes les plus strictes pour votre sécurité"
+  },
+  "american": {
       "title": "Normes Américaines",
       "items": [
         "US EPA Certification (Enregistré & Approuvé)",

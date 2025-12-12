@@ -1,0 +1,294 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "company": "Empresa",
+    "products": "Productos",
+    "certifications": "Certificaciones",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "quote": "Solicitar presupuesto"
+  },
+  "home": {
+    "hero": {
+      "title": "TEKORA – Experto en Suelos SPC Premium",
+      "subtitle": "Importador y distribuidor líder en Casablanca, ofrecemos soluciones de suelos duraderos y estéticos en asociación con PietraNox.",
+      "cta": "Descubre nuestros productos"
+    },
+    "about": {
+      "title": "Quiénes Somos",
+      "description": "TEKORA, con sede en Casablanca, está especializada en la importación y distribución de suelos SPC premium. En asociación con PietraNox, nuestro socio fabricante, ofrecemos productos certificados según los estándares internacionales más exigentes, garantizando calidad, durabilidad y fiabilidad.",
+      "cta": "Saber más"
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "items": [
+        {
+          "title": "Excelencia",
+          "description": "Buscamos la excelencia en cada producto, desde la selección de materias primas vírgenes hasta la entrega final."
+        },
+        {
+          "title": "Innovación",
+          "description": "Invertimos continuamente en tecnologías de vanguardia para ofrecer soluciones SPC innovadoras."
+        },
+        {
+          "title": "Sostenibilidad",
+          "description": "Nuestros productos ecológicos sin formaldehído son reciclables y respetuosos con el medio ambiente."
+        },
+        {
+          "title": "Fiabilidad",
+          "description": "Garantía de 10 años y cumplimiento de los estándares italianos, europeos y americanos más estrictos."
+        }
+      ]
+    },
+    "products": {
+      "title": "Nuestros Productos",
+      "subtitle": "Una gama completa de suelos SPC premium, equivalentes al parquet en estética y confort",
+      "cta": "Ver todos los productos"
+    },
+    "cta": {
+      "title": "¿Listo para transformar tu espacio?",
+      "description": "Contacta con nuestro equipo de expertos para discutir tus necesidades y obtener un presupuesto personalizado.",
+      "button": "Contáctanos"
+    }
+  },
+  "company": {
+    "hero": {
+      "title": "Sobre TEKORA",
+      "subtitle": "Líder en importación y distribución de suelos SPC premium en Casablanca, en asociación con PietraNox para una calidad de excelencia."
+    },
+    "story": {
+      "title": "TEKORA",
+      "content": "TEKORA, con sede en Casablanca, está especializada en la importación y distribución de suelos SPC (Stone Plastic Composite) premium. Nuestros productos ofrecen estética y confort equivalentes al parquet tradicional, siendo significativamente más resistentes y duraderos.",
+      "content2": "Conformes con los estándares italianos y certificados FloorScore, CE, IAF, SGS, ISO9001, ISO14001, nuestros suelos están adaptados a los sistemas de clic 2G y 5G. Garantizan calidad, durabilidad y fiabilidad para todos sus proyectos, residenciales o comerciales.",
+      "content3": "Nuestros suelos son perfectos para hogares, baños, cocinas, oficinas, tiendas, hoteles y establecimientos de alto tráfico. Con una excelente relación calidad-precio y una garantía de 10 años, buscamos establecer asociaciones duraderas con promotores inmobiliarios, arquitectos, instaladores y minoristas.",
+      "ctaProducts": "Descubre nuestros productos",
+      "ctaContact": "Contáctanos",
+      "milestone1": "Fundación de la empresa",
+      "milestone2": "Lanzamiento de PietraNox",
+      "milestone3": "Expansión internacional",
+      "milestone4": "Certificación ISO 9001"
+    },
+    "timeline": {
+      "title": "Nuestro Recorrido",
+      "subtitle": "Los hitos clave que han dado forma a nuestro éxito y crecimiento a lo largo de los años",
+      "cta": "Descubre nuestros productos"
+    },
+    "missionVision": {
+      "title": "Nuestro Compromiso",
+      "subtitle": "Una misión clara y una visión ambiciosa para el futuro de los suelos"
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "content": "Proporcionar soluciones de suelos SPC de la más alta calidad, adaptadas a todos los espacios y usuarios – particulares, profesionales y promotores inmobiliarios – respetando el medio ambiente."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "content": "Convertirnos en el socio de referencia para proyectos de suelos excepcionales, reconocidos por nuestra experiencia, innovación y compromiso con la calidad y la sostenibilidad."
+    },
+    "partners": {
+      "title": "Nuestros Socios",
+      "subtitle": "Colaboraciones estratégicas para una excelencia compartida"
+    },
+    "pietranox": {
+      "title": "PietraNox",
+      "content": "PietraNox es una empresa innovadora ubicada en Casablanca, Marruecos, especializada en la producción de suelos SPC (Stone Plastic Composite). Nuestro modelo de negocio se basa en la venta al por mayor a minoristas y distribuidores, así como la exportación a mercados estratégicos como la Unión Europea y Estados Unidos, que representan el 85% de nuestros ingresos.",
+      "content2": "Nos dirigimos principalmente a empresas de construcción y renovación, así como a distribuidores e importadores que buscan soluciones de suelos duraderas, estéticas y de alto rendimiento. Gracias a nuestra experiencia técnica y compromiso con la calidad, PietraNox se ha establecido como un socio de confianza para todos sus proyectos a gran escala.",
+      "cta": "Ver nuestros productos SPC"
+    }
+  },
+  "products": {
+    "hero": {
+      "title": "Suelos SPC",
+      "subtitle": "Descubre nuestra excepcional gama de suelos SPC premium, equivalentes al parquet en estética y confort"
+    },
+    "categories": {
+      "marble": {
+        "title": "Efecto Madera",
+        "description": "Imitación parquet elegante y cálida"
+      },
+      "granite": {
+        "title": "Efecto Piedra",
+        "description": "Acabado natural y sofisticado"
+      },
+      "onyx": {
+        "title": "Efecto Hormigón",
+        "description": "Estilo moderno y contemporáneo"
+      }
+    },
+    "features": {
+      "title": "Características del Producto",
+      "subtitle": "Rendimiento excepcional para todos sus espacios",
+      "water": {
+        "title": "Resistencia al Agua",
+        "description": "100% impermeable, ideal para todas las habitaciones",
+        "longDescription": "Nuestros suelos SPC son 100% impermeables, ideales para todas las habitaciones incluyendo cocinas y baños. La tecnología impermeable asegura que ni la humedad ni las salpicaduras comprometan la durabilidad del suelo, proporcionando confort y tranquilidad incomparables."
+      },
+      "fire": {
+        "title": "Resistencia al Fuego",
+        "description": "Conforme a las normas de seguridad contra incendios",
+        "longDescription": "La seguridad es esencial. Nuestros suelos SPC son resistentes al fuego, reduciendo los riesgos de inflamabilidad y proporcionando protección adicional en hogares y espacios profesionales. Conformes con la norma EN 13501-1 (Clasificación BFL-S1)."
+      },
+      "stain": {
+        "title": "Resistencia a las Manchas",
+        "description": "Revestimiento antimanchas, fácil limpieza",
+        "longDescription": "Gracias a su revestimiento antimanchas, estos suelos permanecen impecables a diario. Las salpicaduras de comida, bebidas o productos domésticos no penetran la superficie, facilitando enormemente la limpieza y manteniendo un suelo siempre nuevo."
+      },
+      "durability": {
+        "title": "Confort y Durabilidad",
+        "description": "Garantía 10 años, resistente a golpes y desgaste",
+        "longDescription": "Nuestros suelos SPC combinan estética y robustez: imitación madera, piedra u hormigón, aportan elegancia y modernidad resistiendo golpes, desgaste y tráfico intenso. Cada suelo está diseñado para durar, con una garantía de 10 años."
+      }
+    },
+    "specs": {
+      "title": "Especificaciones Técnicas",
+      "subtitle": "Especificaciones detalladas de nuestros suelos SPC",
+      "items": [
+        { "label": "Tipo", "value": "Suelo rígido SPC (Stone Plastic Composite)" },
+        { "label": "Equivalente", "value": "Parquet" },
+        { "label": "Espesor total", "value": "6.0 mm y 7 mm" },
+        { "label": "Espesor tablón", "value": "4.5 mm y 5 mm" },
+        { "label": "Capa de desgaste", "value": "0.3, 0.5 y 0.7 mm" },
+        { "label": "Dimensiones", "value": "Espiga 750 x 150 mm y 1220 x 180 mm" },
+        { "label": "Superficie", "value": "Imitación madera / piedra / hormigón" },
+        { "label": "Instalación", "value": "Instalación flotante – Sistema clic 2G / 5G" },
+        { "label": "Garantía", "value": "10 años" }
+      ]
+    },
+    "pietranox": {
+      "title": "PietraNox",
+      "subtitle": "Producción SPC Premium",
+      "description": "PietraNox está especializada en la producción de suelos SPC de alta calidad, con enfoque en la exportación a la UE y Estados Unidos. Nuestros productos cumplen con los estándares más estrictos.",
+      "features": [
+        "100% materias primas vírgenes",
+        "Sin formaldehído (Norma E1)",
+        "Sin ftalatos",
+        "Conforme FDA 21 CFR (Food-Safe)",
+        "Emisiones ultra bajas (TVOC A+)"
+      ]
+    },
+    "cta": {
+      "title": "¿Necesitas asesoramiento personalizado?",
+      "description": "Nuestro equipo de expertos está a tu disposición para guiarte en tu elección y apoyarte en tu proyecto.",
+      "button": "Solicitar presupuesto"
+    }
+  },
+  "certifications": {
+    "hero": {
+      "title": "Nuestras Certificaciones",
+      "subtitle": "Excelencia validada por los más altos estándares internacionales"
+    },
+    "quality": {
+      "title": "Calidad Certificada",
+      "description": "Nuestras certificaciones demuestran nuestro compromiso con la excelencia y la satisfacción del cliente. Cada paso de nuestro proceso está rigurosamente controlado para garantizar los más altos estándares de calidad."
+    },
+    "list": [
+      {
+        "name": "ISO 9001:2015",
+        "description": "Sistema de gestión de calidad certificado, que garantiza procesos optimizados y mejora continua."
+      },
+      {
+        "name": "ISO 14001:2015",
+        "description": "Certificación ambiental que acredita nuestro compromiso con la protección del medio ambiente."
+      },
+      {
+        "name": "FloorScore",
+        "description": "Certificación de calidad del aire interior (SCS-EC10.3-2014 v4.0), que garantiza emisiones ultra bajas."
+      },
+      {
+        "name": "Marcado CE",
+        "description": "Conformidad con los requisitos esenciales de la Unión Europea para nuestros productos."
+      }
+    ],
+    "standards": {
+      "title": "Estándares Internacionales",
+      "subtitle": "Cumplimiento de las normativas americanas y europeas más rigurosas para su seguridad"
+    },
+    "american": {
+      "title": "Normas Americanas",
+      "items": [
+        "Certificación US EPA (Registrado y Aprobado)",
+        "Registro California CDTSC",
+        "Conforme California Proposition 65",
+        "Conforme TSCA (Toxic Substances Control Act)"
+      ]
+    },
+    "european": {
+      "title": "Normas Europeas",
+      "items": [
+        "ISO 10582 - Estabilidad dimensional",
+        "EN 16511 - Suelos modulares",
+        "EN 13501-1 - Clasificación Reacción al Fuego (BFL-S1)",
+        "ISO 16814 - Emisiones interiores"
+      ]
+    },
+    "materials": {
+      "title": "Certificaciones Materias Primas",
+      "items": [
+        "100% Materiales Vírgenes",
+        "Conforme FDA 21 CFR (Food-Safe)",
+        "Sin Formaldehído (Norma E1)",
+        "Sin Ftalatos",
+        "Metales Pesados < 1 ppm"
+      ]
+    },
+    "commitment": {
+      "title": "Nuestro Compromiso de Calidad",
+      "description": "Nos comprometemos a mantener los más altos estándares de calidad en todas nuestras operaciones. Nuestros productos están fabricados con materias primas 100% vírgenes, sin formaldehído, sin ftalatos, con emisiones ultra bajas (TVOC A+)."
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Nuestra Galería",
+      "subtitle": "Descubre nuestras realizaciones e inspiraciones en suelos"
+    },
+    "gallery": {
+      "title": "Nuestra Colección",
+      "subtitle": "Explora nuestras mejores instalaciones de suelos SPC"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contáctanos",
+      "subtitle": "Nuestro equipo está a tu servicio para responder a todas tus preguntas"
+    },
+    "form": {
+      "title": "Envíanos un mensaje",
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "company": "Empresa",
+      "subject": "Asunto",
+      "message": "Tu mensaje",
+      "submit": "Enviar mensaje",
+      "success": "¡Mensaje enviado con éxito!"
+    },
+    "info": {
+      "title": "Nuestros Datos de Contacto",
+      "address": {
+        "label": "Dirección",
+        "value": "Casablanca, Marruecos"
+      },
+      "phone": {
+        "label": "Teléfono",
+        "value": "+212 5 22 XX XX XX"
+      },
+      "email": {
+        "label": "Email",
+        "value": "contact@tekora.ma"
+      },
+      "hours": {
+        "label": "Horario",
+        "value": "Lun - Vie: 9:00 - 18:00"
+      }
+    }
+  },
+  "footer": {
+    "description": "TEKORA y PietraNox: excelencia en suelos SPC premium, con sede en Casablanca, Marruecos.",
+    "quickLinks": "Enlaces Rápidos",
+    "contact": "Contacto",
+    "legal": "Aviso Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "rights": "Todos los derechos reservados."
+  }
+}

@@ -199,7 +199,11 @@
         "description": "Compliance with essential European Union requirements for our products."
       }
     ],
-    "american": {
+  "standards": {
+    "title": "International Standards",
+    "subtitle": "Compliance with the strictest American and European regulations for your safety"
+  },
+  "american": {
       "title": "American Standards",
       "items": [
         "US EPA Certification (Registered & Approved)",
