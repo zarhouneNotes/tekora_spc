@@ -92,6 +92,20 @@
       "title": "Revêtements de Sol SPC",
       "subtitle": "Découvrez notre gamme exceptionnelle de revêtements de sol SPC haut de gamme, équivalents au parquet en esthétique et confort"
     },
+    "categories": {
+      "marble": {
+        "title": "Effet Bois",
+        "description": "Imitation parquet élégante et chaleureuse"
+      },
+      "granite": {
+        "title": "Effet Pierre",
+        "description": "Finition naturelle et sophistiquée"
+      },
+      "onyx": {
+        "title": "Effet Béton",
+        "description": "Style moderne et contemporain"
+      }
+    },
     "features": {
       "title": "Caractéristiques Produit",
       "subtitle": "Des performances exceptionnelles pour tous vos espaces",
