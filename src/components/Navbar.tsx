@@ -1,8 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { useI18n } from '@/context/i18n';
+import { useI18n, languages } from '@/context/i18n';
 import { Button } from './Button';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X, Globe, ChevronDown } from 'lucide-react';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 
 const Navbar = () => {
   const { language, setLanguage, t } = useI18n();
@@ -32,6 +38,8 @@ const Navbar = () => {
   ];
 
   const isActive = (path: string) => location.pathname === path;
+
+  const currentLang = languages.find(l => l.code === language);
 
   return (
     <nav
@@ -72,16 +80,31 @@ const Navbar = () => {
 
           {/* Right Side Actions */}
           <div className="hidden lg:flex items-center space-x-4">
-            {/* Language Selector */}
-            <button
-              onClick={() => setLanguage(language === 'fr' ? 'en' : 'fr')}
-              className={`flex items-center space-x-1 transition-colors duration-200 ${
-                isScrolled ? 'text-foreground hover:text-secondary' : 'text-primary-foreground hover:text-secondary'
-              }`}
-            >
-              <Globe className="w-4 h-4" />
-              <span className="font-poppins font-light text-sm uppercase">{language}</span>
-            </button>
+            {/* Language Selector Dropdown */}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button
+                  className={`flex items-center space-x-1 transition-colors duration-200 ${
+                    isScrolled ? 'text-foreground hover:text-secondary' : 'text-primary-foreground hover:text-secondary'
+                  }`}
+                >
+                  <Globe className="w-4 h-4" />
+                  <span className="font-poppins font-light text-sm uppercase">{language}</span>
+                  <ChevronDown className="w-3 h-3" />
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="min-w-[120px]">
+                {languages.map((lang) => (
+                  <DropdownMenuItem
+                    key={lang.code}
+                    onClick={() => setLanguage(lang.code as any)}
+                    className={`cursor-pointer ${language === lang.code ? 'bg-muted' : ''}`}
+                  >
+                    {lang.label}
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
 
             {/* CTA Button */}
             <Link to="/contact">
