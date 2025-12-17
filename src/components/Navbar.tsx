@@ -9,6 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
+import logo from "../images/logo.png"
 
 const Navbar = () => {
   const { language, setLanguage, t } = useI18n();
@@ -51,12 +52,14 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className={`w-10 h-10 flex items-center justify-center ${isScrolled ? 'bg-primary' : 'bg-primary-foreground'}`}>
+            {/* <div className={`w-10 h-10 flex items-center justify-center ${isScrolled ? 'bg-primary' : 'bg-primary-foreground'}`}>
               <span className={`font-poppins font-bold text-lg ${isScrolled ? 'text-primary-foreground' : 'text-primary'}`}>T</span>
             </div>
             <span className={`ml-3 font-poppins font-semibold text-xl tracking-tight ${isScrolled ? 'text-foreground' : 'text-primary-foreground'}`}>
               TEKORA
-            </span>
+            </span> */}
+
+            <img src={logo} alt="" width={"200px"} />
           </Link>
 
           {/* Desktop Navigation */}

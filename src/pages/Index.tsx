@@ -5,7 +5,9 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/Button';
 import { Card } from '@/components/Card';
+import bg from "@/images/bg.png"
 import { ArrowRight, Gem, Lightbulb, Leaf, Shield } from 'lucide-react';
+import { AnimatedDiv, AnimatedSection } from '@/hooks/useScrollAnimation';
 
 const Index = () => {
   const { t } = useI18n();
@@ -17,11 +19,15 @@ const Index = () => {
       <Navbar />
 
       {/* Hero Section with Background Image */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <AnimatedSection>
+
+     
+      <AnimatedSection className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2070&auto=format&fit=crop')`
+            // backgroundImage: `url('https://images.pexels.com/photos/269063/pexels-photo-269063.jpeg')`
+            backgroundImage: `url('${bg}')`
           }}
         />
         <div className="absolute inset-0 bg-primary/80" />
@@ -42,10 +48,12 @@ const Index = () => {
             </Link>
           </div>
         </div>
-      </section>
-
+      </AnimatedSection >
+       </AnimatedSection>
       {/* About Section */}
-      <section className="py-24 lg:py-32 bg-background">
+
+      
+      <AnimatedDiv className="py-24 lg:py-32 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="fade-up">
@@ -67,7 +75,7 @@ const Index = () => {
             <div className="fade-up-delay-1">
               <div className="aspect-[4/3] bg-muted relative overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
+                  src="https://images.pexels.com/photos/2121120/pexels-photo-2121120.jpeg"
                   alt="Marble texture"
                   className="w-full h-full object-cover"
                 />
@@ -81,10 +89,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </AnimatedDiv >
 
       {/* Values Section */}
-      <section className="py-24 lg:py-32 bg-neutralBg">
+      <AnimatedSection className="py-24 lg:py-32 bg-neutralBg">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="fade-up text-3xl md:text-4xl lg:text-5xl font-poppins font-semibold text-foreground">
@@ -114,10 +122,10 @@ const Index = () => {
             })}
           </div>
         </div>
-      </section>
+      </AnimatedSection >
 
       {/* Products Preview Section */}
-      <section className="py-24 lg:py-32 bg-background">
+      <AnimatedSection className="py-24 lg:py-32 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="fade-up text-3xl md:text-4xl lg:text-5xl font-poppins font-semibold text-foreground">
@@ -131,9 +139,9 @@ const Index = () => {
             {(['marble', 'granite', 'onyx'] as const).map((category, index) => {
               const categoryData = t.products.categories[category];
               const images = [
-                'https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=2127&auto=format&fit=crop',
-                'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070&auto=format&fit=crop',
-                'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2070&auto=format&fit=crop'
+                'https://i.pinimg.com/1200x/3d/42/92/3d4292dbb649ab4b05ffef569089822a.jpg',
+                'https://i.pinimg.com/1200x/3c/2b/d7/3c2bd79a80528d6bde1a68cdaad37cda.jpg',
+                'https://i.pinimg.com/1200x/96/32/76/963276969ee2f184844cbaea8087183c.jpg'
               ];
               return (
                 <div
@@ -167,10 +175,10 @@ const Index = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </AnimatedSection >
 
       {/* CTA Section */}
-      <section className="py-24 lg:py-32 bg-primary">
+      <AnimatedSection className="py-24 lg:py-32 bg-primary">
         <div className="container mx-auto px-4 lg:px-8 text-center">
           <h2 className="fade-up text-3xl md:text-4xl lg:text-5xl font-poppins font-semibold text-primary-foreground max-w-3xl mx-auto">
             {t.home.cta.title}
@@ -186,7 +194,7 @@ const Index = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </AnimatedSection >
 
       <Footer />
     </div>

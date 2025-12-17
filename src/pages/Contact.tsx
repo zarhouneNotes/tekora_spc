@@ -180,11 +180,11 @@ const Contact = () => {
       </section>
 
       {/* Map + Contact Info Section */}
-      <section className="py-24 lg:py-32 bg-background">
+      <section className="py-24  lg:py-32 bg-black">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-8">
+          <div className="grid lg:grid-cols-2   gap-8">
             {/* Map */}
-            <div className="fade-up aspect-video lg:aspect-auto lg:h-full bg-muted relative min-h-[300px]">
+            <div className="fade-up  lg:aspect-auto lg:h-full bg-muted relative min-h-[300px]">
               <div className="absolute inset-0 flex items-center justify-center">
                 <MapPin className="w-12 h-12 text-muted-foreground/50" />
               </div>

@@ -2,60 +2,116 @@ import React from 'react';
 import { useI18n } from '@/context/i18n';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { Card } from '@/components/Card';
+import { ArrowRight } from 'lucide-react';
+import { Button } from '@/components/Button';
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
   const { t } = useI18n();
 
-  const galleryImages = [
+  
+
+
+  const imagesWithNames = [
     {
-      src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop',
-      size: 'large'
+      url: "https://ik.imagekit.io/tekora/JCL-8032-1.png",
+      name: "JCL-8032-1",
     },
     {
-      src: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop',
-      size: 'medium'
+      url: "https://ik.imagekit.io/tekora/JCL-8096-1.png",
+      name: "JCL-8096-1",
     },
     {
-      src: 'https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=2127&auto=format&fit=crop',
-      size: 'small'
+      url: "https://ik.imagekit.io/tekora/JCL-8081-37.png",
+      name: "JCL-8081-37",
     },
     {
-      src: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop',
-      size: 'medium'
+      url: "https://ik.imagekit.io/tekora/JCL-8039-3.png",
+      name: "JCL-8039-3",
     },
     {
-      src: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2070&auto=format&fit=crop',
-      size: 'large'
+      url: "https://ik.imagekit.io/tekora/JCL-8039-6.png",
+      name: "JCL-8039-6",
     },
     {
-      src: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070&auto=format&fit=crop',
-      size: 'small'
+      url: "https://ik.imagekit.io/tekora/JCL-8066-1.png",
+      name: "JCL-8066-1",
     },
     {
-      src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2070&auto=format&fit=crop',
-      size: 'medium'
+      url: "https://ik.imagekit.io/tekora/JCL-8075-2.png",
+      name: "JCL-8075-2",
     },
     {
-      src: 'https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?q=80&w=2070&auto=format&fit=crop',
-      size: 'small'
+      url: "https://ik.imagekit.io/tekora/JCL-8071-1.png",
+      name: "JCL-8071-1",
     },
     {
-      src: 'https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=2074&auto=format&fit=crop',
-      size: 'large'
+      url: "https://ik.imagekit.io/tekora/JCL-8103-1.png",
+      name: "JCL-8103-1",
     },
     {
-      src: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=2084&auto=format&fit=crop',
-      size: 'medium'
+      url: "https://ik.imagekit.io/tekora/JCL-8075-9.png",
+      name: "JCL-8075-9",
     },
     {
-      src: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070&auto=format&fit=crop',
-      size: 'small'
+      url: "https://ik.imagekit.io/tekora/JCL-8066-3.png",
+      name: "JCL-8066-3",
     },
     {
-      src: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?q=80&w=2070&auto=format&fit=crop',
-      size: 'medium'
-    }
+      url: "https://ik.imagekit.io/tekora/JCL-8096-11.png",
+      name: "JCL-8096-11",
+    }, {
+      url: "https://ik.imagekit.io/tekora/JCL-8105-2.png",
+      name: "JCL-8105-2",
+    },
+    {
+      url: "https://ik.imagekit.io/tekora/JCL-8117-2.png",
+      name: "JCL-8117-2",
+    },
+    {
+      url: "https://ik.imagekit.io/tekora/JCL-8103-6.png",
+      name: "JCL-8103-6",
+    },
+    {
+      url: "https://ik.imagekit.io/tekora/JCL-8103-1.png",
+      name: "JCL-8103-1",
+    },
+    {
+      url: "https://ik.imagekit.io/tekora/JCL-8105-11.png",
+      name: "JCL-8105-11",
+    },
+    {
+      url: "https://ik.imagekit.io/tekora/JCL-8602K-3.png",
+      name: "JCL-8602K-3",
+    },
+    {
+      url: "https://ik.imagekit.io/tekora/JCL-8131-2.png",
+      name: "JCL-8131-2",
+    },
+    {
+      url: "https://ik.imagekit.io/tekora/JCL-8131-1.png",
+      name: "JCL-8131-1",
+    },
+    {
+      url: "https://ik.imagekit.io/tekora/JCL-8117-8.png",
+      name: "JCL-8117-8",
+    },
+    {
+      url: "https://ik.imagekit.io/tekora/JCL-8601K-1.png",
+      name: "JCL-8601K-1",
+    },
+    {
+      url: "https://ik.imagekit.io/tekora/JCL-8117-1.png",
+      name: "JCL-8117-1",
+    },
+    {
+      url: "https://ik.imagekit.io/tekora/JCL-8131-1.png",
+      name: "JCL-8131-1",
+    },
+    
   ];
+  
 
   return (
     <div className="min-h-screen bg-background">
@@ -75,37 +131,55 @@ const Blog = () => {
 
       {/* Pinterest-style Gallery */}
       <section className="py-24 lg:py-32 bg-background">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
-            {galleryImages.map((image, index) => {
-              const heightClass = 
-                image.size === 'large' ? 'h-[450px]' : 
-                image.size === 'medium' ? 'h-[350px]' : 'h-[250px]';
-              
+        <div className="container mx-auto px-2 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4  ">
+            {imagesWithNames.map((img , i) => {
+            
               return (
-                <div 
-                  key={index}
-                  className={`fade-up break-inside-avoid overflow-hidden group cursor-pointer relative ${heightClass}`}
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
-                  <img 
-                    src={image.src}
-                    alt={`Gallery ${index + 1}`}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/40 transition-all duration-500" />
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    <div className="w-16 h-16 border-2 border-primary-foreground flex items-center justify-center">
-                      <span className="text-primary-foreground font-poppins font-light text-2xl">+</span>
-                    </div>
-                  </div>
+              <div
+                key={i}
+                className="rounded-md relative h-[140px] overflow-hidden rounded-lg cursor-pointer group "
+              >
+                <img
+                style={{borderRadius : "30px"}}
+                  src={img.url}
+                  alt={img.name}
+                  className="w-full h-full object-cover transition-transform duration-300  ease-out group-hover:scale-110"
+                />
+
+                {/* Overlay */}
+                <div className="absolute inset-0 flex items-center justify-center bg-bla">
+                  <span className="text-white font-bold text-sm tracking-wide">
+                    {img.name}
+                  </span>
                 </div>
+              </div>
               );
             })}
           </div>
         </div>
-      </section>
 
+
+        <div className="container mx-auto p-4 my-5 lg:px-8">
+          <Card variant="elevated" className="fade-up text-center py-16 px-8">
+            <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-foreground mb-4">
+              {t.products.cta.title}
+            </h2>
+            <p className="font-poppins font-light text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
+              {t.products.cta.description}
+            </p>
+            <Link to="/contact">
+              <Button variant="solid" size="lg" className="group">
+                {t.products.cta.button}
+                <ArrowRight className="ml-2 w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
+              </Button>
+            </Link>
+          </Card>
+        </div>
+      </section>
+      {/* <section className="py-24 lg:py-32 bg-neutralBg">
+        
+      </section> */}
       <Footer />
     </div>
   );

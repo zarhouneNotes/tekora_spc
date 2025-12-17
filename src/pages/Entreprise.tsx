@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/Button';
 import { Card } from '@/components/Card';
 import { ArrowRight } from 'lucide-react';
+import { AnimatedSection } from '@/hooks/useScrollAnimation';
 
 const Entreprise = () => {
   const { t } = useI18n();
@@ -15,7 +16,7 @@ const Entreprise = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 bg-primary">
+      <AnimatedSection className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 bg-primary">
         <div className="container mx-auto px-4 lg:px-8 text-center">
           <h1 className="fade-up text-4xl md:text-5xl lg:text-6xl font-poppins font-semibold text-primary-foreground">
             {t.company.hero.title}
@@ -24,10 +25,10 @@ const Entreprise = () => {
             {t.company.hero.subtitle}
           </p>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Story Section with Image */}
-      <section className="py-24 lg:py-32 bg-background">
+      <AnimatedSection className="py-24 lg:py-32 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="fade-up order-2 lg:order-1">
@@ -57,7 +58,7 @@ const Entreprise = () => {
             <div className="fade-up-delay-1 order-1 lg:order-2">
               <div className="aspect-[4/5] relative overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
+                  src="https://i.pinimg.com/736x/ed/0f/cf/ed0fcf54c4d2b0646e81ee6f4ec4685e.jpg"
                   alt="TEKORA headquarters"
                   className="w-full h-full object-cover"
                 />
@@ -71,10 +72,10 @@ const Entreprise = () => {
             </div>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Timeline Section - Horizontal Line with Islands */}
-      <section className="py-24 lg:py-32 bg-neutralBg overflow-hidden">
+      <AnimatedSection className="py-24 lg:py-32 bg-neutralBg overflow-hidden">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="fade-up text-3xl md:text-4xl font-poppins font-semibold text-foreground">
@@ -128,10 +129,10 @@ const Entreprise = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Mission & Vision Section - Redesigned */}
-      <section className="py-24 lg:py-32 bg-background">
+      <AnimatedSection className="py-24 lg:py-32 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           {/* Section Title */}
           <div className="text-center mb-16">
@@ -149,7 +150,7 @@ const Entreprise = () => {
             <div className="fade-up lg:self-start">
               <div className="aspect-[4/5] overflow-hidden rounded-lg shadow-2xl shadow-primary/10">
                 <img 
-                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
+                  src="https://i.pinimg.com/736x/99/af/e6/99afe6c109bad52833880ffeb591e350.jpg"
                   alt="Quality flooring"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
@@ -158,13 +159,13 @@ const Entreprise = () => {
             
             {/* Mission Card - Center aligned */}
             <Card variant="elevated" className="fade-up-delay-1 lg:self-center shadow-xl shadow-secondary/10 border-l-4 border-secondary">
-              <div className="w-16 h-16 rounded-lg overflow-hidden mb-6">
+              {/* <div className="w-16 h-16 rounded-lg overflow-hidden mb-6">
                 <img 
                   src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
                   alt="Mission"
                   className="w-full h-full object-cover"
                 />
-              </div>
+              </div> */}
               <h3 className="text-2xl font-poppins font-semibold text-foreground mb-4">
                 {t.company.mission.title}
               </h3>
@@ -175,13 +176,13 @@ const Entreprise = () => {
             
             {/* Vision Card - Bottom aligned */}
             <Card variant="elevated" className="fade-up-delay-2 lg:self-end shadow-xl shadow-secondary/10 border-l-4 border-primary">
-              <div className="w-16 h-16 rounded-lg overflow-hidden mb-6">
+              {/* <div className="w-16 h-16 rounded-lg overflow-hidden mb-6">
                 <img 
                   src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?q=80&w=200&auto=format&fit=crop"
                   alt="Vision"
                   className="w-full h-full object-cover"
                 />
-              </div>
+              </div> */}
               <h3 className="text-2xl font-poppins font-semibold text-foreground mb-4">
                 {t.company.vision.title}
               </h3>
@@ -191,10 +192,10 @@ const Entreprise = () => {
             </Card>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Partners Section (formerly PietraNox) */}
-      <section className="py-24 lg:py-32 bg-neutralBg">
+      <AnimatedSection className="py-24 lg:py-32 bg-neutralBg">
         <div className="container mx-auto px-4 lg:px-8">
           {/* Section Header */}
           <div className="text-center mb-16">
@@ -210,20 +211,20 @@ const Entreprise = () => {
             <div className="fade-up">
               <div className="aspect-[4/3] overflow-hidden rounded-lg shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
+                  src="https://i.pinimg.com/736x/1d/18/88/1d1888cb65ea90dfec3f04a69a27dc90.jpg"
                   alt="PietraNox SPC flooring"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
             </div>
             <div className="fade-up-delay-1">
-              <div className="w-16 h-16 rounded-lg overflow-hidden mb-6 shadow-lg">
+              {/* <div className="w-16 h-16 rounded-lg overflow-hidden mb-6 shadow-lg">
                 <img 
                   src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=200&auto=format&fit=crop"
                   alt="PietraNox logo"
                   className="w-full h-full object-cover"
                 />
-              </div>
+              </div> */}
               <h3 className="text-3xl md:text-4xl font-poppins font-semibold text-foreground mb-6">
                 {t.company.pietranox.title}
               </h3>
@@ -242,7 +243,7 @@ const Entreprise = () => {
             </div>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       <Footer />
     </div>
