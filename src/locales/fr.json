@@ -266,7 +266,7 @@
       "title": "Nos Coordonnées",
       "address": {
         "label": "Adresse",
-        "value": "Casablanca, Maroc"
+        "value": "169, BD YACOUB EL MANSOUR (à côté d'Oulmès) 4 étage , Casablanca."
       },
       "phone": {
         "label": "Téléphone",
@@ -278,7 +278,7 @@
       },
       "hours": {
         "label": "Horaires",
-        "value": "Lun - Ven : 9h00 - 18h00"
+        "value": "Lun - Ven : "
       }
     }
   },

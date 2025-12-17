@@ -10,11 +10,13 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import logo from "../images/logo.png"
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const Navbar = () => {
   const { language, setLanguage, t } = useI18n();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const isMobile = useIsMobile()
   const location = useLocation();
 
   useEffect(() => {
@@ -59,7 +61,7 @@ const Navbar = () => {
               TEKORA
             </span> */}
 
-            <img src={logo} alt="" width={"200px"} />
+            <img src={logo} alt="" width={isMobile ? "150px" : "200px"} />
           </Link>
 
           {/* Desktop Navigation */}

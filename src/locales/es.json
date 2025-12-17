@@ -266,7 +266,7 @@
       "title": "Nuestros Datos de Contacto",
       "address": {
         "label": "Dirección",
-        "value": "Casablanca, Marruecos"
+        "value": "169, Boulevard Yacoub El Mansour (al lado de Oulmès) 4.º piso, Casablanca, Marruecos"
       },
       "phone": {
         "label": "Teléfono",
@@ -278,7 +278,7 @@
       },
       "hours": {
         "label": "Horario",
-        "value": "Lun - Vie: 9:00 - 18:00"
+        "value": "Lun - Vie: "
       }
     }
   },

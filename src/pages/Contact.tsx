@@ -24,20 +24,29 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: t.contact.form.success,
-      description: t.home.about.cta === 'En savoir plus' 
-        ? 'Nous vous répondrons dans les plus brefs délais.' 
-        : 'We will get back to you as soon as possible.',
-    });
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      company: '',
-      subject: '',
-      message: '',
-    });
+    // const form_data = new FormData()
+    // form_data.append("name" , formData.name)
+    // form_data.append("email" , formData.email)
+    // form_data.append("phone" , formData.phone)
+    // form_data.append("company" , formData.company)
+    // form_data.append("subject" , formData.subject)
+    // form_data.append("message" , formData.message)
+    // console.log(form_data)
+    
+    // toast({
+    //   title: t.contact.form.success,
+    //   description: t.home.about.cta === 'En savoir plus' 
+    //     ? 'Nous vous répondrons dans les plJus brefs délais.' 
+    //     : 'We will get back to you as soon as possible.',
+    // });
+    // setFormData({
+    //   name: '',
+    //   email: '',
+    //   phone: '',
+    //   company: '',
+    //   subject: '',
+    //   message: '',
+    // });
   };
 
   const contactInfo = [
@@ -49,7 +58,7 @@ const Contact = () => {
     {
       icon: Phone,
       label: t.contact.info.phone.label,
-      value: t.contact.info.phone.value,
+      value: "+2126-621-311-38",
     },
     {
       icon: Mail,
@@ -59,7 +68,7 @@ const Contact = () => {
     {
       icon: Clock,
       label: t.contact.info.hours.label,
-      value: t.contact.info.hours.value,
+      value: t.contact.info.hours.value + "9h00-18h00",
     },
   ];
 
@@ -68,7 +77,7 @@ const Contact = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 bg-primary">
+      <section className="relative pt-32 pb- lg:pt-40 l1 bg-primary">
         <div className="container mx-auto px-4 lg:px-8 text-center">
           <h1 className="fade-up text-4xl md:text-5xl lg:text-6xl font-poppins font-semibold text-primary-foreground">
             {t.contact.hero.title}
@@ -81,8 +90,8 @@ const Contact = () => {
 
       {/* Contact Form Section - Full Width with Primary BG */}
       <section className="py-24 lg:py-32 bg-primary">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="max-w-3xl mx-auto">
+        <div className="container mx-aut px-4 lg:px-8">
+          <div className="max-w-5xl mx-auto">
             {/* Form Container - White BG */}
             <div className="fade-up bg-background p-8 md:p-12">
               <h2 className="text-2xl md:text-3xl font-poppins font-semibold text-foreground mb-8 text-center">
@@ -180,14 +189,22 @@ const Contact = () => {
       </section>
 
       {/* Map + Contact Info Section */}
-      <section className="py-24  lg:py-32 bg-black">
+      <section className="py-24  lg:py-32 bg-">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2   gap-8">
             {/* Map */}
             <div className="fade-up  lg:aspect-auto lg:h-full bg-muted relative min-h-[300px]">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <MapPin className="w-12 h-12 text-muted-foreground/50" />
-              </div>
+
+            <div className="w-full h-full">
+            <iframe
+        title="Google Map Location"
+        src="https://www.google.com/maps?q=33.571327,-7.650570&z=16&output=embed"
+        className="w-full h-full border-0"
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+            
             </div>
 
             {/* Contact Info */}

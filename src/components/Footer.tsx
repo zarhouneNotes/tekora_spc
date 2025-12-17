@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useI18n } from '@/context/i18n';
+import logo from "@/images/logo.png"
 
 const Footer = () => {
   const { t } = useI18n();
@@ -17,19 +18,15 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid bg-seconda grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {/* Brand */}
-          <div className="space-y-6">
+          <div className="space-y-6 ">
             <div className="flex items-center">
-              <div className="w-10 h-10 bg-secondary flex items-center justify-center">
-                <span className="text-secondary-foreground font-poppins font-bold text-lg">T</span>
-              </div>
-              <span className="ml-3 font-poppins font-semibold text-xl tracking-tight">
-                TEKORA
-              </span>
+        
+              <img src={logo} alt="" width={"150px"} />
             </div>
             <p className="font-poppins font-light text-sm leading-relaxed opacity-80">
-              {t.footer.description}
+              {t.company.hero.subtitle}
             </p>
           </div>
 
@@ -55,12 +52,11 @@ const Footer = () => {
             <h4 className="font-poppins font-semibold text-base mb-6">{t.footer.contact}</h4>
             <ul className="space-y-3">
               <li className="font-poppins font-light text-sm opacity-80">
-                123 Avenue de l'Excellence<br />
-                75008 Paris, France
+                {t.contact.info.address.value}
               </li>
               <li>
                 <a
-                  href="tel:+33123456789"
+                  href="tel:+212662131138"
                   className="font-poppins font-light text-sm opacity-80 hover:opacity-100 hover:text-secondary transition-all duration-200"
                 >
                   +33 1 23 45 67 89
@@ -78,7 +74,7 @@ const Footer = () => {
           </div>
 
           {/* Legal */}
-          <div>
+          {/* <div>
             <h4 className="font-poppins font-semibold text-base mb-6">{t.footer.legal}</h4>
             <ul className="space-y-3">
               <li>
@@ -98,13 +94,13 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
           <p className="font-poppins font-light text-sm text-center opacity-60">
-            © {new Date().getFullYear()} TEKORA & PietraNox. {t.footer.rights}
+            © {new Date().getFullYear()} TEKORA. {t.footer.rights}
           </p>
         </div>
       </div>

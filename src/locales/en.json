@@ -266,7 +266,7 @@
       "title": "Our Contact Details",
       "address": {
         "label": "Address",
-        "value": "Casablanca, Morocco"
+        "value": "169, BD YACOUB EL MANSOUR (next to Oulmès) 4th floor, Casablanca."
       },
       "phone": {
         "label": "Phone",
@@ -278,7 +278,7 @@
       },
       "hours": {
         "label": "Hours",
-        "value": "Mon - Fri: 9:00 AM - 6:00 PM"
+        "value": "Mon - Fri: "
       }
     }
   },
