@@ -59,7 +59,7 @@ const Footer = () => {
                   href="tel:+212662131138"
                   className="font-poppins font-light text-sm opacity-80 hover:opacity-100 hover:text-secondary transition-all duration-200"
                 >
-                  +33 1 23 45 67 89
+                  +2126-621-311-38
                 </a>
               </li>
               <li>
