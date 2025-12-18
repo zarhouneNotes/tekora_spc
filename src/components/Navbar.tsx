@@ -54,14 +54,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            {/* <div className={`w-10 h-10 flex items-center justify-center ${isScrolled ? 'bg-primary' : 'bg-primary-foreground'}`}>
-              <span className={`font-poppins font-bold text-lg ${isScrolled ? 'text-primary-foreground' : 'text-primary'}`}>T</span>
-            </div>
-            <span className={`ml-3 font-poppins font-semibold text-xl tracking-tight ${isScrolled ? 'text-foreground' : 'text-primary-foreground'}`}>
-              TEKORA
-            </span> */}
+            
 
-            <img src={logo} alt="" width={isMobile ? "150px" : "200px"} />
+            <img src={"https://ik.imagekit.io/tekora/logo-removebg-preview%20(1).png"} alt="" width={isMobile ? "150px" : "200px"} />
           </Link>
 
           {/* Desktop Navigation */}
@@ -120,6 +115,33 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
+
+          <div className=' lg:hidden ml-auto'>
+             <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button
+                  className={`flex items-center space-x-1 transition-colors duration-200 ${
+                    isScrolled ? 'text-foreground hover:text-secondary' : 'text-primary-foreground hover:text-secondary'
+                  }`}
+                >
+                  <Globe className="w-4 h-4" />
+                  <span className="font-poppins font-light text-sm uppercase">{language}</span>
+                  <ChevronDown className="w-3 h-3" />
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="min-w-[120px]">
+                {languages.map((lang) => (
+                  <DropdownMenuItem
+                    key={lang.code}
+                    onClick={() => setLanguage(lang.code as any)}
+                    className={`cursor-pointer ${language === lang.code ? 'bg-muted' : ''}`}
+                  >
+                    {lang.label}
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className={`lg:hidden p-2 ${isScrolled ? 'text-foreground' : 'text-primary-foreground'}`}
@@ -145,7 +167,7 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
-              <div className="px-4 py-3 flex items-center justify-between border-t border-border mt-2 pt-4">
+              {/* <div className="px-4 py-3 flex items-center justify-between border-t border-border mt-2 pt-4">
                 <button
                   onClick={() => setLanguage(language === 'fr' ? 'en' : 'fr')}
                   className="flex items-center space-x-2 text-foreground"
@@ -158,7 +180,17 @@ const Navbar = () => {
                     {t.nav.quote}
                   </Button>
                 </Link>
-              </div>
+              </div> */}
+
+
+            
+
+
+
+
+
+
+
             </div>
           </div>
         )}

@@ -12,6 +12,7 @@ import Certifications from "./pages/Certifications";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import WhatsAppBubble from "./components/WhatsapButton";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <WhatsAppBubble />
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
