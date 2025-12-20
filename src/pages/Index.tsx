@@ -53,7 +53,7 @@ const Index = () => {
       {/* About Section */}
 
       
-      <AnimatedDiv className="py-24 lg:py-32 bg-background">
+      <div className="py-24 lg:py-32 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="fade-up">
@@ -82,14 +82,14 @@ const Index = () => {
                 <div className="absolute bottom-6 left-6 right-6 bg-primary/90 p-6">
                   <p className="font-poppins font-semibold text-primary-foreground text-2xl">20+</p>
                   <p className="font-poppins font-light text-primary-foreground/80 text-sm mt-1">
-                    {t.home.about.cta === 'En savoir plus' ? "Années d'excellence" : 'Years of Excellence'}
+                    {t.home.about.cta }
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </AnimatedDiv >
+      </div >
 
       {/* Values Section */}
       <AnimatedSection className="py-24 lg:py-32 bg-neutralBg">
@@ -108,8 +108,8 @@ const Index = () => {
                   variant="elevated"
                   className={`fade-up-delay-${index + 1} text-center group hover:-translate-y-2`}
                 >
-                  <div className="w-16 h-16 mx-auto bg-secondary/10 flex items-center justify-center mb-6 transition-colors duration-300 group-hover:bg-secondary">
-                    <Icon className="w-8 h-8 text-secondary transition-colors duration-300 group-hover:text-secondary-foreground" />
+                  <div style={{backgroundColor : 'rgb(0,86,27 , 0.2)'}} className="w-16 h-16 mx-auto  flex items-center justify-center mb-6 transition-colors duration-300 group-hover:bg-secondary">
+                    <Icon className="w-8 h-8  transition-colors duration-300 "  color='#00561b'/>
                   </div>
                   <h3 className="text-xl font-poppins font-semibold text-foreground mb-3">
                     {value.title}
@@ -135,10 +135,11 @@ const Index = () => {
               {t.home.products.subtitle}
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {(['marble', 'granite', 'onyx'] as const).map((category, index) => {
+          <div className="grid md:grid-cols-4 gap-8">
+            {(['marbre' , 'marble', 'granite', 'onyx'] as const).map((category, index) => {
               const categoryData = t.products.categories[category];
               const images = [
+                "https://i.pinimg.com/736x/51/37/d8/5137d8351aba78e3632a17fdbf00c7cf.jpg" ,
                 'https://i.pinimg.com/1200x/3d/42/92/3d4292dbb649ab4b05ffef569089822a.jpg',
                 'https://i.pinimg.com/1200x/3c/2b/d7/3c2bd79a80528d6bde1a68cdaad37cda.jpg',
                 'https://i.pinimg.com/1200x/96/32/76/963276969ee2f184844cbaea8087183c.jpg'

@@ -4,46 +4,46 @@
     "company": "Azienda",
     "products": "Prodotti",
     "certifications": "Certificazioni",
-    "blog": "Blog",
-    "contact": "Contatto",
-    "quote": "Richiedi un preventivo"
+    "blog": "Galleria",
+    "contact": "Contatti",
+    "quote": "Richiedi un Preventivo"
   },
   "home": {
     "hero": {
-      "title": "TEKORA – Esperto in Pavimenti SPC Premium",
-      "subtitle": "Importatore e distributore leader a Casablanca, offriamo soluzioni di pavimentazione durevoli ed estetiche in partnership con PietraNox.",
-      "cta": "Scopri i nostri prodotti"
+      "title": "TEKORA. – Esperti in Pavimenti SPC di Alta Gamma",
+      "subtitle": "Importatore e distributore di riferimento con sede a Casablanca, offriamo soluzioni di pavimentazione durevoli ed estetiche in partnership con PietraNox.",
+      "cta": "Scopri i Nostri Prodotti"
     },
     "about": {
       "title": "Chi Siamo",
-      "description": "TEKORA, con sede a Casablanca, è specializzata nell'importazione e distribuzione di pavimenti SPC premium. In partnership con PietraNox, il nostro partner produttore, offriamo prodotti certificati secondo gli standard internazionali più esigenti, garantendo qualità, durabilità e affidabilità.",
-      "cta": "Scopri di più"
+      "description": "TEKORA., con sede a Casablanca, è specializzata nell’importazione e distribuzione di pavimenti SPC di alta gamma. In collaborazione con PietraNox, nostro partner produttivo, offriamo prodotti certificati secondo i più elevati standard internazionali, garantendo qualità, durata e affidabilità.",
+      "cta": "Oltre 20 anni di eccellenza nel settore delle pavimentazioni"
     },
     "values": {
       "title": "I Nostri Valori",
       "items": [
         {
           "title": "Eccellenza",
-          "description": "Puntiamo all'eccellenza in ogni prodotto, dalla selezione delle materie prime vergini alla consegna finale."
+          "description": "Puntiamo all’eccellenza in ogni prodotto, dalla selezione delle materie prime vergini alla consegna finale."
         },
         {
           "title": "Innovazione",
-          "description": "Investiamo continuamente in tecnologie all'avanguardia per offrire soluzioni SPC innovative."
+          "description": "Investiamo costantemente in tecnologie all’avanguardia per offrire soluzioni SPC innovative."
         },
         {
           "title": "Sostenibilità",
-          "description": "I nostri prodotti ecologici senza formaldeide sono riciclabili e rispettosi dell'ambiente."
+          "description": "I nostri prodotti ecologici, privi di formaldeide, sono riciclabili e rispettosi dell’ambiente."
         },
         {
           "title": "Affidabilità",
-          "description": "Garanzia 10 anni e conformità agli standard italiani, europei e americani più rigorosi."
+          "description": "Garanzia di 10 anni e conformità ai più rigorosi standard italiani, europei e americani."
         }
       ]
     },
     "products": {
       "title": "I Nostri Prodotti",
-      "subtitle": "Una gamma completa di pavimenti SPC premium, equivalenti al parquet per estetica e comfort",
-      "cta": "Vedi tutti i prodotti"
+      "subtitle": "Una gamma completa di pavimenti SPC di alta gamma, equivalenti al parquet per estetica e comfort",
+      "cta": "Vedi Tutti i Prodotti"
     },
     "cta": {
       "title": "Pronto a trasformare il tuo spazio?",
@@ -53,58 +53,58 @@
   },
   "company": {
     "hero": {
-      "title": "Chi è TEKORA",
-      "subtitle": "Leader nell'importazione e distribuzione di pavimenti SPC premium a Casablanca, in partnership con PietraNox per un'eccellenza qualitativa."
+      "title": "Chi è TEKORA.",
+      "subtitle": "Leader nell’importazione e distribuzione di pavimenti SPC di alta gamma a Casablanca, in partnership con PietraNox per un’eccellenza garantita."
     },
     "story": {
-      "title": "TEKORA",
-      "content": "TEKORA, con sede a Casablanca, è specializzata nell'importazione e distribuzione di pavimenti SPC (Stone Plastic Composite) premium. I nostri prodotti offrono estetica e comfort equivalenti al parquet tradizionale, essendo notevolmente più resistenti e durevoli.",
-      "content2": "Conformi agli standard italiani e certificati FloorScore, CE, IAF, SGS, ISO9001, ISO14001, i nostri pavimenti sono adatti ai sistemi click 2G e 5G. Garantiscono qualità, durabilità e affidabilità per tutti i vostri progetti, residenziali o commerciali.",
-      "content3": "I nostri pavimenti sono perfetti per case, bagni, cucine, uffici, negozi, hotel e locali ad alto passaggio. Con un eccellente rapporto qualità-prezzo e una garanzia di 10 anni, miriamo a stabilire partnership durature con sviluppatori immobiliari, architetti, installatori e rivenditori.",
-      "ctaProducts": "Scopri i nostri prodotti",
+      "title": "TEKORA.",
+      "content": "TEKORA., con sede a Casablanca, è specializzata nell’importazione e distribuzione di pavimenti SPC (Stone Plastic Composite) di alta gamma. I nostri prodotti offrono un’estetica e un comfort paragonabili al parquet tradizionale, con una resistenza e una durata nettamente superiori.",
+      "content2": "Conformi agli standard italiani e certificati FloorScore, CE, IAF, SGS, ISO9001 e ISO14001, i nostri pavimenti supportano sistemi di incastro 2G e 5G, garantendo qualità, durata e affidabilità per progetti residenziali e commerciali.",
+      "content3": "I nostri pavimenti sono ideali per abitazioni, bagni, cucine, uffici, negozi, hotel e ambienti ad alto traffico. Con un eccellente rapporto qualità-prezzo e una garanzia di 10 anni, puntiamo a costruire partnership durature con promotori immobiliari, architetti, installatori e rivenditori.",
+      "ctaProducts": "Scopri i Nostri Prodotti",
       "ctaContact": "Contattaci",
-      "milestone1": "Fondazione dell'azienda",
-      "milestone2": "Lancio PietraNox",
-      "milestone3": "Espansione internazionale",
+      "milestone1": "Fondazione dell’Azienda",
+      "milestone2": "Lancio di PietraNox",
+      "milestone3": "Espansione Internazionale",
       "milestone4": "Certificazione ISO 9001"
     },
     "timeline": {
       "title": "Il Nostro Percorso",
-      "subtitle": "Le tappe chiave che hanno plasmato il nostro successo e la nostra crescita nel corso degli anni",
-      "cta": "Scopri i nostri prodotti"
+      "subtitle": "Le tappe fondamentali che hanno segnato la nostra crescita e il nostro successo",
+      "cta": "Scopri i Nostri Prodotti"
     },
     "missionVision": {
       "title": "Il Nostro Impegno",
-      "subtitle": "Una missione chiara e una visione ambiziosa per il futuro dei pavimenti"
+      "subtitle": "Una missione chiara e una visione ambiziosa per il futuro delle pavimentazioni"
     },
     "mission": {
       "title": "La Nostra Missione",
-      "content": "Fornire soluzioni di pavimentazione SPC della massima qualità, adatte a tutti gli spazi e tutti gli utenti – privati, professionisti e sviluppatori immobiliari – nel rispetto dell'ambiente."
+      "content": "Fornire soluzioni di pavimentazione SPC della massima qualità, adatte a tutti gli spazi e a tutti gli utenti – privati, professionisti e sviluppatori immobiliari – nel rispetto dell’ambiente."
     },
     "vision": {
       "title": "La Nostra Visione",
-      "content": "Diventare il partner di riferimento per progetti di pavimentazione eccezionali, riconosciuti per la nostra competenza, innovazione e impegno verso qualità e sostenibilità."
+      "content": "Diventare il partner di riferimento per progetti di pavimentazione d’eccellenza, riconosciuti per competenza, innovazione e impegno verso qualità e sostenibilità."
     },
     "partners": {
       "title": "I Nostri Partner",
-      "subtitle": "Collaborazioni strategiche per un'eccellenza condivisa"
+      "subtitle": "Collaborazioni strategiche per un’eccellenza condivisa"
     },
     "pietranox": {
       "title": "PietraNox",
-      "content": "PietraNox è un'azienda innovativa situata a Casablanca, Marocco, specializzata nella produzione di pavimenti SPC (Stone Plastic Composite). Il nostro modello di business si basa sulla vendita all'ingrosso a rivenditori e distributori, nonché sull'esportazione verso mercati strategici come l'Unione Europea e gli Stati Uniti, che rappresentano l'85% del nostro fatturato.",
-      "content2": "Ci rivolgiamo principalmente ad aziende di costruzione e ristrutturazione, nonché a distributori e importatori alla ricerca di soluzioni di pavimentazione durevoli, estetiche e ad alte prestazioni. Grazie alla nostra competenza tecnica e al nostro impegno per la qualità, PietraNox si è affermata come partner affidabile per tutti i vostri progetti su larga scala.",
-      "cta": "Vedi i nostri prodotti SPC"
+      "content": "PietraNox è un’azienda innovativa con sede a Casablanca, in Marocco, specializzata nella produzione di pavimenti SPC (Stone Plastic Composite). Il nostro modello di business si basa sulla vendita all’ingrosso a rivenditori e distributori, oltre all’esportazione verso mercati strategici come l’Unione Europea e gli Stati Uniti, che rappresentano l’85% del nostro fatturato.",
+      "content2": "Ci rivolgiamo principalmente ad aziende di costruzione e ristrutturazione, nonché a distributori e importatori alla ricerca di soluzioni di pavimentazione durevoli, estetiche e ad alte prestazioni. Grazie alla nostra competenza tecnica e all’impegno per la qualità, PietraNox si afferma come partner affidabile per progetti di grande scala.",
+      "cta": "Vedi i Prodotti SPC"
     }
   },
   "products": {
     "hero": {
       "title": "Pavimenti SPC",
-      "subtitle": "Scopri la nostra eccezionale gamma di pavimenti SPC premium, equivalenti al parquet per estetica e comfort"
+      "subtitle": "Scopri la nostra gamma eccezionale di pavimenti SPC di alta gamma, equivalenti al parquet per estetica e comfort"
     },
     "categories": {
       "marble": {
         "title": "Effetto Legno",
-        "description": "Imitazione parquet elegante e calda"
+        "description": "Elegante e caldo effetto parquet"
       },
       "granite": {
         "title": "Effetto Pietra",
@@ -113,73 +113,77 @@
       "onyx": {
         "title": "Effetto Cemento",
         "description": "Stile moderno e contemporaneo"
+      },
+      "marbre": {
+        "title": "Effetto Marmo",
+        "description": "Design unico ed elegante"
       }
     },
     "features": {
       "title": "Caratteristiche del Prodotto",
-      "subtitle": "Prestazioni eccezionali per tutti i vostri spazi",
+      "subtitle": "Prestazioni eccezionali per tutti i tuoi spazi",
       "water": {
-        "title": "Resistenza all'Acqua",
-        "description": "100% impermeabile, ideale per tutte le stanze",
-        "longDescription": "I nostri pavimenti SPC sono 100% impermeabili, ideali per tutte le stanze incluse cucine e bagni. La tecnologia impermeabile garantisce che né l'umidità né gli schizzi compromettano la durabilità del pavimento, offrendo comfort e tranquillità incomparabili."
+        "title": "Resistenza all’Acqua",
+        "description": "100% impermeabile, ideale per tutti gli ambienti",
+        "longDescription": "I nostri pavimenti SPC sono 100% impermeabili, ideali per tutti gli ambienti, comprese cucine e bagni. La tecnologia waterproof garantisce che umidità e liquidi non compromettano la durata del pavimento."
       },
       "fire": {
         "title": "Resistenza al Fuoco",
-        "description": "Conforme agli standard di sicurezza antincendio",
-        "longDescription": "La sicurezza è essenziale. I nostri pavimenti SPC sono resistenti al fuoco, riducendo i rischi di infiammabilità e fornendo protezione aggiuntiva in case e spazi professionali. Conformi alla norma EN 13501-1 (Classificazione BFL-S1)."
+        "description": "Conforme alle normative antincendio",
+        "longDescription": "La sicurezza è fondamentale. I nostri pavimenti SPC sono resistenti al fuoco, riducono i rischi di infiammabilità e offrono una protezione aggiuntiva in ambienti residenziali e professionali. Conformi alla norma EN 13501-1 (classificazione BFL-S1)."
       },
       "stain": {
         "title": "Resistenza alle Macchie",
-        "description": "Rivestimento antimacchia, pulizia facile",
-        "longDescription": "Grazie al rivestimento antimacchia, questi pavimenti rimangono impeccabili quotidianamente. Schizzi di cibo, bevande o prodotti domestici non penetrano la superficie, facilitando notevolmente la pulizia e mantenendo un pavimento sempre nuovo."
+        "description": "Superficie antimacchia, facile da pulire",
+        "longDescription": "Grazie alla superficie antimacchia, questi pavimenti rimangono impeccabili nel tempo. Le macchie di cibo, bevande o detergenti non penetrano la superficie, facilitando la pulizia quotidiana."
       },
       "durability": {
-        "title": "Comfort e Durabilità",
-        "description": "Garanzia 10 anni, resistente a urti e usura",
-        "longDescription": "I nostri pavimenti SPC combinano estetica e robustezza: imitazione legno, pietra o cemento, portano eleganza e modernità resistendo a urti, usura e traffico intenso. Ogni pavimento è progettato per durare, con garanzia di 10 anni."
+        "title": "Comfort e Durata",
+        "description": "Garanzia di 10 anni, resistente agli urti grazie al sottofondo IXPE da 1,5 mm.",
+        "longDescription": "I pavimenti SPC combinano estetica e robustezza: effetto legno, pietra o cemento per un risultato elegante e moderno, con elevata resistenza all’usura, agli urti e al traffico intenso."
       }
     },
     "specs": {
-      "title": "Specifiche Tecniche",
+      "title": "Scheda Tecnica",
       "subtitle": "Specifiche dettagliate dei nostri pavimenti SPC",
       "items": [
         { "label": "Tipo", "value": "Pavimento rigido SPC (Stone Plastic Composite)" },
         { "label": "Equivalente", "value": "Parquet" },
-        { "label": "Spessore totale", "value": "6.0 mm e 7 mm" },
-        { "label": "Spessore tavola", "value": "4.5 mm e 5 mm" },
-        { "label": "Strato d'usura", "value": "0.3, 0.5 e 0.7 mm" },
-        { "label": "Dimensioni", "value": "Spina di pesce 750 x 150 mm e 1220 x 180 mm" },
-        { "label": "Superficie", "value": "Imitazione legno / pietra / cemento" },
-        { "label": "Installazione", "value": "Posa flottante – Sistema click 2G / 5G" },
+        { "label": "Spessore Totale", "value": "6,0 mm e 7 mm" },
+        { "label": "Spessore Tavola", "value": "4,5 mm e 5 mm" },
+        { "label": "Strato di Usura", "value": "0,3 – 0,5 – 0,7 mm – IXPE 1,5 mm" },
+        { "label": "Dimensioni", "value": "Spina di pesce 750 × 150 mm e 1220 × 180 mm" },
+        { "label": "Superficie", "value": "Marmo / Legno / Pietra / Cemento" },
+        { "label": "Installazione", "value": "Posa flottante – sistema a incastro 2G / 5G" },
         { "label": "Garanzia", "value": "10 anni" }
       ]
     },
     "pietranox": {
       "title": "PietraNox",
       "subtitle": "Produzione SPC Premium",
-      "description": "PietraNox è specializzata nella produzione di pavimenti SPC di alta qualità, con focus sull'esportazione verso UE e Stati Uniti. I nostri prodotti soddisfano gli standard più rigorosi.",
+      "description": "PietraNox è un produttore italiano innovativo specializzato nella realizzazione di pavimenti SPC, che uniscono qualità premium, prestazioni tecniche e design contemporaneo. Il nostro modello di business si basa sulla vendita all’ingrosso e sull’esportazione verso mercati strategici come l’Unione Europea e gli Stati Uniti, che rappresentano l’85% del fatturato.",
       "features": [
-        "100% materie prime vergini",
-        "Senza formaldeide (Standard E1)",
+        "Materie prime vergini al 100%",
+        "Senza formaldeide (standard E1)",
         "Senza ftalati",
-        "Conforme FDA 21 CFR (Food-Safe)",
+        "Conforme FDA per uso alimentare",
         "Emissioni ultra-basse (TVOC A+)"
       ]
     },
     "cta": {
-      "title": "Hai bisogno di un consiglio personalizzato?",
-      "description": "Il nostro team di esperti è a tua disposizione per guidarti nella scelta e supportarti nel tuo progetto.",
-      "button": "Richiedi un preventivo"
+      "title": "Hai bisogno di una consulenza personalizzata?",
+      "description": "Il nostro team di esperti è a tua disposizione per guidarti e accompagnarti nel tuo progetto.",
+      "button": "Richiedi un Preventivo"
     }
   },
   "certifications": {
     "hero": {
       "title": "Le Nostre Certificazioni",
-      "subtitle": "Eccellenza validata dai più alti standard internazionali"
+      "subtitle": "L’eccellenza convalidata dai più alti standard internazionali"
     },
     "quality": {
       "title": "Qualità Certificata",
-      "description": "Le nostre certificazioni dimostrano il nostro impegno verso l'eccellenza e la soddisfazione del cliente. Ogni fase del nostro processo è rigorosamente controllata per garantire i più alti standard qualitativi."
+      "description": "Le nostre certificazioni dimostrano il nostro impegno verso l’eccellenza e la soddisfazione del cliente. Ogni fase del processo è rigorosamente controllata."
     },
     "list": [
       {
@@ -188,58 +192,58 @@
       },
       {
         "name": "ISO 14001:2015",
-        "description": "Certificazione ambientale che attesta il nostro impegno per la protezione dell'ambiente."
+        "description": "Certificazione ambientale che attesta l’impegno per la tutela dell’ambiente."
       },
       {
         "name": "FloorScore",
-        "description": "Certificazione qualità aria interna (SCS-EC10.3-2014 v4.0), che garantisce emissioni ultra-basse."
+        "description": "Certificazione della qualità dell’aria interna, che garantisce emissioni ultra-basse."
       },
       {
-        "name": "Marcatura CE",
-        "description": "Conformità ai requisiti essenziali dell'Unione Europea per i nostri prodotti."
+        "name": "Marchio CE",
+        "description": "Conformità ai requisiti essenziali dell’Unione Europea."
       }
     ],
     "standards": {
       "title": "Standard Internazionali",
-      "subtitle": "Conformità alle normative americane ed europee più rigorose per la vostra sicurezza"
+      "subtitle": "Conformità alle più severe normative americane ed europee per la tua sicurezza"
     },
     "american": {
       "title": "Standard Americani",
       "items": [
-        "Certificazione US EPA (Registrato e Approvato)",
+        "Certificazione US EPA",
         "Registrazione California CDTSC",
-        "Conforme California Proposition 65",
-        "Conforme TSCA (Toxic Substances Control Act)"
+        "Conformità California Proposition 65",
+        "Conformità TSCA"
       ]
     },
     "european": {
       "title": "Standard Europei",
       "items": [
         "ISO 10582 - Stabilità dimensionale",
-        "EN 16511 - Pavimenti modulari",
-        "EN 13501-1 - Classificazione Reazione al Fuoco (BFL-S1)",
-        "ISO 16814 - Emissioni interne"
+        "EN 16511 - Rivestimenti modulari",
+        "EN 13501-1 - Reazione al fuoco (BFL-S1)",
+        "ISO 16814 - Emissioni indoor"
       ]
     },
     "materials": {
-      "title": "Certificazioni Materie Prime",
+      "title": "Certificazioni delle Materie Prime",
       "items": [
-        "100% Materiali Vergini",
-        "Conforme FDA 21 CFR (Food-Safe)",
-        "Senza Formaldeide (Standard E1)",
-        "Senza Ftalati",
-        "Metalli Pesanti < 1 ppm"
+        "Materiali vergini al 100%",
+        "Conforme FDA 21 CFR (uso alimentare)",
+        "Senza formaldeide (E1)",
+        "Senza ftalati",
+        "Metalli pesanti < 1 ppm"
       ]
     },
     "commitment": {
       "title": "Il Nostro Impegno per la Qualità",
-      "description": "Ci impegniamo a mantenere i più alti standard qualitativi in tutte le nostre operazioni. I nostri prodotti sono realizzati con materie prime 100% vergini, senza formaldeide, senza ftalati, con emissioni ultra-basse (TVOC A+)."
+      "description": "Ci impegniamo a mantenere i più alti standard qualitativi in tutte le nostre attività. I nostri prodotti sono realizzati con materie prime vergini al 100%, senza formaldeide né ftalati, con emissioni ultra-basse (TVOC A+)."
     }
   },
   "blog": {
     "hero": {
       "title": "La Nostra Galleria",
-      "subtitle": "Scopri le nostre realizzazioni e ispirazioni nel campo dei pavimenti"
+      "subtitle": "Scopri le nostre realizzazioni e ispirazioni nel mondo delle pavimentazioni"
     },
     "gallery": {
       "title": "La Nostra Collezione",
@@ -249,24 +253,28 @@
   "contact": {
     "hero": {
       "title": "Contattaci",
-      "subtitle": "Il nostro team è al tuo servizio per rispondere a tutte le tue domande"
+      "subtitle": "Il nostro team è a tua disposizione per rispondere a tutte le tue domande"
     },
     "form": {
-      "title": "Inviaci un messaggio",
-      "name": "Nome completo",
-      "email": "Indirizzo email",
+      "title": "Inviaci un Messaggio",
+      "name": "Nome Completo",
+      "email": "Indirizzo Email",
       "phone": "Telefono",
       "company": "Azienda",
       "subject": "Oggetto",
-      "message": "Il tuo messaggio",
-      "submit": "Invia messaggio",
+      "subject_select": {
+        "sale": "Richiesta di Acquisto",
+        "advice": "Richiesta di Consulenza"
+      },
+      "message": "Il Tuo Messaggio",
+      "submit": "Invia Messaggio",
       "success": "Messaggio inviato con successo!"
     },
     "info": {
       "title": "I Nostri Contatti",
       "address": {
         "label": "Indirizzo",
-        "value": "169, Boulevard Yacoub El Mansour (vicino a Oulmès) 4° piano, Casablanca, Marocco"
+        "value": "169, BD YACOUB EL MANSOUR (accanto a Oulmès), 4° piano, Casablanca."
       },
       "phone": {
         "label": "Telefono",
@@ -274,20 +282,20 @@
       },
       "email": {
         "label": "Email",
-        "value": "contact@tekora.ma"
+        "value": "contact@TEKORA.ma"
       },
       "hours": {
         "label": "Orari",
-        "value": "Lun - Ven: "
+        "value": "Lun - Ven:"
       }
     }
   },
   "footer": {
-    "description": "TEKORA e PietraNox: eccellenza nei pavimenti SPC premium, con sede a Casablanca, Marocco.",
+    "description": "TEKORA. e PietraNox: eccellenza nei pavimenti SPC di alta gamma, con sede a Casablanca, Marocco.",
     "quickLinks": "Link Rapidi",
-    "contact": "Contatto",
+    "contact": "Contatti",
     "legal": "Note Legali",
-    "privacy": "Politica sulla Privacy",
+    "privacy": "Informativa sulla Privacy",
     "terms": "Termini e Condizioni",
     "rights": "Tutti i diritti riservati."
   }

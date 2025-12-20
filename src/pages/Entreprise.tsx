@@ -7,6 +7,7 @@ import { Button } from '@/components/Button';
 import { Card } from '@/components/Card';
 import { ArrowRight } from 'lucide-react';
 import { AnimatedSection } from '@/hooks/useScrollAnimation';
+import logo from "@/images/plogo.jpg"
 
 const Entreprise = () => {
   const { t } = useI18n();
@@ -209,12 +210,25 @@ const Entreprise = () => {
           
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="fade-up">
-              <div className="aspect-[4/3] overflow-hidden rounded-lg shadow-2xl">
+              <div className="aspect-[4/3] overflow-hidden rounded-lg shadow-2xl relative">
                 <img 
                   src="https://i.pinimg.com/736x/1d/18/88/1d1888cb65ea90dfec3f04a69a27dc90.jpg"
                   alt="PietraNox SPC flooring"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
+
+
+                <img src={logo} alt="" 
+
+                style={{
+                  position:"absolute" , 
+                  bottom : 20 , 
+                  left : 20 ,
+                }}
+                width={"150px"}
+                />
+
+
               </div>
             </div>
             <div className="fade-up-delay-1">

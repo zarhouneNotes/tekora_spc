@@ -10,14 +10,14 @@
   },
   "home": {
     "hero": {
-      "title": "TEKORA – Expert en Revêtements de Sol SPC Haut de Gamme",
+      "title": "TEKORA. – Expert en Revêtements de Sol SPC Haut de Gamme",
       "subtitle": "Importateur et distributeur de référence à Casablanca, nous vous proposons des solutions de revêtements durables et esthétiques en partenariat avec PietraNox.",
       "cta": "Découvrir nos produits"
     },
     "about": {
       "title": "Qui sommes-nous",
-      "description": "TEKORA, basée à Casablanca, est spécialisée dans l'importation et la distribution de revêtements de sol SPC haut de gamme. En partenariat avec PietraNox, notre producteur partenaire, nous offrons des produits certifiés aux normes internationales les plus exigeantes, garantissant qualité, durabilité et fiabilité.",
-      "cta": "En savoir plus"
+      "description": "TEKORA., basée à Casablanca, est spécialisée dans l'importation et la distribution de revêtements de sol SPC haut de gamme. En partenariat avec PietraNox, notre producteur partenaire, nous offrons des produits certifiés aux normes internationales les plus exigeantes, garantissant qualité, durabilité et fiabilité.",
+      "cta": "20+ années d’excellence dans le domaine des revêtements de sol"
     },
     "values": {
       "title": "Nos Valeurs",
@@ -53,12 +53,12 @@
   },
   "company": {
     "hero": {
-      "title": "À Propos de TEKORA",
+      "title": "À Propos de TEKORA.",
       "subtitle": "Leader dans l'importation et la distribution de revêtements de sol SPC haut de gamme à Casablanca, en partenariat avec PietraNox pour une qualité d'excellence."
     },
     "story": {
-      "title": "TEKORA",
-      "content": "TEKORA, basée à Casablanca, est spécialisée dans l'importation et la distribution de revêtements de sol SPC (Stone Plastic Composite) haut de gamme. Nos produits offrent une esthétique et un confort équivalents au parquet traditionnel, tout en étant nettement plus résistants et durables.",
+      "title": "TEKORA.",
+      "content": "TEKORA., basée à Casablanca, est spécialisée dans l'importation et la distribution de revêtements de sol SPC (Stone Plastic Composite) haut de gamme. Nos produits offrent une esthétique et un confort équivalents au parquet traditionnel, tout en étant nettement plus résistants et durables.",
       "content2": "Conformes aux normes italiennes et certifiés FloorScore, CE, IAF, SGS, ISO9001, ISO14001, nos revêtements sont adaptés aux systèmes clic 2G et 5G. Ils garantissent qualité, durabilité et fiabilité pour tous vos projets, qu'ils soient résidentiels ou commerciaux.",
       "content3": "Nos revêtements conviennent parfaitement aux maisons, salles de bain, cuisines, bureaux, boutiques, hôtels et établissements à fort passage. Avec un excellent rapport qualité-prix et une garantie de 10 ans, nous visons à établir des partenariats durables avec développeurs immobiliers, architectes, installateurs et détaillants.",
       "ctaProducts": "Découvrir nos produits",
@@ -113,6 +113,10 @@
       "onyx": {
         "title": "Effet Béton",
         "description": "Style moderne et contemporain"
+      },
+      "marbre": {
+        "title": "Effet marbre",
+        "description": "Théme unique et élegant"
       }
     },
     "features": {
@@ -135,7 +139,7 @@
       },
       "durability": {
         "title": "Confort et Durabilité",
-        "description": "Garantie 10 ans, résistant aux chocs et à l'usure",
+        "description": "Garantie 10 ans, résistant aux chocs grâce à une sous-couche IXPE de 1,5 mm.",
         "longDescription": "Nos revêtements SPC combinent esthétique et robustesse : imitation parquet, pierre ou béton, ils apportent élégance et modernité tout en résistant aux chocs, à l'usure et au passage intensif. Chaque sol est conçu pour durer, avec une garantie de 10 ans."
       }
     },
@@ -147,9 +151,9 @@
         { "label": "Équivalent", "value": "Parquet" },
         { "label": "Épaisseur totale", "value": "6.0 mm et 7 mm" },
         { "label": "Épaisseur planche", "value": "4.5 mm et 5 mm" },
-        { "label": "Couche d'usure", "value": "0.3, 0.5 et 0.7 mm" },
+        { "label": "Couche d'usure", "value": "0.3, 0.5 et 0.7 mm- IXPE 1,5 mm " },
         { "label": "Dimensions", "value": "Herringbone 750 x 150 mm et 1220 x 180 mm" },
-        { "label": "Surface", "value": "Imitation bois / pierre / béton" },
+        { "label": "Surface", "value": "Marbre / Imitation bois / pierre / béton" },
         { "label": "Installation", "value": "Pose flottante – Système clic 2G / 5G" },
         { "label": "Garantie", "value": "10 ans" }
       ]
@@ -157,7 +161,7 @@
     "pietranox": {
       "title": "PietraNox",
       "subtitle": "Production Premium SPC",
-      "description": "PietraNox se spécialise dans la production de revêtements de sol SPC de haute qualité, avec un focus sur l'exportation vers l'UE et les États-Unis. Nos produits répondent aux normes les plus strictes.",
+      "description": "PietraNox est un producteur italien innovant, spécialisé dans la fabrication de revêtements de sol en SPC (Stone Plastic Composite), alliant qualité premium, performance technique et design contemporain. Notre modèle économique repose sur la vente en gros à un réseau de revendeurs et distributeurs, ainsi que sur l’exportation vers des marchés stratégiques, notamment l’Union Européenne et les États-Unis, qui représentent 85 % de notre chiffre d’affaires. Nous nous adressons principalement aux entreprises de construction et de rénovation, ainsi qu’aux distributeurs et importateurs à la recherche de solutions de revêtement de sol durables, esthétiques et hautement performantes. Portée par une expertise technique éprouvée et un engagement constant envers la qualité, PietraNox s’affirme comme un partenaire de confiance pour la réussite de vos projets d’envergure.",
       "features": [
         "100% matières premières vierges",
         "Sans formaldéhyde (Norme E1)",
@@ -258,6 +262,11 @@
       "phone": "Téléphone",
       "company": "Entreprise",
       "subject": "Sujet",
+      "subject_select" : {
+        "sale" : "Demande d'achat" ,
+        "advice" : "Demande de conseil"
+      },
+
       "message": "Votre message",
       "submit": "Envoyer le message",
       "success": "Message envoyé avec succès !"
@@ -274,7 +283,7 @@
       },
       "email": {
         "label": "Email",
-        "value": "contact@tekora.ma"
+        "value": "contact@TEKORA.ma"
       },
       "hours": {
         "label": "Horaires",
@@ -283,7 +292,7 @@
     }
   },
   "footer": {
-    "description": "TEKORA et PietraNox : l'excellence dans les revêtements de sol SPC haut de gamme, basées à Casablanca, Maroc.",
+    "description": "TEKORA. et PietraNox : l'excellence dans les revêtements de sol SPC haut de gamme, basées à Casablanca, Maroc.",
     "quickLinks": "Liens rapides",
     "contact": "Contact",
     "legal": "Mentions légales",

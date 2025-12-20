@@ -16,98 +16,98 @@ const Blog = () => {
   const imagesWithNames = [
     {
       url: "https://ik.imagekit.io/tekora/JCL-8032-1.png",
-      name: "JCL-8032-1",
+      name: "TKR-8032-1",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8096-1.png",
-      name: "JCL-8096-1",
+      name: "TKR-8096-1",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8081-37.png",
-      name: "JCL-8081-37",
+      name: "TKR-8081-37",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8039-3.png",
-      name: "JCL-8039-3",
+      name: "TKR-8039-3",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8039-6.png",
-      name: "JCL-8039-6",
+      name: "TKR-8039-6",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8066-1.png",
-      name: "JCL-8066-1",
+      name: "TKR-8066-1",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8075-2.png",
-      name: "JCL-8075-2",
+      name: "TKR-8075-2",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8071-1.png",
-      name: "JCL-8071-1",
+      name: "TKR-8071-1",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8103-1.png",
-      name: "JCL-8103-1",
+      name: "TKR-8103-1",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8075-9.png",
-      name: "JCL-8075-9",
+      name: "TKR-8075-9",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8066-3.png",
-      name: "JCL-8066-3",
+      name: "TKR-8066-3",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8096-11.png",
-      name: "JCL-8096-11",
+      name: "TKR-8096-11",
     }, {
       url: "https://ik.imagekit.io/tekora/JCL-8105-2.png",
-      name: "JCL-8105-2",
+      name: "TKR-8105-2",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8117-2.png",
-      name: "JCL-8117-2",
+      name: "TKR-8117-2",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8103-6.png",
-      name: "JCL-8103-6",
+      name: "TKR-8103-6",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8103-1.png",
-      name: "JCL-8103-1",
+      name: "TKR-8103-1",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8105-11.png",
-      name: "JCL-8105-11",
+      name: "TKR-8105-11",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8602K-3.png",
-      name: "JCL-8602K-3",
+      name: "TKR-8602K-3",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8131-2.png",
-      name: "JCL-8131-2",
+      name: "TKR-8131-2",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8131-1.png",
-      name: "JCL-8131-1",
+      name: "TKR-8131-1",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8117-8.png",
-      name: "JCL-8117-8",
+      name: "TKR-8117-8",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8601K-1.png",
-      name: "JCL-8601K-1",
+      name: "TKR-8601K-1",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8117-1.png",
-      name: "JCL-8117-1",
+      name: "TKR-8117-1",
     },
     {
       url: "https://ik.imagekit.io/tekora/JCL-8131-1.png",
-      name: "JCL-8131-1",
+      name: "TKR-8131-1",
     },
     
   ];

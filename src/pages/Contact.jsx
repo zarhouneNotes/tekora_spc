@@ -18,11 +18,11 @@ const Contact = () => {
     message: '',
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // const form_data = new FormData()
     // form_data.append("name" , formData.name)
@@ -32,6 +32,25 @@ const Contact = () => {
     // form_data.append("subject" , formData.subject)
     // form_data.append("message" , formData.message)
     // console.log(form_data)
+
+
+
+    try {
+      const res = await fetch(
+        "https://formsubmit.co/houssinezarhoune270@gmail.com",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
+
+      if (res.ok) {
+        alert("Email sent successfully!");
+     
+      }
+    } catch (error) {
+      console.error("Error sending email", error);
+    }
     
     // toast({
     //   title: t.contact.form.success,
@@ -156,14 +175,21 @@ const Contact = () => {
                   <label className="block font-poppins font-medium text-foreground text-sm mb-2">
                     {t.contact.form.subject}
                   </label>
-                  <input
-                    type="text"
+                  <select
                     name="subject"
                     value={formData.subject}
-                    onChange={handleChange}
+                    onChange={(e)=>{
+                        setFormData({...formData , subject : e.target.value })
+                    }}
                     required
                     className="w-full px-4 py-3 bg-background border border-border font-poppins font-light text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition-all duration-200"
-                  />
+                  >
+
+                      <option value={t.contact.form.subject_select.sale}>{t.contact.form.subject_select.sale}</option>
+                      <option value={t.contact.form.subject_select.advice}>{t.contact.form.subject_select.advice}</option>
+                  
+
+                  </select>
                 </div>
                 <div>
                   <label className="block font-poppins font-medium text-foreground text-sm mb-2">

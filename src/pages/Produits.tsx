@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/Button';
 import { Card } from '@/components/Card';
 import fireproof from "@/images/Plancher.webp"
+import clean from "@/images/clean.webp"
 import cat from "@/images/catalog.png"
 import { Check, ArrowRight, Star, Droplets, Flame, Sparkles, Shield } from 'lucide-react';
 
@@ -15,7 +16,7 @@ const Produits = () => {
   const featureImages = {
     water: 'https://i.pinimg.com/1200x/e6/24/9f/e6249fa607223d9683722f2236c71f1b.jpg',
     fire: fireproof ,
-    stain: 'https://i.pinimg.com/1200x/d2/ee/41/d2ee410aca6f9304e5cdf673c0967745.jpg',
+    stain: clean,
     durability: 'https://i.pinimg.com/1200x/6f/da/7d/6fda7d8f5c7d1a8a83f084b073e16cbc.jpg'
   };
 
@@ -130,7 +131,7 @@ const Produits = () => {
       </section>
 
       {/* PietraNox Premium Section */}
-      <section className="py-24 lg:py-32 bg-background">
+      {/* <section className="py-24 lg:py-32 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="fade-up order-2 lg:order-1">
@@ -175,7 +176,7 @@ const Produits = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-24 lg:py-32 bg-neutralBg">
