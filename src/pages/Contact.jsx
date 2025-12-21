@@ -24,33 +24,18 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // const form_data = new FormData()
-    // form_data.append("name" , formData.name)
-    // form_data.append("email" , formData.email)
-    // form_data.append("phone" , formData.phone)
-    // form_data.append("company" , formData.company)
-    // form_data.append("subject" , formData.subject)
-    // form_data.append("message" , formData.message)
-    // console.log(form_data)
+    const form_data = new FormData()
+    form_data.append("name" , formData.name)
+    form_data.append("email" , formData.email)
+    form_data.append("phone" , formData.phone)
+    form_data.append("company" , formData.company)
+    form_data.append("subject" , formData.subject)
+    form_data.append("message" , formData.message)
+    console.log(form_data)
 
 
 
-    try {
-      const res = await fetch(
-        "https://formsubmit.co/houssinezarhoune270@gmail.com",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
-
-      if (res.ok) {
-        alert("Email sent successfully!");
-     
-      }
-    } catch (error) {
-      console.error("Error sending email", error);
-    }
+  
     
     // toast({
     //   title: t.contact.form.success,
