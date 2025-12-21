@@ -74,7 +74,7 @@ const Index = () => {
             </div>
             <div className="fade-up-delay-1">
               <div className="aspect-[4/3] bg-muted relative overflow-hidden">
-                <img 
+                <img loading='lazy' 
                   src="https://images.pexels.com/photos/2121120/pexels-photo-2121120.jpeg"
                   alt="Marble texture"
                   className="w-full h-full object-cover"
@@ -150,7 +150,8 @@ const Index = () => {
                   className={`fade-up-delay-${index + 1} aspect-[3/4] relative overflow-hidden group cursor-pointer`}
                 >
                   <img 
-                    src={images[index]}
+                  
+                    loading='lazy'                    src={images[index]}
                     alt={categoryData.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />

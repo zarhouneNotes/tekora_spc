@@ -49,6 +49,8 @@ const Certifications = () => {
             <AnimatedDiv animation="slide-left" delay={200}>
               <div className="aspect-[4/3] overflow-hidden">
                 <img 
+                loading='lazy'
+
                   src="https://i.pinimg.com/1200x/f9/76/0b/f9760bc8ff05090c7b3462983e9459d2.jpg"
                   alt="Quality"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
@@ -136,6 +138,9 @@ const Certifications = () => {
             <AnimatedDiv animation="scale" delay={200}>
               <div className="aspect-square overflow-hidden">
                 <img 
+
+loading='lazy'
+
                   src="https://i.pinimg.com/736x/e3/f9/86/e3f986bec97afc60729c51759b7ec2da.jpg"
                   alt="International Standards"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
@@ -174,6 +179,7 @@ const Certifications = () => {
             <AnimatedDiv animation="slide-right">
               <div className="aspect-[4/3] overflow-hidden">
                 <img 
+                loading='lazy'
                   src="https://i.pinimg.com/1200x/07/7b/e7/077be73795660b71d8740b1ab856069e.jpg"
                   alt="Raw Materials"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"

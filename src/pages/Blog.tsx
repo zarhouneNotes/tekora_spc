@@ -141,6 +141,8 @@ const Blog = () => {
                 className="rounded-md relative h-[140px] overflow-hidden rounded-lg cursor-pointer group "
               >
                 <img
+
+                loading='lazy'
                 style={{borderRadius : "30px"}}
                   src={img.url}
                   alt={img.name}

@@ -59,6 +59,9 @@ const Entreprise = () => {
             <div className="fade-up-delay-1 order-1 lg:order-2">
               <div className="aspect-[4/5] relative overflow-hidden">
                 <img 
+
+                loading='lazy'
+
                   src="https://i.pinimg.com/736x/ed/0f/cf/ed0fcf54c4d2b0646e81ee6f4ec4685e.jpg"
                   alt="TEKORA headquarters"
                   className="w-full h-full object-cover"
@@ -153,7 +156,8 @@ const Entreprise = () => {
                 <img 
                   src="https://i.pinimg.com/736x/99/af/e6/99afe6c109bad52833880ffeb591e350.jpg"
                   alt="Quality flooring"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                loading='lazy'
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
             </div>
@@ -212,6 +216,9 @@ const Entreprise = () => {
             <div className="fade-up">
               <div className="aspect-[4/3] overflow-hidden rounded-lg shadow-2xl relative">
                 <img 
+
+                  loading='lazy'
+
                   src="https://i.pinimg.com/736x/1d/18/88/1d1888cb65ea90dfec3f04a69a27dc90.jpg"
                   alt="PietraNox SPC flooring"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
