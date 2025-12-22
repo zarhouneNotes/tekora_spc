@@ -264,7 +264,9 @@
       "subject": "Subject",
       "subject_select": {
         "sale": "Purchase Inquiry",
-        "advice": "Advice Request"
+        "advice": "Advice Request",
+        "facture" : "Invoice"
+
       },
       "message": "Your Message",
       "submit": "Send Message",

@@ -264,7 +264,12 @@
       "subject": "Oggetto",
       "subject_select": {
         "sale": "Richiesta di Acquisto",
-        "advice": "Richiesta di Consulenza"
+        "advice": "Richiesta di Consulenza",
+
+        "facture" : "fatturazione"
+
+
+        
       },
       "message": "Il Tuo Messaggio",
       "submit": "Invia Messaggio",

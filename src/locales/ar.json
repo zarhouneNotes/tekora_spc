@@ -264,7 +264,9 @@
       "subject": "الموضوع",
       "subject_select": {
         "sale": "طلب شراء",
-        "advice": "طلب استشارة"
+        "advice": "طلب استشارة" ,
+        "facture" : "الفواتير"
+
       },
       "message": "رسالتك",
       "submit": "إرسال الرسالة",

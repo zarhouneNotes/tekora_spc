@@ -264,7 +264,8 @@
       "subject": "Sujet",
       "subject_select" : {
         "sale" : "Demande d'achat" ,
-        "advice" : "Demande de conseil"
+        "advice" : "Demande de conseil",
+        "facture" : "Facturacion"
       },
 
       "message": "Votre message",

@@ -8,16 +8,23 @@ import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
 import { toast } from '@/hooks/use-toast';
 
 const Contact = () => {
+
+  const contact_apikey = "a442ec27-0234-4771-8cd8-649c451995cd"
+  const sales_apikey = "42b54b59-5ff9-47c7-955f-dd9db1e60fae"
+  const facturation_apikey = "602f1bee-aeea-4e20-8467-03177477730a"
   const { t } = useI18n();
+  const [apiKey , setApikey ] = useState("")
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
     company: '',
-    subject: '',
+    subject: 'cnsDemande de conseil',
     message: '',
   });
 
+
+ 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -29,20 +36,34 @@ const Contact = () => {
     form_data.append("email" , formData.email)
     form_data.append("phone" , formData.phone)
     form_data.append("company" , formData.company)
-    form_data.append("subject" , formData.subject)
+    form_data.append("subject" , formData.subject.slice(3))
     form_data.append("message" , formData.message)
-    console.log(form_data)
 
 
-
-  
+    if (formData.subject.slice(0,3) == "ach") {
+      form_data.append("access_key", sales_apikey);
+    }if (formData.subject.slice(0,3) == "cns") {
+      form_data.append("access_key", contact_apikey);
+    }if (formData.subject.slice(0,3) == "fac"){
+      form_data.append("access_key", facturation_apikey);
+    }
+   
     
-    // toast({
-    //   title: t.contact.form.success,
-    //   description: t.home.about.cta === 'En savoir plus' 
-    //     ? 'Nous vous répondrons dans les plJus brefs délais.' 
-    //     : 'We will get back to you as soon as possible.',
-    // });
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: form_data
+    });
+
+    const data  = await response.json()
+    if (data?.success ) {
+        toast({
+      title: t.contact.form.success
+    });
+    }else{
+      alert("Something went wrong !")
+    }
+    
+    
     // setFormData({
     //   name: '',
     //   email: '',
@@ -170,8 +191,9 @@ const Contact = () => {
                     className="w-full px-4 py-3 bg-background border border-border font-poppins font-light text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition-all duration-200"
                   >
 
-                      <option value={t.contact.form.subject_select.sale}>{t.contact.form.subject_select.sale}</option>
-                      <option value={t.contact.form.subject_select.advice}>{t.contact.form.subject_select.advice}</option>
+                      <option    value={"achDemande d'achat"}>{t.contact.form.subject_select.sale}</option>
+                      <option  value={"cnsDemande de conseil"}>{t.contact.form.subject_select.advice}</option>
+                      <option  value={"facFacturation"}>{t.contact.form.subject_select.facture}</option>
                   
 
                   </select>

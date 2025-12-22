@@ -264,7 +264,10 @@
       "subject": "Asunto",
       "subject_select": {
         "sale": "Solicitud de Compra",
-        "advice": "Solicitud de Asesoramiento"
+        "advice": "Solicitud de Asesoramiento",
+
+        "facture" : "facturación"
+
       },
       "message": "Tu Mensaje",
       "submit": "Enviar Mensaje",
