@@ -10,13 +10,13 @@
   },
   "home": {
     "hero": {
-      "title": "TEKORA. – Expert en Revêtements de Sol SPC Haut de Gamme",
+      "title": "TEKORA Expert en Revêtements de Sol SPC Haut de Gamme",
       "subtitle": "Importateur et distributeur de référence à Casablanca, nous vous proposons des solutions de revêtements durables et esthétiques en partenariat avec PietraNox.",
       "cta": "Découvrir nos produits"
     },
     "about": {
       "title": "Qui sommes-nous",
-      "description": "TEKORA., basée à Casablanca, est spécialisée dans l'importation et la distribution de revêtements de sol SPC haut de gamme. En partenariat avec PietraNox, notre producteur partenaire, nous offrons des produits certifiés aux normes internationales les plus exigeantes, garantissant qualité, durabilité et fiabilité.",
+      "description": "TEKORA est basée à Casablanca, est spécialisée dans l'importation et la distribution de revêtements de sol SPC haut de gamme. En partenariat avec PietraNox, notre producteur partenaire, nous offrons des produits certifiés aux normes internationales les plus exigeantes, garantissant qualité, durabilité et fiabilité.",
       "cta": "20+ années d’excellence dans le domaine des revêtements de sol"
     },
     "values": {
@@ -53,12 +53,12 @@
   },
   "company": {
     "hero": {
-      "title": "À Propos de TEKORA.",
+      "title": "À Propos de TEKORA",
       "subtitle": "Leader dans l'importation et la distribution de revêtements de sol SPC haut de gamme à Casablanca, en partenariat avec PietraNox pour une qualité d'excellence."
     },
     "story": {
-      "title": "TEKORA.",
-      "content": "TEKORA., basée à Casablanca, est spécialisée dans l'importation et la distribution de revêtements de sol SPC (Stone Plastic Composite) haut de gamme. Nos produits offrent une esthétique et un confort équivalents au parquet traditionnel, tout en étant nettement plus résistants et durables.",
+      "title": "TEKORA",
+      "content": "TEKORA, basée à Casablanca, est spécialisée dans l'importation et la distribution de revêtements de sol SPC (Stone Plastic Composite) haut de gamme. Nos produits offrent une esthétique et un confort équivalents au parquet traditionnel, tout en étant nettement plus résistants et durables.",
       "content2": "Conformes aux normes italiennes et certifiés FloorScore, CE, IAF, SGS, ISO9001, ISO14001, nos revêtements sont adaptés aux systèmes clic 2G et 5G. Ils garantissent qualité, durabilité et fiabilité pour tous vos projets, qu'ils soient résidentiels ou commerciaux.",
       "content3": "Nos revêtements conviennent parfaitement aux maisons, salles de bain, cuisines, bureaux, boutiques, hôtels et établissements à fort passage. Avec un excellent rapport qualité-prix et une garantie de 10 ans, nous visons à établir des partenariats durables avec développeurs immobiliers, architectes, installateurs et détaillants.",
       "ctaProducts": "Découvrir nos produits",
@@ -91,8 +91,8 @@
     },
     "pietranox": {
       "title": "PietraNox",
-      "content": "PietraNox est une entreprise innovante située à Casablanca, au Maroc, spécialisée dans la production de revêtements de sol en SPC (Stone Plastic Composite). Notre modèle économique repose sur la vente en gros à des revendeurs et distributeurs, ainsi que l'exportation vers des marchés stratégiques tels que l'Union Européenne et les États-Unis, représentant 85% de notre chiffre d'affaires.",
-      "content2": "Nous ciblons principalement les entreprises de construction et de rénovation, ainsi que les distributeurs et importateurs à la recherche de solutions de revêtement de sol durables, esthétiques et performantes. Grâce à notre expertise technique et notre engagement qualité, PietraNox s'impose comme un partenaire de confiance pour tous vos projets d'envergure.",
+      "content": "PietraNox est un producteur italien innovant, spécialisé dans la fabrication de revêtements de sol en SPC (Stone Plastic Composite), alliant qualité premium, performance technique et design contemporain. Notre modèle économique repose sur la vente en gros à un réseau de revendeurs et distributeurs, ainsi que sur l’exportation vers des marchés stratégiques, notamment l’Union Européenne et les États-Unis, qui représentent 85 % de notre chiffre d’affaires.",
+      "content2": "Nous nous adressons principalement aux entreprises de construction et de rénovation, ainsi qu’aux distributeurs et importateurs à la recherche de solutions de revêtement de sol durables, esthétiques et hautement performantes. Portée par une expertise technique éprouvée et un engagement constant envers la qualité, PietraNox s’affirme comme un partenaire de confiance pour la réussite de vos projets d’envergure.",
       "cta": "Voir nos produits SPC"
     }
   },
@@ -265,7 +265,7 @@
       "subject_select" : {
         "sale" : "Demande d'achat" ,
         "advice" : "Demande de conseil",
-        "facture" : "Facturacion"
+        "facture" : "Facturation"
       },
 
       "message": "Votre message",
@@ -293,7 +293,7 @@
     }
   },
   "footer": {
-    "description": "TEKORA. et PietraNox : l'excellence dans les revêtements de sol SPC haut de gamme, basées à Casablanca, Maroc.",
+    "description": "TEKORA et PietraNox : l'excellence dans les revêtements de sol SPC haut de gamme, basées à Casablanca, Maroc.",
     "quickLinks": "Liens rapides",
     "contact": "Contact",
     "legal": "Mentions légales",

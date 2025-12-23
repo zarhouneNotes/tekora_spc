@@ -108,8 +108,8 @@ const Index = () => {
                   variant="elevated"
                   className={`fade-up-delay-${index + 1} text-center group hover:-translate-y-2`}
                 >
-                  <div style={{backgroundColor : 'rgb(0,86,27 , 0.2)'}} className="w-16 h-16 mx-auto  flex items-center justify-center mb-6 transition-colors duration-300 group-hover:bg-secondary">
-                    <Icon className="w-8 h-8  transition-colors duration-300 "  color='#00561b'/>
+                  <div className="w-16 h-16 mx-auto  flex items-center bg-secondary/20 justify-center mb-6 transition-colors duration-300 group-hover:bg-secondary">
+                    <Icon className="w-8 h-8  text-secondary  transition-colors duration-300 "  />
                   </div>
                   <h3 className="text-xl font-poppins font-semibold text-foreground mb-3">
                     {value.title}

@@ -89,7 +89,7 @@ const Contact = () => {
     {
       icon: Mail,
       label: t.contact.info.email.label,
-      value: t.contact.info.email.value,
+      value: "contact@tekrafloor.com",
     },
     {
       icon: Clock,
@@ -249,14 +249,14 @@ const Contact = () => {
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
                   <Card key={index} variant="outlined" className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-secondary/10 flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 bg-secondar0 flex items-center justify-center flex-shrink-0">
                       <info.icon className="w-5 h-5 text-secondary" />
                     </div>
                     <div>
                       <h4 className="font-poppins font-semibold text-foreground mb-1">
                         {info.label}
                       </h4>
-                      <p className="font-poppins font-light text-muted-foreground whitespace-pre-line">
+                      <p className="font-poppins  font-light text-muted-foreground whitespace-pre-line">
                         {info.value}
                       </p>
                     </div>

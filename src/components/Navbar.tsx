@@ -54,9 +54,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            
-
-            <img src={"https://ik.imagekit.io/tekora/logo-removebg-preview%20(1).png"} alt="" width={isMobile ? "150px" : "200px"} />
+            <img src={logo} alt="" width={isMobile ? "150px" : "240px"} />
           </Link>
 
           {/* Desktop Navigation */}
