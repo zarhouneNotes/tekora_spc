@@ -4,20 +4,20 @@
     "company": "Empresa",
     "products": "Productos",
     "certifications": "Certificaciones",
-    "blog": "Galería",
+    "blog": "Blog",
     "contact": "Contacto",
-    "quote": "Solicitar Presupuesto"
+    "quote": "Solicitar presupuesto"
   },
   "home": {
     "hero": {
-      "title": "TEKORA Expertos en Suelos SPC de Alta Gama",
-      "subtitle": "Importador y distribuidor de referencia con sede en Casablanca, ofrecemos soluciones de pavimentación duraderas y estéticas en colaboración con PietraNox.",
-      "cta": "Descubrir Nuestros Productos"
+      "title": "TEKORA Experta en Revestimientos de Suelo SPC de Alta Gama",
+      "subtitle": "Importador y distribuidor de referencia en Casablanca, ofrecemos soluciones de revestimiento duraderas y estéticas en colaboración con PietraNox.",
+      "cta": "Descubrir nuestros productos"
     },
     "about": {
-      "title": "Quiénes Somos",
-      "description": "TEKORA., con sede en Casablanca, está especializada en la importación y distribución de suelos SPC de alta gama. En colaboración con PietraNox, nuestro socio productor, ofrecemos productos certificados según los más exigentes estándares internacionales, garantizando calidad, durabilidad y fiabilidad.",
-      "cta": "Más de 20 años de excelencia en soluciones de pavimentación"
+      "title": "Quiénes somos",
+      "description": "TEKORA, con sede en Casablanca, está especializada en la importación y distribución de revestimientos de suelo SPC de alta gama. En colaboración con PietraNox, nuestro socio productor, ofrecemos productos certificados según las normas internacionales más exigentes, garantizando calidad, durabilidad y fiabilidad.",
+      "cta": "Más de 20 años de excelencia en el sector de los revestimientos de suelo"
     },
     "values": {
       "title": "Nuestros Valores",
@@ -32,18 +32,18 @@
         },
         {
           "title": "Sostenibilidad",
-          "description": "Nuestros productos ecológicos, libres de formaldehído, son reciclables y respetuosos con el medio ambiente."
+          "description": "Nuestros productos ecológicos sin formaldehído son reciclables y respetuosos con el medio ambiente."
         },
         {
           "title": "Fiabilidad",
-          "description": "Garantía de 10 años y cumplimiento de los estándares italianos, europeos y estadounidenses más estrictos."
+          "description": "Garantía de 10 años y conformidad con las normas italianas, europeas y estadounidenses más estrictas."
         }
       ]
     },
     "products": {
       "title": "Nuestros Productos",
-      "subtitle": "Una gama completa de suelos SPC de alta gama, equivalentes al parquet en estética y confort",
-      "cta": "Ver Todos los Productos"
+      "subtitle": "Una gama completa de revestimientos de suelo SPC de alta gama, equivalentes al parquet en estética y confort",
+      "cta": "Ver todos los productos"
     },
     "cta": {
       "title": "¿Listo para transformar tu espacio?",
@@ -53,37 +53,37 @@
   },
   "company": {
     "hero": {
-      "title": "Sobre TEKORA.",
-      "subtitle": "Líder en la importación y distribución de suelos SPC de alta gama en Casablanca, en colaboración con PietraNox para una excelencia garantizada."
+      "title": "Acerca de TEKORA",
+      "subtitle": "Líder en la importación y distribución de revestimientos de suelo SPC de alta gama en Casablanca, en colaboración con PietraNox para una calidad de excelencia."
     },
     "story": {
-      "title": "TEKORA.",
-      "content": "TEKORA., con sede en Casablanca, está especializada en la importación y distribución de suelos SPC (Stone Plastic Composite) de alta gama. Nuestros productos ofrecen una estética y un confort comparables al parquet tradicional, con una resistencia y durabilidad muy superiores.",
-      "content2": "Conformes a los estándares italianos y certificados FloorScore, CE, IAF, SGS, ISO9001 e ISO14001, nuestros suelos admiten sistemas de clic 2G y 5G, garantizando calidad, durabilidad y fiabilidad para proyectos residenciales y comerciales.",
-      "content3": "Nuestros suelos son ideales para viviendas, baños, cocinas, oficinas, tiendas, hoteles y espacios de alto tránsito. Con una excelente relación calidad-precio y una garantía de 10 años, buscamos construir alianzas duraderas con promotores inmobiliarios, arquitectos, instaladores y minoristas.",
-      "ctaProducts": "Descubrir Nuestros Productos",
+      "title": "TEKORA",
+      "content": "TEKORA, con sede en Casablanca, está especializada en la importación y distribución de revestimientos de suelo SPC (Stone Plastic Composite) de alta gama. Nuestros productos ofrecen una estética y un confort equivalentes al parquet tradicional, con una resistencia y durabilidad muy superiores.",
+      "content2": "Conformes a las normas italianas y certificados FloorScore, CE, IAF, SGS, ISO9001 e ISO14001, nuestros revestimientos son compatibles con los sistemas de clic 2G y 5G. Garantizan calidad, durabilidad y fiabilidad para proyectos residenciales y comerciales.",
+      "content3": "Nuestros revestimientos son ideales para viviendas, baños, cocinas, oficinas, tiendas, hoteles y espacios de alto tránsito. Con una excelente relación calidad-precio y una garantía de 10 años, buscamos establecer alianzas duraderas con promotores inmobiliarios, arquitectos, instaladores y minoristas.",
+      "ctaProducts": "Descubrir nuestros productos",
       "ctaContact": "Contáctanos",
-      "milestone1": "Fundación de la Empresa",
+      "milestone1": "Creación de la empresa",
       "milestone2": "Lanzamiento de PietraNox",
-      "milestone3": "Expansión Internacional",
+      "milestone3": "Expansión internacional",
       "milestone4": "Certificación ISO 9001"
     },
     "timeline": {
       "title": "Nuestro Recorrido",
       "subtitle": "Las etapas clave que han marcado nuestro crecimiento y éxito a lo largo de los años",
-      "cta": "Descubrir Nuestros Productos"
+      "cta": "Descubrir nuestros productos"
     },
     "missionVision": {
       "title": "Nuestro Compromiso",
-      "subtitle": "Una misión clara y una visión ambiciosa para el futuro de los suelos"
+      "subtitle": "Una misión clara y una visión ambiciosa para el futuro de los revestimientos de suelo"
     },
     "mission": {
       "title": "Nuestra Misión",
-      "content": "Proporcionar soluciones de suelos SPC de la más alta calidad, adecuadas para todos los espacios y usuarios — particulares, profesionales y promotores inmobiliarios — respetando el medio ambiente."
+      "content": "Proporcionar soluciones de revestimientos de suelo SPC de la más alta calidad, adaptadas a todos los espacios y usuarios — particulares, profesionales y promotores inmobiliarios — respetando el medio ambiente."
     },
     "vision": {
       "title": "Nuestra Visión",
-      "content": "Convertirnos en el socio de referencia para proyectos de pavimentación de excelencia, reconocidos por nuestra experiencia, innovación y compromiso con la calidad y la sostenibilidad."
+      "content": "Convertirnos en el socio de referencia para proyectos excepcionales de revestimientos de suelo, reconocidos por nuestra experiencia, innovación y compromiso con la calidad y la sostenibilidad."
     },
     "partners": {
       "title": "Nuestros Socios",
@@ -91,20 +91,20 @@
     },
     "pietranox": {
       "title": "PietraNox",
-      "content": "PietraNox es una empresa innovadora con sede en Casablanca, Marruecos, especializada en la producción de suelos SPC (Stone Plastic Composite). Nuestro modelo de negocio se basa en la venta al por mayor a distribuidores y revendedores, así como en la exportación a mercados estratégicos como la Unión Europea y Estados Unidos, que representan el 85 % de nuestra facturación.",
-      "content2": "Nos dirigimos principalmente a empresas de construcción y renovación, así como a distribuidores e importadores que buscan soluciones de pavimentación duraderas, estéticas y de alto rendimiento. Gracias a nuestra experiencia técnica y compromiso con la calidad, PietraNox se posiciona como un socio de confianza para proyectos de gran envergadura.",
-      "cta": "Ver Productos SPC"
+      "content": "PietraNox es un productor italiano innovador, especializado en la fabricación de revestimientos de suelo SPC (Stone Plastic Composite), que combinan calidad premium, rendimiento técnico y diseño contemporáneo. Nuestro modelo económico se basa en la venta al por mayor a una red de distribuidores y revendedores, así como en la exportación a mercados estratégicos como la Unión Europea y Estados Unidos, que representan el 85 % de nuestra facturación.",
+      "content2": "Nos dirigimos principalmente a empresas de construcción y renovación, así como a distribuidores e importadores que buscan soluciones de revestimiento de suelo duraderas, estéticas y de alto rendimiento. Gracias a una sólida experiencia técnica y un compromiso constante con la calidad, PietraNox se consolida como un socio de confianza para el éxito de proyectos de gran envergadura.",
+      "cta": "Ver nuestros productos SPC"
     }
   },
   "products": {
     "hero": {
-      "title": "Suelos SPC",
-      "subtitle": "Descubre nuestra excepcional gama de suelos SPC de alta gama, equivalentes al parquet en estética y confort"
+      "title": "Revestimientos de Suelo SPC",
+      "subtitle": "Descubre nuestra gama excepcional de revestimientos de suelo SPC de alta gama, equivalentes al parquet en estética y confort"
     },
     "categories": {
       "marble": {
         "title": "Efecto Madera",
-        "description": "Elegante y cálido efecto parquet"
+        "description": "Imitación de parquet elegante y cálida"
       },
       "granite": {
         "title": "Efecto Piedra",
@@ -116,7 +116,7 @@
       },
       "marbre": {
         "title": "Efecto Mármol",
-        "description": "Diseño único y elegante"
+        "description": "Tema único y elegante"
       }
     },
     "features": {
@@ -124,36 +124,36 @@
       "subtitle": "Prestaciones excepcionales para todos tus espacios",
       "water": {
         "title": "Resistencia al Agua",
-        "description": "100 % impermeable, ideal para todos los ambientes",
-        "longDescription": "Nuestros suelos SPC son 100 % impermeables, ideales para todos los espacios, incluidas cocinas y baños. La tecnología waterproof garantiza que la humedad y los derrames no comprometan la durabilidad del suelo."
+        "description": "100 % impermeable, ideal para todas las estancias",
+        "longDescription": "Nuestros revestimientos de suelo SPC son 100 % impermeables, ideales para todas las estancias, incluidas cocinas y baños. La tecnología Waterproof garantiza que la humedad y las salpicaduras no comprometan la durabilidad del suelo, ofreciendo un confort y una tranquilidad incomparables."
       },
       "fire": {
         "title": "Resistencia al Fuego",
-        "description": "Cumple con las normas de seguridad contra incendios",
-        "longDescription": "La seguridad es fundamental. Nuestros suelos SPC son resistentes al fuego, reduciendo los riesgos de inflamabilidad y ofreciendo protección adicional en espacios residenciales y profesionales. Cumplen con la norma EN 13501-1 (clasificación BFL-S1)."
+        "description": "Conforme a las normas contra incendios para tu seguridad",
+        "longDescription": "La seguridad es fundamental. Nuestros suelos SPC son resistentes al fuego, reduciendo los riesgos de inflamabilidad y ofreciendo una protección adicional en viviendas y espacios profesionales. Cumplen la norma EN 13501-1 (clasificación BFL-S1)."
       },
       "stain": {
         "title": "Resistencia a las Manchas",
-        "description": "Superficie antimanchas, fácil de limpiar",
-        "longDescription": "Gracias a su superficie antimanchas, estos suelos se mantienen impecables en el día a día. Las manchas de alimentos, bebidas o productos de limpieza no penetran en la superficie, facilitando el mantenimiento."
+        "description": "Superficie antimanchas, limpieza fácil",
+        "longDescription": "Gracias a su superficie antimanchas, estos suelos se mantienen impecables a diario. Las salpicaduras de alimentos, bebidas o productos de limpieza no penetran en la superficie, facilitando enormemente el mantenimiento."
       },
       "durability": {
         "title": "Confort y Durabilidad",
-        "description": "Garantía de 10 años, resistente a impactos gracias a la base IXPE de 1,5 mm.",
-        "longDescription": "Los suelos SPC combinan estética y resistencia: imitación madera, piedra o hormigón para un resultado elegante y moderno, con alta resistencia al desgaste, impactos y tráfico intenso."
+        "description": "Garantía de 10 años, resistente a impactos gracias a una base IXPE de 1,5 mm.",
+        "longDescription": "Nuestros revestimientos SPC combinan estética y robustez: imitación madera, piedra o hormigón que aportan elegancia y modernidad, con alta resistencia a impactos, desgaste y tráfico intenso. Cada suelo está diseñado para durar, con una garantía de 10 años."
       }
     },
     "specs": {
       "title": "Ficha Técnica",
-      "subtitle": "Especificaciones detalladas de nuestros suelos SPC",
+      "subtitle": "Especificaciones detalladas de nuestros revestimientos SPC",
       "items": [
-        { "label": "Tipo", "value": "Suelo rígido SPC (Stone Plastic Composite)" },
+        { "label": "Tipo", "value": "Revestimiento de suelo rígido SPC (Stone Plastic Composite)" },
         { "label": "Equivalente", "value": "Parquet" },
-        { "label": "Espesor Total", "value": "6,0 mm y 7 mm" },
-        { "label": "Espesor de la Lama", "value": "4,5 mm y 5 mm" },
-        { "label": "Capa de Desgaste", "value": "0,3 – 0,5 – 0,7 mm – IXPE 1,5 mm" },
-        { "label": "Dimensiones", "value": "Espiga 750 × 150 mm y 1220 × 180 mm" },
-        { "label": "Superficie", "value": "Mármol / Madera / Piedra / Hormigón" },
+        { "label": "Espesor total", "value": "6.0 mm y 7 mm" },
+        { "label": "Espesor de la tabla", "value": "4.5 mm y 5 mm" },
+        { "label": "Capa de desgaste", "value": "0.3, 0.5 y 0.7 mm - IXPE 1,5 mm" },
+        { "label": "Dimensiones", "value": "Espiga 750 x 150 mm y 1220 x 180 mm" },
+        { "label": "Superficie", "value": "Mármol / Imitación madera / Piedra / Hormigón" },
         { "label": "Instalación", "value": "Instalación flotante – sistema clic 2G / 5G" },
         { "label": "Garantía", "value": "10 años" }
       ]
@@ -161,19 +161,19 @@
     "pietranox": {
       "title": "PietraNox",
       "subtitle": "Producción SPC Premium",
-      "description": "PietraNox es un productor italiano innovador especializado en la fabricación de suelos SPC, que combinan calidad premium, rendimiento técnico y diseño contemporáneo. Nuestro modelo de negocio se basa en la venta al por mayor y la exportación a mercados estratégicos como la Unión Europea y Estados Unidos, que representan el 85 % de nuestra facturación.",
+      "description": "PietraNox es un productor italiano innovador, especializado en la fabricación de revestimientos de suelo SPC (Stone Plastic Composite), que combinan calidad premium, rendimiento técnico y diseño contemporáneo. Nuestro modelo económico se basa en la venta al por mayor y la exportación a mercados estratégicos como la Unión Europea y Estados Unidos, que representan el 85 % de nuestra facturación. Nos dirigimos principalmente a empresas de construcción y renovación, así como a distribuidores e importadores que buscan soluciones de revestimiento de suelo duraderas, estéticas y de alto rendimiento. Gracias a una sólida experiencia técnica y un compromiso constante con la calidad, PietraNox se posiciona como un socio de confianza para proyectos de gran envergadura.",
       "features": [
-        "Materias primas vírgenes al 100 %",
-        "Libre de formaldehído (norma E1)",
-        "Libre de ftalatos",
+        "100 % materias primas vírgenes",
+        "Sin formaldehído (Norma E1)",
+        "Sin ftalatos",
         "Conforme a la FDA para uso alimentario",
-        "Emisiones ultra bajas (TVOC A+)"
+        "Emisiones ultrabajas (TVOC A+)"
       ]
     },
     "cta": {
-      "title": "¿Necesitas asesoramiento personalizado?",
+      "title": "¿Necesitas un asesoramiento personalizado?",
       "description": "Nuestro equipo de expertos está a tu disposición para guiarte y acompañarte en tu proyecto.",
-      "button": "Solicitar Presupuesto"
+      "button": "Solicitar presupuesto"
     }
   },
   "certifications": {
@@ -183,7 +183,7 @@
     },
     "quality": {
       "title": "Calidad Certificada",
-      "description": "Nuestras certificaciones demuestran nuestro compromiso con la excelencia y la satisfacción del cliente. Cada etapa de nuestro proceso es rigurosamente controlada."
+      "description": "Nuestras certificaciones reflejan nuestro compromiso con la excelencia y la satisfacción del cliente. Cada etapa de nuestro proceso se controla rigurosamente para garantizar los más altos estándares de calidad."
     },
     "list": [
       {
@@ -196,11 +196,11 @@
       },
       {
         "name": "FloorScore",
-        "description": "Certificación de calidad del aire interior que garantiza emisiones ultra bajas."
+        "description": "Certificación de calidad del aire interior (SCS-EC10.3-2014 v4.0), que garantiza emisiones ultrabajas."
       },
       {
-        "name": "Marcado CE",
-        "description": "Conformidad con los requisitos esenciales de la Unión Europea."
+        "name": "CE Marking",
+        "description": "Conformidad con los requisitos esenciales de la Unión Europea para nuestros productos."
       }
     ],
     "standards": {
@@ -210,10 +210,10 @@
     "american": {
       "title": "Normas Estadounidenses",
       "items": [
-        "Certificación US EPA",
+        "Certificación US EPA (Registrado y aprobado)",
         "Registro California CDTSC",
         "Cumple California Proposition 65",
-        "Cumple TSCA"
+        "Cumple TSCA (Toxic Substances Control Act)"
       ]
     },
     "european": {
@@ -228,49 +228,47 @@
     "materials": {
       "title": "Certificaciones de Materias Primas",
       "items": [
-        "Materiales vírgenes al 100 %",
+        "100 % materias vírgenes",
         "Conforme FDA 21 CFR (uso alimentario)",
-        "Libre de formaldehído (E1)",
-        "Libre de ftalatos",
+        "Sin formaldehído (Norma E1)",
+        "Sin ftalatos",
         "Metales pesados < 1 ppm"
       ]
     },
     "commitment": {
       "title": "Nuestro Compromiso con la Calidad",
-      "description": "Nos comprometemos a mantener los más altos estándares de calidad en todas nuestras operaciones. Nuestros productos están fabricados con materias primas vírgenes al 100 %, sin formaldehído ni ftalatos, con emisiones ultra bajas (TVOC A+)."
+      "description": "Nos comprometemos a mantener los más altos estándares de calidad en todas nuestras operaciones. Nuestros productos se fabrican con materias primas 100 % vírgenes, sin formaldehído ni ftalatos, con emisiones ultrabajas (TVOC A+)."
     }
   },
   "blog": {
     "hero": {
       "title": "Nuestra Galería",
-      "subtitle": "Descubre nuestros proyectos e inspiraciones en pavimentación"
+      "subtitle": "Descubre nuestras realizaciones e inspiraciones en revestimientos de suelo"
     },
     "gallery": {
       "title": "Nuestra Colección",
-      "subtitle": "Explora nuestras mejores instalaciones de suelos SPC"
+      "subtitle": "Explora nuestras mejores instalaciones de revestimientos SPC"
     }
   },
   "contact": {
     "hero": {
       "title": "Contáctanos",
-      "subtitle": "Nuestro equipo está listo para responder a todas tus preguntas"
+      "subtitle": "Nuestro equipo está a tu disposición para responder a todas tus preguntas"
     },
     "form": {
-      "title": "Envíanos un Mensaje",
-      "name": "Nombre Completo",
-      "email": "Correo Electrónico",
+      "title": "Envíanos un mensaje",
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
       "phone": "Teléfono",
       "company": "Empresa",
       "subject": "Asunto",
       "subject_select": {
-        "sale": "Solicitud de Compra",
-        "advice": "Solicitud de Asesoramiento",
-
-        "facture" : "facturación"
-
+        "sale": "Solicitud de compra",
+        "advice": "Solicitud de asesoramiento",
+        "facture": "Facturación"
       },
-      "message": "Tu Mensaje",
-      "submit": "Enviar Mensaje",
+      "message": "Tu mensaje",
+      "submit": "Enviar mensaje",
       "success": "¡Mensaje enviado con éxito!"
     },
     "info": {
@@ -284,22 +282,22 @@
         "value": "+212 5 22 XX XX XX"
       },
       "email": {
-        "label": "Correo Electrónico",
+        "label": "Correo electrónico",
         "value": "contact@TEKORA.ma"
       },
       "hours": {
         "label": "Horario",
-        "value": "Lun - Vie:"
+        "value": "Lun - Vie : "
       }
     }
   },
   "footer": {
-    "description": "TEKORA. y PietraNox: excelencia en suelos SPC de alta gama, con sede en Casablanca, Marruecos.",
-    "quickLinks": "Enlaces Rápidos",
+    "description": "TEKORA y PietraNox: excelencia en revestimientos de suelo SPC de alta gama, con sede en Casablanca, Marruecos.",
+    "quickLinks": "Enlaces rápidos",
     "contact": "Contacto",
-    "legal": "Aviso Legal",
-    "privacy": "Política de Privacidad",
-    "terms": "Términos y Condiciones",
+    "legal": "Aviso legal",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones",
     "rights": "Todos los derechos reservados."
   }
 }

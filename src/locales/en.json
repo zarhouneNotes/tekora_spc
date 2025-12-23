@@ -4,20 +4,20 @@
     "company": "Company",
     "products": "Products",
     "certifications": "Certifications",
-    "blog": "Gallery",
+    "blog": "Blog",
     "contact": "Contact",
     "quote": "Request a Quote"
   },
   "home": {
     "hero": {
-      "title": "TEKORA High-End SPC Flooring Expert",
-      "subtitle": "A leading importer and distributor based in Casablanca, we provide durable and aesthetic flooring solutions in partnership with PietraNox.",
+      "title": "TEKORA Expert in Premium SPC Flooring",
+      "subtitle": "Leading importer and distributor in Casablanca, offering durable and aesthetic flooring solutions in partnership with PietraNox.",
       "cta": "Discover Our Products"
     },
     "about": {
       "title": "Who We Are",
-      "description": "TEKORA., based in Casablanca, specializes in the import and distribution of high-end SPC flooring. In partnership with PietraNox, our production partner, we offer products certified to the most demanding international standards, ensuring quality, durability, and reliability.",
-      "cta": "20+ years of excellence in flooring solutions"
+      "description": "TEKORA, based in Casablanca, specializes in the import and distribution of premium SPC flooring. In partnership with PietraNox, our manufacturing partner, we offer products certified to the most demanding international standards, ensuring quality, durability, and reliability.",
+      "cta": "20+ years of excellence in the flooring industry"
     },
     "values": {
       "title": "Our Values",
@@ -28,7 +28,7 @@
         },
         {
           "title": "Innovation",
-          "description": "We continuously invest in cutting-edge technologies to deliver next-generation SPC solutions."
+          "description": "We continuously invest in cutting-edge technologies to deliver innovative SPC solutions."
         },
         {
           "title": "Sustainability",
@@ -42,28 +42,28 @@
     },
     "products": {
       "title": "Our Products",
-      "subtitle": "A complete range of high-end SPC flooring, equivalent to parquet in aesthetics and comfort",
+      "subtitle": "A complete range of premium SPC flooring, equivalent to parquet in aesthetics and comfort",
       "cta": "View All Products"
     },
     "cta": {
-      "title": "Ready to transform your space?",
+      "title": "Ready to Transform Your Space?",
       "description": "Contact our team of experts to discuss your needs and receive a personalized quote.",
       "button": "Contact Us"
     }
   },
   "company": {
     "hero": {
-      "title": "About TEKORA.",
-      "subtitle": "Leader in the import and distribution of high-end SPC flooring in Casablanca, in partnership with PietraNox for excellence in quality."
+      "title": "About TEKORA",
+      "subtitle": "Leader in the import and distribution of premium SPC flooring in Casablanca, in partnership with PietraNox for outstanding quality."
     },
     "story": {
-      "title": "TEKORA.",
-      "content": "TEKORA., based in Casablanca, specializes in the import and distribution of high-end SPC (Stone Plastic Composite) flooring. Our products offer aesthetics and comfort comparable to traditional parquet, while being significantly more resistant and durable.",
-      "content2": "Compliant with Italian standards and certified FloorScore, CE, IAF, SGS, ISO9001, ISO14001, our flooring supports 2G and 5G click systems. They guarantee quality, durability, and reliability for all residential and commercial projects.",
-      "content3": "Our flooring is perfectly suited for homes, bathrooms, kitchens, offices, retail stores, hotels, and high-traffic environments. With excellent value for money and a 10-year warranty, we aim to build long-term partnerships with real estate developers, architects, installers, and retailers.",
+      "title": "TEKORA",
+      "content": "TEKORA, based in Casablanca, specializes in the import and distribution of premium SPC (Stone Plastic Composite) flooring. Our products offer aesthetics and comfort equivalent to traditional parquet, while being significantly more resistant and durable.",
+      "content2": "Compliant with Italian standards and certified FloorScore, CE, IAF, SGS, ISO9001, and ISO14001, our flooring supports 2G and 5G click systems. They guarantee quality, durability, and reliability for all your projects, whether residential or commercial.",
+      "content3": "Our flooring is perfectly suited for homes, bathrooms, kitchens, offices, shops, hotels, and high-traffic facilities. With excellent value for money and a 10-year warranty, we aim to build long-term partnerships with real estate developers, architects, installers, and retailers.",
       "ctaProducts": "Discover Our Products",
       "ctaContact": "Contact Us",
-      "milestone1": "Company Founded",
+      "milestone1": "Company Creation",
       "milestone2": "PietraNox Launch",
       "milestone3": "International Expansion",
       "milestone4": "ISO 9001 Certification"
@@ -79,7 +79,7 @@
     },
     "mission": {
       "title": "Our Mission",
-      "content": "To provide the highest quality SPC flooring solutions, suitable for all spaces and users—individuals, professionals, and real estate developers—while respecting the environment."
+      "content": "To provide the highest-quality SPC flooring solutions, suitable for all spaces and users—individuals, professionals, and real estate developers—while respecting the environment."
     },
     "vision": {
       "title": "Our Vision",
@@ -91,20 +91,20 @@
     },
     "pietranox": {
       "title": "PietraNox",
-      "content": "PietraNox is an innovative company based in Casablanca, Morocco, specializing in the production of SPC (Stone Plastic Composite) flooring. Our business model focuses on wholesale distribution to resellers and distributors, as well as exports to strategic markets such as the European Union and the United States, which account for 85% of our revenue.",
-      "content2": "We primarily target construction and renovation companies, as well as distributors and importers seeking durable, aesthetic, and high-performance flooring solutions. Thanks to our technical expertise and quality commitment, PietraNox stands as a trusted partner for large-scale projects.",
+      "content": "PietraNox is an innovative Italian manufacturer specializing in SPC (Stone Plastic Composite) flooring, combining premium quality, technical performance, and contemporary design. Our business model is based on wholesale sales to a network of resellers and distributors, as well as exports to strategic markets, particularly the European Union and the United States, which represent 85% of our revenue.",
+      "content2": "We primarily serve construction and renovation companies, as well as distributors and importers seeking durable, aesthetic, and high-performance flooring solutions. Driven by proven technical expertise and a constant commitment to quality, PietraNox stands as a trusted partner for the success of large-scale projects.",
       "cta": "View Our SPC Products"
     }
   },
   "products": {
     "hero": {
       "title": "SPC Flooring",
-      "subtitle": "Discover our exceptional range of high-end SPC flooring, equivalent to parquet in aesthetics and comfort"
+      "subtitle": "Discover our exceptional range of premium SPC flooring, equivalent to parquet in aesthetics and comfort"
     },
     "categories": {
       "marble": {
         "title": "Wood Effect",
-        "description": "Elegant and warm parquet imitation"
+        "description": "Elegant and warm parquet-style imitation"
       },
       "granite": {
         "title": "Stone Effect",
@@ -125,26 +125,26 @@
       "water": {
         "title": "Water Resistance",
         "description": "100% waterproof, ideal for all rooms",
-        "longDescription": "Our SPC flooring is 100% waterproof, ideal for all rooms including kitchens and bathrooms. Waterproof technology ensures that moisture and spills do not compromise durability, offering unmatched comfort and peace of mind."
+        "longDescription": "Our SPC flooring is 100% waterproof, ideal for all rooms, including kitchens and bathrooms. Waterproof technology ensures that moisture and splashes do not compromise durability, providing unmatched comfort and peace of mind."
       },
       "fire": {
         "title": "Fire Resistance",
         "description": "Compliant with fire safety standards",
-        "longDescription": "Safety is essential. Our SPC floors are fire-resistant, reducing flammability risks and providing added protection in homes and professional spaces. Compliant with EN 13501-1 (BFL-S1 classification)."
+        "longDescription": "Safety is essential. Our SPC floors are fire-resistant, reducing flammability risks and providing additional protection in homes and professional spaces. Compliant with EN 13501-1 standard (BFL-S1 classification)."
       },
       "stain": {
         "title": "Stain Resistance",
-        "description": "Stain-proof surface, easy to clean",
-        "longDescription": "Thanks to their stain-resistant surface, these floors remain flawless every day. Food, drink, and household spills do not penetrate the surface, making cleaning easy and keeping the floor looking new."
+        "description": "Stain-resistant surface, easy to clean",
+        "longDescription": "Thanks to their stain-resistant surface, these floors remain flawless on a daily basis. Food, beverage, and household spills do not penetrate the surface, making cleaning easy and keeping the floor looking new."
       },
       "durability": {
-        "title": "Comfort & Durability",
-        "description": "10-year warranty, impact-resistant with 1.5 mm IXPE underlay.",
-        "longDescription": "Our SPC flooring combines aesthetics and strength: wood, stone, or concrete imitation delivers elegance and modernity while resisting impacts, wear, and heavy traffic. Each floor is designed to last, with a 10-year warranty."
+        "title": "Comfort and Durability",
+        "description": "10-year warranty, impact-resistant thanks to a 1.5 mm IXPE underlay.",
+        "longDescription": "Our SPC flooring combines aesthetics and robustness: wood, stone, or concrete imitation delivers elegance and modernity while resisting impacts, wear, and heavy traffic. Each floor is designed to last and comes with a 10-year warranty."
       }
     },
     "specs": {
-      "title": "Technical Sheet",
+      "title": "Technical Data Sheet",
       "subtitle": "Detailed specifications of our SPC flooring",
       "items": [
         { "label": "Type", "value": "Rigid SPC flooring (Stone Plastic Composite)" },
@@ -153,7 +153,7 @@
         { "label": "Plank Thickness", "value": "4.5 mm and 5 mm" },
         { "label": "Wear Layer", "value": "0.3, 0.5 and 0.7 mm – IXPE 1.5 mm" },
         { "label": "Dimensions", "value": "Herringbone 750 x 150 mm and 1220 x 180 mm" },
-        { "label": "Surface", "value": "Marble / Wood / Stone / Concrete" },
+        { "label": "Surface", "value": "Marble / Wood imitation / Stone / Concrete" },
         { "label": "Installation", "value": "Floating installation – 2G / 5G click system" },
         { "label": "Warranty", "value": "10 years" }
       ]
@@ -161,7 +161,7 @@
     "pietranox": {
       "title": "PietraNox",
       "subtitle": "Premium SPC Production",
-      "description": "PietraNox is an innovative Italian producer specializing in SPC flooring, combining premium quality, technical performance, and contemporary design. Our business model focuses on wholesale distribution and exports to strategic markets, including the European Union and the United States, which represent 85% of our revenue. We serve construction and renovation companies, distributors, and importers seeking durable, aesthetic, and high-performance flooring solutions. Driven by proven technical expertise and a strong commitment to quality, PietraNox stands as a trusted partner for large-scale projects.",
+      "description": "PietraNox is an innovative Italian manufacturer specializing in SPC (Stone Plastic Composite) flooring, combining premium quality, technical performance, and contemporary design. Our business model is based on wholesale distribution to resellers and distributors, as well as exports to strategic markets, particularly the European Union and the United States, which represent 85% of our revenue.",
       "features": [
         "100% virgin raw materials",
         "Formaldehyde-free (E1 standard)",
@@ -171,7 +171,7 @@
       ]
     },
     "cta": {
-      "title": "Need personalized advice?",
+      "title": "Need Personalized Advice?",
       "description": "Our team of experts is available to guide you and support your project.",
       "button": "Request a Quote"
     }
@@ -183,12 +183,12 @@
     },
     "quality": {
       "title": "Certified Quality",
-      "description": "Our certifications demonstrate our commitment to excellence and customer satisfaction. Every step of our process is strictly controlled to ensure the highest quality standards."
+      "description": "Our certifications reflect our commitment to excellence and customer satisfaction. Every stage of our process is rigorously controlled to ensure the highest quality standards."
     },
     "list": [
       {
         "name": "ISO 9001:2015",
-        "description": "Quality management system certification ensuring optimized processes and continuous improvement."
+        "description": "Certified quality management system ensuring optimized processes and continuous improvement."
       },
       {
         "name": "ISO 14001:2015",
@@ -196,11 +196,11 @@
       },
       {
         "name": "FloorScore",
-        "description": "Indoor air quality certification (SCS-EC10.3-2014 v4.0) ensuring ultra-low emissions."
+        "description": "Indoor air quality certification (SCS-EC10.3-2014 v4.0), ensuring ultra-low emissions."
       },
       {
         "name": "CE Marking",
-        "description": "Compliance with essential European Union requirements."
+        "description": "Compliance with essential European Union requirements for our products."
       }
     ],
     "standards": {
@@ -237,13 +237,13 @@
     },
     "commitment": {
       "title": "Our Quality Commitment",
-      "description": "We are committed to maintaining the highest quality standards in all our operations. Our products are made from 100% virgin raw materials, free from formaldehyde and phthalates, with ultra-low emissions (TVOC A+)."
+      "description": "We are committed to maintaining the highest quality standards across all our operations. Our products are made from 100% virgin raw materials, are formaldehyde-free, phthalate-free, and feature ultra-low emissions (TVOC A+)."
     }
   },
   "blog": {
     "hero": {
       "title": "Our Gallery",
-      "subtitle": "Discover our projects and flooring inspirations"
+      "subtitle": "Discover our projects and inspirations in flooring solutions"
     },
     "gallery": {
       "title": "Our Collection",
@@ -253,7 +253,7 @@
   "contact": {
     "hero": {
       "title": "Contact Us",
-      "subtitle": "Our team is ready to answer all your questions"
+      "subtitle": "Our team is here to answer all your questions"
     },
     "form": {
       "title": "Send Us a Message",
@@ -263,10 +263,9 @@
       "company": "Company",
       "subject": "Subject",
       "subject_select": {
-        "sale": "Purchase Inquiry",
+        "sale": "Purchase Request",
         "advice": "Advice Request",
-        "facture" : "Invoice"
-
+        "facture": "Billing"
       },
       "message": "Your Message",
       "submit": "Send Message",
@@ -284,21 +283,21 @@
       },
       "email": {
         "label": "Email",
-        "value": "contact@TEKORA.ma"
+        "value": "contact@tekorafloor.ma"
       },
       "hours": {
-        "label": "Business Hours",
+        "label": "Opening Hours",
         "value": "Mon - Fri:"
       }
     }
   },
   "footer": {
-    "description": "TEKORA. and PietraNox: excellence in high-end SPC flooring, based in Casablanca, Morocco.",
+    "description": "TEKORA and PietraNox: excellence in premium SPC flooring, based in Casablanca, Morocco.",
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "legal": "Legal Notice",
     "privacy": "Privacy Policy",
-    "terms": "Terms & Conditions",
+    "terms": "Terms and Conditions",
     "rights": "All rights reserved."
   }
 }

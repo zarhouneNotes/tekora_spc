@@ -10,11 +10,10 @@ import { toast } from '@/hooks/use-toast';
 const Contact = () => {
 
   // new
-  const contact_apikey = "3666d6c3-1f24-4b92-96d4-df0bd196aa1e"
-  const sales_apikey = "c883ebe2-1f4e-4b5f-a804-57e3d5a8fa68"
-  const facturation_apikey = "0768aa58-1f60-4be2-98a4-312db17a0784"
+  const contact_apikey = import.meta.env.VITE_CONTACT_APIKEY
+  const sales_apikey = import.meta.env.VITE_SALES_APIKEY
+  const facturation_apikey = import.meta.env.VITE_FACTURATION_APIKEY
   const { t } = useI18n();
-  const [apiKey , setApikey ] = useState("")
   const [formData, setFormData] = useState({
     name: '',
     email: '',
