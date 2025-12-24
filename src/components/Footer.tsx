@@ -67,7 +67,7 @@ const Footer = () => {
                   href="mailto:contact@tekora.com"
                   className="font-poppins font-light text-sm opacity-80 hover:opacity-100 hover:text-secondary transition-all duration-200"
                 >
-                   contact@tekoramaroc.com 
+                   contact@tekorafloor.com 
                   
                 </a>
               </li>
