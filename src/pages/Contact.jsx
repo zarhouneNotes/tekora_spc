@@ -83,7 +83,7 @@ const Contact = () => {
     {
       icon: Phone,
       label: t.contact.info.phone.label,
-      value: "+2126-621-311-38",
+      value: "+2127-765-316-31",
     },
     {
       icon: Mail,

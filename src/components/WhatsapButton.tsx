@@ -5,7 +5,7 @@ import whts from "@/images/wlogo.png"
 export default function WhatsAppBubble() {
   return (
     <Link
-      to="https://wa.me/212662131138"
+      to="https://wa.me/212776531631"
       target="_blank"
       rel="noopener noreferrer"
     >
