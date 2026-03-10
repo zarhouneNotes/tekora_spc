@@ -15,6 +15,19 @@ const Footer = () => {
     { href: '/contact', label: t.nav.contact },
   ];
 
+  const contactPhones = [
+    { label: t.contact.info.bureau.label, value: t.contact.info.bureau.value },
+    { label: t.contact.info.salesB2B.label, value: t.contact.info.salesB2B.value },
+    { label: t.contact.info.salesTraditional.label, value: t.contact.info.salesTraditional.value },
+  ];
+
+  const formatTel = (raw: string) => {
+    const digits = raw.replace(/\D/g, '');
+    if (digits.startsWith('0')) return `+212${digits.slice(1)}`;
+    if (digits.startsWith('212')) return `+${digits}`;
+    return digits;
+  };
+
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 lg:px-8 py-16">
@@ -54,14 +67,16 @@ const Footer = () => {
               <li className="font-poppins font-light text-sm opacity-80">
                 {t.contact.info.address.value}
               </li>
-              <li>
-                <a
-                  href="tel:+212665849996"
-                  className="font-poppins font-light text-sm opacity-80 hover:opacity-100 hover:text-secondary transition-all duration-200"
-                >
-                  +212-665-849-996
-                </a>
-              </li>
+              {contactPhones.map((phone) => (
+                <li key={phone.label}>
+                  <a
+                    href={`tel:${formatTel(phone.value)}`}
+                    className="font-poppins font-light text-sm opacity-80 hover:opacity-100 hover:text-secondary transition-all duration-200"
+                  >
+                    {`${phone.label}: ${phone.value}`}
+                  </a>
+                </li>
+              ))}
               <li>
                 <a
                   href="mailto:contact@tekora.com"

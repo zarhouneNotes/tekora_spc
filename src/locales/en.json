@@ -281,6 +281,18 @@
         "label": "Phone",
         "value": "+212 5 22 XX XX XX"
       },
+      "bureau": {
+        "label": "Office",
+        "value": "0665849996"
+      },
+      "salesB2B": {
+        "label": "B2B Sales",
+        "value": "0665844850"
+      },
+      "salesTraditional": {
+        "label": "Retail Sales",
+        "value": "0665841612"
+      },
       "email": {
         "label": "Email",
         "value": "contact@tekorafloor.ma"

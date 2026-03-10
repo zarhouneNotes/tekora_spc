@@ -281,6 +281,18 @@
         "label": "Teléfono",
         "value": "+212 5 22 XX XX XX"
       },
+      "bureau": {
+        "label": "Oficina",
+        "value": "0665849996"
+      },
+      "salesB2B": {
+        "label": "Servicio comercial B2B",
+        "value": "0665844850"
+      },
+      "salesTraditional": {
+        "label": "Servicio comercial tradicional",
+        "value": "0665841612"
+      },
       "email": {
         "label": "Correo electrónico",
         "value": "contact@TEKORA.ma"
