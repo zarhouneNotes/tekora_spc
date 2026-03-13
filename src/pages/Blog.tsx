@@ -6,6 +6,7 @@ import { Card } from '@/components/Card';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/Button';
 import { Link } from 'react-router-dom';
+import { AnimatedSection, AnimatedDiv } from '@/hooks/useScrollAnimation';
 
 const Blog = () => {
   const { t } = useI18n();
@@ -118,19 +119,23 @@ const Blog = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 bg-primary">
+      <AnimatedSection className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 bg-primary">
         <div className="container mx-auto px-4 lg:px-8 text-center">
-          <h1 className="fade-up text-4xl md:text-5xl lg:text-6xl font-poppins font-semibold text-primary-foreground">
-            {t.blog.hero.title}
-          </h1>
-          <p className="fade-up-delay-1 mt-6 text-lg md:text-xl font-poppins font-light text-primary-foreground/80 max-w-3xl mx-auto">
-            {t.blog.hero.subtitle}
-          </p>
+          <AnimatedDiv animation="fade-up">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-poppins font-semibold text-primary-foreground">
+              {t.blog.hero.title}
+            </h1>
+          </AnimatedDiv>
+          <AnimatedDiv animation="fade-up" delay={100}>
+            <p className="mt-6 text-lg md:text-xl font-poppins font-light text-primary-foreground/80 max-w-3xl mx-auto">
+              {t.blog.hero.subtitle}
+            </p>
+          </AnimatedDiv>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Pinterest-style Gallery */}
-      <section className="py-24 lg:py-32 bg-background">
+      <AnimatedSection className="py-24 lg:py-32 bg-background">
         <div className="container mx-auto px-2 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4  ">
             {imagesWithNames.map((img , i) => {
@@ -163,22 +168,24 @@ const Blog = () => {
 
 
         <div className="container mx-auto p-4 my-5 lg:px-8">
-          <Card variant="elevated" className="fade-up text-center py-16 px-8">
-            <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-foreground mb-4">
-              {t.products.cta.title}
-            </h2>
-            <p className="font-poppins font-light text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
-              {t.products.cta.description}
-            </p>
-            <Link to="/contact">
-              <Button variant="solid" size="lg" className="group">
-                {t.products.cta.button}
-                <ArrowRight className="ml-2 w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
-              </Button>
-            </Link>
-          </Card>
+          <AnimatedDiv animation="fade-up">
+            <Card variant="elevated" className="text-center py-16 px-8">
+              <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-foreground mb-4">
+                {t.products.cta.title}
+              </h2>
+              <p className="font-poppins font-light text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
+                {t.products.cta.description}
+              </p>
+              <Link to="/contact">
+                <Button variant="solid" size="lg" className="group">
+                  {t.products.cta.button}
+                  <ArrowRight className="ml-2 w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
+                </Button>
+              </Link>
+            </Card>
+          </AnimatedDiv>
         </div>
-      </section>
+      </AnimatedSection>
       {/* <section className="py-24 lg:py-32 bg-neutralBg">
         
       </section> */}

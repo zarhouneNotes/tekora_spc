@@ -16,7 +16,7 @@ const Certifications = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 bg-primary">
+      <AnimatedSection className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 bg-primary">
         <div className="container mx-auto px-4 lg:px-8 text-center">
           <AnimatedDiv animation="fade-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-poppins font-semibold text-primary-foreground">
@@ -29,7 +29,7 @@ const Certifications = () => {
             </p>
           </AnimatedDiv>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Quality Section with Single Image */}
       <AnimatedSection className="py-24 lg:py-32 bg-background">

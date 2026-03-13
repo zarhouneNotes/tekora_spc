@@ -11,7 +11,7 @@ const Footer = () => {
     { href: '/entreprise', label: t.nav.company },
     { href: '/produits', label: t.nav.products },
     { href: '/certifications', label: t.nav.certifications },
-    { href: '/blog', label: t.nav.blog },
+    { href: '/blog', label: t.nav.blog }, // label text changed to "Catalog" via locale
     { href: '/contact', label: t.nav.contact },
   ];
 

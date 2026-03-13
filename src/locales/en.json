@@ -4,7 +4,7 @@
     "company": "Company",
     "products": "Products",
     "certifications": "Certifications",
-    "blog": "Blog",
+    "blog": "Catalog",
     "contact": "Contact",
     "quote": "Request a Quote"
   },
@@ -36,7 +36,7 @@
         },
         {
           "title": "Reliability",
-          "description": "10-year warranty and compliance with the strictest Italian, European, and American standards."
+          "description": "lifespan: 20 years and compliance with the strictest Italian, European, and American standards."
         }
       ]
     },
@@ -60,7 +60,7 @@
       "title": "TEKORA",
       "content": "TEKORA, based in Casablanca, specializes in the import and distribution of premium SPC (Stone Plastic Composite) flooring. Our products offer aesthetics and comfort equivalent to traditional parquet, while being significantly more resistant and durable.",
       "content2": "Compliant with Italian standards and certified FloorScore, CE, IAF, SGS, ISO9001, and ISO14001, our flooring supports 2G and 5G click systems. They guarantee quality, durability, and reliability for all your projects, whether residential or commercial.",
-      "content3": "Our flooring is perfectly suited for homes, bathrooms, kitchens, offices, shops, hotels, and high-traffic facilities. With excellent value for money and a 10-year warranty, we aim to build long-term partnerships with real estate developers, architects, installers, and retailers.",
+      "content3": "Our flooring is perfectly suited for homes, bathrooms, kitchens, offices, shops, hotels, and high-traffic facilities. With excellent value for money and a lifespan of 20 years, we aim to build long-term partnerships with real estate developers, architects, installers, and retailers.",
       "ctaProducts": "Discover Our Products",
       "ctaContact": "Contact Us",
       "milestone1": "Company Creation",
@@ -139,8 +139,8 @@
       },
       "durability": {
         "title": "Comfort and Durability",
-        "description": "10-year warranty, impact-resistant thanks to a 1.5 mm IXPE underlay.",
-        "longDescription": "Our SPC flooring combines aesthetics and robustness: wood, stone, or concrete imitation delivers elegance and modernity while resisting impacts, wear, and heavy traffic. Each floor is designed to last and comes with a 10-year warranty."
+        "description": "lifespan: 20 years, impact-resistant thanks to a 1.5 mm IXPE underlay.",
+        "longDescription": "Our SPC flooring combines aesthetics and robustness: wood, stone, or concrete imitation delivers elegance and modernity while resisting impacts, wear, and heavy traffic. Each floor is designed to last and has a lifespan of 20 years."
       }
     },
     "specs": {
@@ -155,7 +155,7 @@
         { "label": "Dimensions", "value": "Herringbone 750 x 150 mm and 1220 x 180 mm" },
         { "label": "Surface", "value": "Marble / Wood imitation / Stone / Concrete" },
         { "label": "Installation", "value": "Floating installation – 2G / 5G click system" },
-        { "label": "Warranty", "value": "10 years" }
+        { "label": "Lifespan", "value": "20 years" }
       ]
     },
     "pietranox": {
@@ -299,8 +299,9 @@
       },
       "hours": {
         "label": "Opening Hours",
-        "value": "Mon - Fri:"
-      }
+        "value": "Mon - Fri: 9h00-18h00 | Saturday: 09h - 13h"
+      },
+      "phoneNumbersTitle": "Phone Numbers"
     }
   },
   "footer": {

@@ -4,7 +4,7 @@
     "company": "Empresa",
     "products": "Productos",
     "certifications": "Certificaciones",
-    "blog": "Blog",
+    "blog": "Catálogo",
     "contact": "Contacto",
     "quote": "Solicitar presupuesto"
   },
@@ -36,7 +36,7 @@
         },
         {
           "title": "Fiabilidad",
-          "description": "Garantía de 10 años y conformidad con las normas italianas, europeas y estadounidenses más estrictas."
+          "description": "duración de vida: 20 años y conformidad con las normas italianas, europeas y estadounidenses más estrictas."
         }
       ]
     },
@@ -60,7 +60,7 @@
       "title": "TEKORA",
       "content": "TEKORA, con sede en Casablanca, está especializada en la importación y distribución de revestimientos de suelo SPC (Stone Plastic Composite) de alta gama. Nuestros productos ofrecen una estética y un confort equivalentes al parquet tradicional, con una resistencia y durabilidad muy superiores.",
       "content2": "Conformes a las normas italianas y certificados FloorScore, CE, IAF, SGS, ISO9001 e ISO14001, nuestros revestimientos son compatibles con los sistemas de clic 2G y 5G. Garantizan calidad, durabilidad y fiabilidad para proyectos residenciales y comerciales.",
-      "content3": "Nuestros revestimientos son ideales para viviendas, baños, cocinas, oficinas, tiendas, hoteles y espacios de alto tránsito. Con una excelente relación calidad-precio y una garantía de 10 años, buscamos establecer alianzas duraderas con promotores inmobiliarios, arquitectos, instaladores y minoristas.",
+      "content3": "Nuestros revestimientos son ideales para viviendas, baños, cocinas, oficinas, tiendas, hoteles y espacios de alto tránsito. Con una excelente relación calidad-precio y una duración de vida de 20 años, buscamos establecer alianzas duraderas con promotores inmobiliarios, arquitectos, instaladores y minoristas.",
       "ctaProducts": "Descubrir nuestros productos",
       "ctaContact": "Contáctanos",
       "milestone1": "Creación de la empresa",
@@ -139,8 +139,8 @@
       },
       "durability": {
         "title": "Confort y Durabilidad",
-        "description": "Garantía de 10 años, resistente a impactos gracias a una base IXPE de 1,5 mm.",
-        "longDescription": "Nuestros revestimientos SPC combinan estética y robustez: imitación madera, piedra o hormigón que aportan elegancia y modernidad, con alta resistencia a impactos, desgaste y tráfico intenso. Cada suelo está diseñado para durar, con una garantía de 10 años."
+        "description": "duración de vida: 20 años, resistente a impactos gracias a una base IXPE de 1,5 mm.",
+        "longDescription": "Nuestros revestimientos SPC combinan estética y robustez: imitación madera, piedra o hormigón que aportan elegancia y modernidad, con alta resistencia a impactos, desgaste y tráfico intenso. Cada suelo está diseñado para durar, con una duración de vida de 20 años."
       }
     },
     "specs": {
@@ -155,7 +155,7 @@
         { "label": "Dimensiones", "value": "Espiga 750 x 150 mm y 1220 x 180 mm" },
         { "label": "Superficie", "value": "Mármol / Imitación madera / Piedra / Hormigón" },
         { "label": "Instalación", "value": "Instalación flotante – sistema clic 2G / 5G" },
-        { "label": "Garantía", "value": "10 años" }
+        { "label": "duración de vida", "value": "20 años" }
       ]
     },
     "pietranox": {
@@ -299,8 +299,9 @@
       },
       "hours": {
         "label": "Horario",
-        "value": "Lun - Vie : "
-      }
+        "value": "Lun - Vie: 9h00-18h00 | Sábado: 09h - 13h"
+      },
+      "phoneNumbersTitle": "Números de teléfono"
     }
   },
   "footer": {

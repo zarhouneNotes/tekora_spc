@@ -9,6 +9,7 @@ import fireproof from "@/images/Plancher.webp"
 import clean from "@/images/clean.webp"
 import cat from "@/images/catalog.png"
 import { Check, ArrowRight, Star, Droplets, Flame, Sparkles, Shield } from 'lucide-react';
+import { AnimatedDiv, AnimatedSection } from '@/hooks/useScrollAnimation';
 
 const Produits = () => {
   const { t } = useI18n();
@@ -34,44 +35,52 @@ const Produits = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 bg-primary">
+      <AnimatedSection className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 bg-primary">
         <div className="container mx-auto px-4 lg:px-8 text-center">
-          <h1 className="fade-up text-4xl md:text-5xl lg:text-6xl font-poppins font-semibold text-primary-foreground">
-            {t.products.hero.title}
-          </h1>
-          <p className="fade-up-delay-1 my-6 text-lg md:text-xl font-poppins font-light text-primary-foreground/80 max-w-3xl mx-auto">
-            {t.products.hero.subtitle}
-          </p>
+          <AnimatedDiv animation="fade-up">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-poppins font-semibold text-primary-foreground">
+              {t.products.hero.title}
+            </h1>
+          </AnimatedDiv>
+          <AnimatedDiv animation="fade-up" delay={100}>
+            <p className="my-6 text-lg md:text-xl font-poppins font-light text-primary-foreground/80 max-w-3xl mx-auto">
+              {t.products.hero.subtitle}
+            </p>
+          </AnimatedDiv>
            <img src={cat} alt="" width={"100%"} />
         </div>
 
-      </section>
+      </AnimatedSection>
 
       {/* Features Title */}
-      <section className="py-16 lg:py-20 bg-background">
+      <AnimatedSection className="py-16 lg:py-20 bg-background">
         <div className="container mx-auto px-4 lg:px-8 text-center">
-          <h2 className="fade-up text-3xl md:text-4xl font-poppins font-semibold text-foreground">
-            {t.products.features.title}
-          </h2>
-          <p className="fade-up-delay-1 mt-4 text-lg font-poppins font-light text-muted-foreground max-w-2xl mx-auto">
-            {t.products.features.subtitle}
-          </p>
+          <AnimatedDiv animation="fade-up">
+            <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-foreground">
+              {t.products.features.title}
+            </h2>
+          </AnimatedDiv>
+          <AnimatedDiv animation="fade-up" delay={100}>
+            <p className="mt-4 text-lg font-poppins font-light text-muted-foreground max-w-2xl mx-auto">
+              {t.products.features.subtitle}
+            </p>
+          </AnimatedDiv>
         </div>
 
 
-      </section>
+      </AnimatedSection>
 
       {/* Individual Feature Sections */}
       {features.map((feature, index) => {
         const Icon = featureIcons[feature];
         return (
-          <section 
+          <AnimatedSection 
             key={feature}
             className={`py-24 lg:py-32 ${index % 2 === 0 ? 'bg-neutralBg' : 'bg-background'}`}
           >
             <div className="container mx-auto px-4 lg:px-8">
               <div className={`grid lg:grid-cols-2 gap-16 items-center`}>
-                <div className={`fade-up ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
+                <AnimatedDiv animation="fade-up" className={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
                   <div className="aspect-[4/3] relative overflow-hidden group">
                     <img 
                       src={featureImages[feature]}
@@ -81,8 +90,8 @@ const Produits = () => {
 
                     />
                   </div>
-                </div>
-                <div className={`fade-up-delay-1 ${index % 2 === 1 ? 'lg:order-1' : ''}`}>
+                </AnimatedDiv>
+                <AnimatedDiv animation="fade-up" delay={100} className={`${index % 2 === 1 ? 'lg:order-1' : ''}`}>
                   <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                     <Icon className="w-8 h-8 text-secondary" />
                   </div>
@@ -95,42 +104,47 @@ const Produits = () => {
                   <p className="font-poppins font-light text-muted-foreground text-lg leading-relaxed">
                     {t.products.features[feature].longDescription}
                   </p>
-                </div>
+                </AnimatedDiv>
               </div>
             </div>
-          </section>
+          </AnimatedSection>
         );
       })}
 
       {/* Technical Specifications */}
-      <section className="py-24 lg:py-32 bg-primary">
+      <AnimatedSection className="py-24 lg:py-32 bg-primary">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="fade-up text-3xl md:text-4xl font-poppins font-semibold text-primary-foreground">
-              {t.products.specs.title}
-            </h2>
-            <p className="fade-up-delay-1 mt-4 text-lg font-poppins font-light text-primary-foreground/80 max-w-2xl mx-auto">
-              {t.products.specs.subtitle}
-            </p>
+            <AnimatedDiv animation="fade-up">
+              <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-primary-foreground">
+                {t.products.specs.title}
+              </h2>
+            </AnimatedDiv>
+            <AnimatedDiv animation="fade-up" delay={100}>
+              <p className="mt-4 text-lg font-poppins font-light text-primary-foreground/80 max-w-2xl mx-auto">
+                {t.products.specs.subtitle}
+              </p>
+            </AnimatedDiv>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {t.products.specs.items.map((spec, index) => (
-              <Card 
-                key={index} 
-                variant="elevated" 
-                className={`fade-up-delay-${(index % 3) + 1}`}
-              >
-                <p className="font-poppins font-medium text-secondary text-sm uppercase tracking-wider mb-2">
-                  {spec.label}
-                </p>
-                <p className="font-poppins font-light text-foreground text-lg">
-                  {spec.value}
-                </p>
-              </Card>
+              <AnimatedDiv animation="fade-up" delay={index * 50} key={index}>
+                <Card 
+                  variant="elevated" 
+                  className=""
+                >
+                  <p className="font-poppins font-medium text-secondary text-sm uppercase tracking-wider mb-2">
+                    {spec.label}
+                  </p>
+                  <p className="font-poppins font-light text-foreground text-lg">
+                    {spec.value}
+                  </p>
+                </Card>
+              </AnimatedDiv>
             ))}
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* PietraNox Premium Section */}
       {/* <section className="py-24 lg:py-32 bg-background">
@@ -181,24 +195,26 @@ const Produits = () => {
       </section> */}
 
       {/* CTA Section */}
-      <section className="py-24 lg:py-32 bg-neutralBg">
+      <AnimatedSection className="py-24 lg:py-32 bg-neutralBg">
         <div className="container mx-auto px-4 lg:px-8">
-          <Card variant="elevated" className="fade-up text-center py-16 px-8">
-            <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-foreground mb-4">
-              {t.products.cta.title}
-            </h2>
-            <p className="font-poppins font-light text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
-              {t.products.cta.description}
-            </p>
-            <Link to="/contact">
-              <Button variant="solid" size="lg" className="group">
-                {t.products.cta.button}
-                <ArrowRight className="ml-2 w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
-              </Button>
-            </Link>
-          </Card>
+          <AnimatedDiv animation="fade-up">
+            <Card variant="elevated" className="text-center py-16 px-8">
+              <h2 className="text-3xl md:text-4xl font-poppins font-semibold text-foreground mb-4">
+                {t.products.cta.title}
+              </h2>
+              <p className="font-poppins font-light text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
+                {t.products.cta.description}
+              </p>
+              <Link to="/contact">
+                <Button variant="solid" size="lg" className="group">
+                  {t.products.cta.button}
+                  <ArrowRight className="ml-2 w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
+                </Button>
+              </Link>
+            </Card>
+          </AnimatedDiv>
         </div>
-      </section>
+      </AnimatedSection>
 
       <Footer />
     </div>

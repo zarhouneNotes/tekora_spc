@@ -4,7 +4,7 @@
     "company": "Entreprise",
     "products": "Produits",
     "certifications": "Certifications",
-    "blog": "Blog",
+    "blog": "Catalogue",
     "contact": "Contact",
     "quote": "Demander un devis"
   },
@@ -36,7 +36,7 @@
         },
         {
           "title": "Fiabilité",
-          "description": "Garantie 10 ans et conformité aux normes italiennes, européennes et américaines les plus strictes."
+          "description": "durée de vie : 20 ans et conformité aux normes italiennes, européennes et américaines les plus strictes."
         }
       ]
     },
@@ -60,7 +60,7 @@
       "title": "TEKORA",
       "content": "TEKORA, basée à Casablanca, est spécialisée dans l'importation et la distribution de revêtements de sol SPC (Stone Plastic Composite) haut de gamme. Nos produits offrent une esthétique et un confort équivalents au parquet traditionnel, tout en étant nettement plus résistants et durables.",
       "content2": "Conformes aux normes italiennes et certifiés FloorScore, CE, IAF, SGS, ISO9001, ISO14001, nos revêtements sont adaptés aux systèmes clic 2G et 5G. Ils garantissent qualité, durabilité et fiabilité pour tous vos projets, qu'ils soient résidentiels ou commerciaux.",
-      "content3": "Nos revêtements conviennent parfaitement aux maisons, salles de bain, cuisines, bureaux, boutiques, hôtels et établissements à fort passage. Avec un excellent rapport qualité-prix et une garantie de 10 ans, nous visons à établir des partenariats durables avec développeurs immobiliers, architectes, installateurs et détaillants.",
+      "content3": "Nos revêtements conviennent parfaitement aux maisons, salles de bain, cuisines, bureaux, boutiques, hôtels et établissements à fort passage. Avec un excellent rapport qualité-prix et une durée de vie de 20 ans, nous visons à établir des partenariats durables avec développeurs immobiliers, architectes, installateurs et détaillants.",
       "ctaProducts": "Découvrir nos produits",
       "ctaContact": "Nous contacter",
       "milestone1": "Création de l'entreprise",
@@ -139,8 +139,8 @@
       },
       "durability": {
         "title": "Confort et Durabilité",
-        "description": "Garantie 10 ans, résistant aux chocs grâce à une sous-couche IXPE de 1,5 mm.",
-        "longDescription": "Nos revêtements SPC combinent esthétique et robustesse : imitation parquet, pierre ou béton, ils apportent élégance et modernité tout en résistant aux chocs, à l'usure et au passage intensif. Chaque sol est conçu pour durer, avec une garantie de 10 ans."
+        "description": "durée de vie : 20 ans, résistant aux chocs grâce à une sous-couche IXPE de 1,5 mm.",
+        "longDescription": "Nos revêtements SPC combinent esthétique et robustesse : imitation parquet, pierre ou béton, ils apportent élégance et modernité tout en résistant aux chocs, à l'usure et au passage intensif. Chaque sol est conçu pour durer, avec une durée de vie de 20 ans."
       }
     },
     "specs": {
@@ -155,7 +155,7 @@
         { "label": "Dimensions", "value": "Herringbone 750 x 150 mm et 1220 x 180 mm" },
         { "label": "Surface", "value": "Marbre / Imitation bois / pierre / béton" },
         { "label": "Installation", "value": "Pose flottante – Système clic 2G / 5G" },
-        { "label": "Garantie", "value": "10 ans" }
+        { "label": "durée de vie", "value": "20 ans" }
       ]
     },
     "pietranox": {
@@ -300,8 +300,9 @@
       },
       "hours": {
         "label": "Horaires",
-        "value": "Lun - Ven : "
-      }
+        "value": "Lun - Ven : 9h00-18h00 | Samedi : 09h - 13h"
+      },
+      "phoneNumbersTitle": "Numéros de téléphone"
     }
   },
   "footer": {
