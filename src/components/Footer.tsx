@@ -67,16 +67,19 @@ const Footer = () => {
               <li className="font-poppins font-light text-sm opacity-80">
                 {t.contact.info.address.value}
               </li>
-              {contactPhones.map((phone) => (
-                <li key={phone.label}>
-                  <a
-                    href={`tel:${formatTel(phone.value)}`}
-                    className="font-poppins font-light text-sm opacity-80 hover:opacity-100 hover:text-secondary transition-all duration-200"
-                  >
-                    {`${phone.label}: ${phone.value}`}
-                  </a>
-                </li>
-              ))}
+              {contactPhones.map((phone) => {
+                const formatted = formatTel(phone.value);
+                return (
+                  <li key={phone.label}>
+                    <a
+                      href={`tel:${formatted}`}
+                      className="font-poppins font-light text-sm opacity-80 hover:opacity-100 hover:text-secondary transition-all duration-200"
+                    >
+                      {`${phone.label}: ${formatted}`}
+                    </a>
+                  </li>
+                );
+              })}
               <li>
                 <a
                   href="mailto:contact@tekora.com"
