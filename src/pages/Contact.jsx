@@ -271,8 +271,8 @@ const Contact = () => {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2   gap-8">
             {/* Map */}
-            <AnimatedDiv animation="fade-up">
-              <div className="lg:aspect-auto lg:h-full bg-muted relative min-h-[300px]">
+            <AnimatedDiv animation="fade-up" className="h-full">
+              <div className="w-full h-full bg-muted relative">
 
               <div className="w-full h-full">
               <iframe
